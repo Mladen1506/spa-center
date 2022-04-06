@@ -3,7 +3,7 @@ import { useState } from "react";
 const Layout = (props) => {
   const [drawerOpened, setDrawerOpened] = useState(false);
 
-  const handleClickHamburger = ()=>{
+  const handleClickHamburger = () => {
     if (drawerOpened) {
       setDrawerOpened(false);
     } else {
@@ -27,7 +27,7 @@ const Layout = (props) => {
           <div className="option">Nestooo</div>
           <div className="option">Nesto</div>
         </nav>
-        <div className={drawerOpened ? "fix-drawer-push opened": "fix-drawer-push"}></div>
+        <div className={drawerOpened ? "fix-drawer-push opened" : "fix-drawer-push"}></div>
       </header>
 
       <nav className={drawerOpened ? "drawer opened" : "drawer"}>
@@ -45,6 +45,22 @@ const Layout = (props) => {
         <section></section>
         <section></section>
       </div>
+
+      <div className="mobile-info-bar">
+        <div className="item">
+          <i className="fa fa-phone" aria-hidden="true"></i>
+          <span>CALL</span>
+        </div>
+        <div className="item">
+          <i className="fa fa-map-marker" aria-hidden="true"></i>
+          <span>LOCATION</span>
+        </div>
+        <div className="item">
+          <i className="fa fa-clock-o" aria-hidden="true"></i>
+          <span>HOURS</span>
+        </div>
+      </div>
+
       <footer>
         footer
       </footer>
