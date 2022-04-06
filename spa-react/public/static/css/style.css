@@ -17,6 +17,10 @@ body {
     padding: 0px;
 }
 
+.flex-1 {
+    flex: 1;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -45,10 +49,65 @@ header nav {
 }
 
 header nav .option {
+    padding: 0px;
     margin-left: 2rem;
     text-align: right;
     font-size: 0.75rem;
     text-transform: uppercase;
+}
+
+header .hamburger {
+    display: none;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+}
+
+header .fix-drawer-push,
+header .fix-drawer-push.opened {
+    width: 0%;
+}
+
+nav.drawer,
+nav.drawer.opened {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    min-height: 100vh;
+    width: 0%;
+    background-color: rgb(164, 154, 138, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding-top: 1rem;
+}
+
+nav.drawer .option {
+    padding: 1.25rem;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    header .logo {
+        display: none;
+    }
+    header nav {
+        display: none;
+    }
+    header .hamburger {
+        display: block;
+    }
+    header .fix-drawer-push.opened {
+        width: 70%;
+    }
+    nav.drawer.opened {
+        width: 70%;
+    }
 }
 
 footer {
