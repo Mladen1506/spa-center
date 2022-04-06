@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
