@@ -1,0 +1,58 @@
+/* paralax scrolling */
+
+.parallax-scrolling #parallax-images {
+    display: block;
+}
+
+#parallax-images .image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #fff;
+    -webkit-backface-visibility: hidden;
+}
+
+img.ic {
+    /* transform: translateY(91.2px) translateZ(0px); */
+    font-size: 0px;
+    left: -75.576px;
+    top: 0px;
+    width: 1213.15px;
+    height: 856px;
+    position: relative;
+}
+
+.parallax-item {
+    position: relative;
+}
+
+.parallax-item,
+.parallax-images .parallax-item,
+.parallax-images * {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translatez(0);
+    transform: translatez(0);
+}
+
+.has-main-image {
+    min-height: 100vh;
+}
+
+.parallax-scrolling .title-desc-image {
+    display: none;
+}
+
+.title-desc-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+img.pi {
+    visibility: hidden;
+}
