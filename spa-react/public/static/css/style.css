@@ -30,6 +30,12 @@ body {
     min-height: 100vh;
 }
 
+.inner {
+    padding: 2.5rem;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
 header {
     height: 100px;
     padding: 1.5rem 2.5rem;
@@ -111,7 +117,7 @@ nav.drawer .option {
 }
 
 footer {
-    padding: 2.5rem;
+    /* padding: 2.5rem; */
     background-color: #171717;
     color: white;
     font-size: 0.9rem;
