@@ -25,7 +25,8 @@ a.btn:hover {
     row-gap: 1rem;
 }
 
-.grid-container .grid-item img {
+.grid-img {
+    /* za sliku u grid eleementu */
     max-width: 100%;
     height: auto;
 }
