@@ -19,23 +19,13 @@ const MenuOptionList = (props) => {
     dispatch(actionRouteSet(route));
   };
 
-  // const level1_options = get_level_1_routes();
   console.log(level1Options);
 
   return (
     <>
-      {/*
-      <MenuOption title={'Home'} active={route === 'HOME'} handleClick={(e) => { _handleClickOption('HOME') }} />
-      <MenuOption title={'Aqua'} active={route === 'AQUA_GOLD'} handleClick={(e) => { _handleClickOption('AQUA_GOLD') }} />
-      <MenuOption title={'Nestooooo'} />
-      <MenuOption title={'Nesto'} />
-      <MenuOption title={'Nestooo'} />
-      <MenuOption title={'Nesto_'} />
-      */}
-
       {level1Options.map((item, index) => {
         return (
-          <MenuOption key={index} title={item.title} active={route === item.route} handleClick={(e) => { _handleClickOption(item.route) }} />
+          <MenuOption key={index} level={1} title={item.title} active={route === item.route} handleClick={(e) => { _handleClickOption(item.route) }} />
         );
       })}
     </>

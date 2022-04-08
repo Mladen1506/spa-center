@@ -73,6 +73,7 @@ header nav {
 }
 
 header nav .option {
+    position: relative;
     padding: 0px;
     margin-left: 2rem;
     text-align: right;
@@ -83,6 +84,18 @@ header nav .option {
 
 header nav .option.active {
     background-color: rgb(255, 255, 128, 0.5);
+}
+
+header nav .option .submenu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    outline: 1px solid red;
+}
+
+header nav .option:hover .submenu {
+    display: block;
 }
 
 header .hamburger {
