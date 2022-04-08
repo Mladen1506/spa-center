@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { actionRouteSet } from "../redux/actions";
 import Btn from "./Btn";
 import MenuOption from "./MenuOption";
@@ -7,6 +7,7 @@ import PageRouter from "./PageRouter";
 
 const Layout = (props) => {
   const dispatch = useDispatch();
+  const route = useSelector(state => state.route);
   const [drawerOpened, setDrawerOpened] = useState(false);
 
   const handleClickHamburger = () => {
@@ -17,7 +18,7 @@ const Layout = (props) => {
     }
   };
 
-  const _handleClickOption = (route)=>{
+  const _handleClickOption = (route) => {
     dispatch(actionRouteSet(route));
   };
 
@@ -30,8 +31,8 @@ const Layout = (props) => {
           <i className="fa fa-bars" aria-hidden="true"></i>
         </span>
         <nav>
-          <MenuOption title={'Home'} handleClick={(e)=>{ _handleClickOption('HOME')}} />
-          <MenuOption title={'Aqua'} handleClick={(e) => { _handleClickOption('AQUA_GOLD') }} />
+          <MenuOption title={'Home'} active={route === 'HOME'} handleClick={(e) => { _handleClickOption('HOME') }} />
+          <MenuOption title={'Aqua'} active={route === 'AQUA_GOLD'} handleClick={(e) => { _handleClickOption('AQUA_GOLD') }} />
           <MenuOption title={'Nestooooo'} />
           <MenuOption title={'Nesto'} />
           <MenuOption title={'Nestooo'} />
@@ -41,8 +42,8 @@ const Layout = (props) => {
       </header>
 
       <nav className={drawerOpened ? "drawer opened" : "drawer"}>
-        <MenuOption title={'Home'} handleClick={(e) => { _handleClickOption('HOME') }} />
-        <MenuOption title={'Aqua'} handleClick={(e) => { _handleClickOption('AQUA_GOLD') }} />
+        <MenuOption title={'Home'} active={route === 'HOME'} handleClick={(e) => { _handleClickOption('HOME') }} />
+        <MenuOption title={'Aqua'} active={route === 'AQUA_GOLD'} handleClick={(e) => { _handleClickOption('AQUA_GOLD') }} />
         <MenuOption title={'Nestooooo'} />
         <MenuOption title={'Nesto'} />
         <MenuOption title={'Nestooo'} />
