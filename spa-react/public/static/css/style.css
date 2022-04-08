@@ -179,3 +179,13 @@ footer {
     flex: 1;
     /* background: rgb(184, 184, 196); */
 }
+
+.page-body .page-inner {
+    padding: 2.5rem;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.page-body .page-inner .page-content {
+    max-width: 600px;
+}
