@@ -1,9 +1,11 @@
-export const routes = [{
+const routes = [{
         route: 'HOME',
         breadcrumbs: [],
         level: 1,
         title: 'Home',
     },
+
+    // grupa 2
     {
         route: 'SPA_SKIN_CARE',
         breadcrumbs: [],
@@ -50,6 +52,32 @@ export const routes = [{
         route: 'SKINCEUTICALS_CHEMICAL_PEELS',
         breadcrumbs: ['SPA_SKIN_CARE'],
         level: 2,
-        title: 'SkinCeuticals Chemical Peels',
+        title: 'Skinceuticals Chemical Peels',
     },
+
+    // grupa 3
+    {
+        route: 'MEDI_SKIN_CARE',
+        breadcrumbs: [],
+        level: 1,
+        title: 'Medi Skin Care',
+    },
+    {
+        route: 'AQUA_GOLD',
+        breadcrumbs: ['MEDI_SKIN_CARE'],
+        level: 2,
+        title: 'Aqua Gold',
+    },
+
 ];
+
+
+export const get_level_1_routes = () => {
+    let level1 = routes.filter((item) => {
+        if (item.level === 1) {
+            return true;
+        }
+        return false;
+    });
+    return level1;
+};
