@@ -23,16 +23,22 @@ const PageRouter = (props) => {
   } else if (route === 'FACIALS') {
     jsx = (
       <PageFacials/>
-    );
-  } else if (route === 'BASIC_BOTANICAL') {
-    jsx = (
-      <PageBasicBotanical />
-    );
-  } else if (route === 'AQUA_GOLD') {
-    jsx = (
-      <PageAquaGold />
-    );
-  } else {
+      );
+    } else if (route === 'BASIC_BOTANICAL') {
+      jsx = (
+        <PageBasicBotanical />
+        );
+        /*
+      } else if (route === 'MEDI_SKIN_CARE') {
+        jsx = (
+          <PageSpaSkinCare/>
+        );
+        */
+      } else if (route === 'AQUA_GOLD') {
+        jsx = (
+          <PageAquaGold />
+          );
+        } else {
     jsx = (
       <div>Page {route} not found!</div>
     );
