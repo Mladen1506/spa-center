@@ -78,6 +78,11 @@ header nav .option {
     text-align: right;
     font-size: 0.75rem;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+header nav .option.active {
+    background-color: rgb(255, 255, 128, 0.5);
 }
 
 header .hamburger {
@@ -85,6 +90,7 @@ header .hamburger {
     font-size: 1.4rem;
     padding-left: 1rem;
     padding-right: 2.5rem;
+    cursor: pointer;
 }
 
 header .fix-drawer-push,
@@ -114,6 +120,11 @@ nav.drawer .option {
     text-align: center;
     font-size: 1rem;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+nav.drawer .option.active {
+    background-color: rgb(255, 255, 128, 0.5);
 }
 
 @media screen and (max-width: 768px) {
