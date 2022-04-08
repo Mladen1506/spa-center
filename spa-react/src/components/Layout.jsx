@@ -3,11 +3,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { actionRouteSet } from "../redux/actions";
 import Btn from "./Btn";
 import MenuOption from "./MenuOption";
+import MenuOptionList from "./MenuOptionList";
 import PageRouter from "./PageRouter";
 
 const Layout = (props) => {
-  const dispatch = useDispatch();
-  const route = useSelector(state => state.route);
+
   const [drawerOpened, setDrawerOpened] = useState(false);
 
   const handleClickHamburger = () => {
@@ -16,10 +16,6 @@ const Layout = (props) => {
     } else {
       setDrawerOpened(true);
     }
-  };
-
-  const _handleClickOption = (route) => {
-    dispatch(actionRouteSet(route));
   };
 
   return (
@@ -31,23 +27,13 @@ const Layout = (props) => {
           <i className="fa fa-bars" aria-hidden="true"></i>
         </span>
         <nav>
-          <MenuOption title={'Home'} active={route === 'HOME'} handleClick={(e) => { _handleClickOption('HOME') }} />
-          <MenuOption title={'Aqua'} active={route === 'AQUA_GOLD'} handleClick={(e) => { _handleClickOption('AQUA_GOLD') }} />
-          <MenuOption title={'Nestooooo'} />
-          <MenuOption title={'Nesto'} />
-          <MenuOption title={'Nestooo'} />
-          <MenuOption title={'Nesto'} />
+          <MenuOptionList />
         </nav>
         <div className={drawerOpened ? "fix-drawer-push opened" : "fix-drawer-push"}></div>
       </header>
 
       <nav className={drawerOpened ? "drawer opened" : "drawer"}>
-        <MenuOption title={'Home'} active={route === 'HOME'} handleClick={(e) => { _handleClickOption('HOME') }} />
-        <MenuOption title={'Aqua'} active={route === 'AQUA_GOLD'} handleClick={(e) => { _handleClickOption('AQUA_GOLD') }} />
-        <MenuOption title={'Nestooooo'} />
-        <MenuOption title={'Nesto'} />
-        <MenuOption title={'Nestooo'} />
-        <MenuOption title={'Nesto'} />
+        <MenuOptionList />
       </nav>
 
       <div className="page-body">

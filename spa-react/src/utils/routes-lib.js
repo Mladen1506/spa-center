@@ -1,0 +1,55 @@
+export const routes = [{
+        route: 'HOME',
+        breadcrumbs: [],
+        level: 1,
+        title: 'Home',
+    },
+    {
+        route: 'SPA_SKIN_CARE',
+        breadcrumbs: [],
+        level: 1,
+        title: 'Spa Skin Care',
+    },
+    {
+        route: 'FACIALS',
+        breadcrumbs: ['SPA_SKIN_CARE'],
+        level: 2,
+        title: 'Facials',
+    },
+    {
+        route: 'BASIC_BOTANICAL',
+        breadcrumbs: ['SPA_SKIN_CARE', 'FACIALS'],
+        level: 3,
+        title: 'Basic: Botanical',
+    },
+    {
+        route: 'SPECIALITY_DREAM_SKIN',
+        breadcrumbs: ['SPA_SKIN_CARE', 'FACIALS'],
+        level: 3,
+        title: 'Speciality: Dream Skin',
+    },
+    {
+        route: 'PREMIUM_PAMPER_YOURSELF',
+        breadcrumbs: ['SPA_SKIN_CARE', 'FACIALS'],
+        level: 3,
+        title: 'Premium: Pamper Yourself',
+    },
+    {
+        route: 'MICRO_DERMA_BRASION',
+        breadcrumbs: ['SPA_SKIN_CARE'],
+        level: 2,
+        title: 'Micro-Dermabrasion',
+    },
+    {
+        route: 'MAGIC_FIX',
+        breadcrumbs: ['SPA_SKIN_CARE'],
+        level: 2,
+        title: 'Magic Fix',
+    },
+    {
+        route: 'SKINCEUTICALS_CHEMICAL_PEELS',
+        breadcrumbs: ['SPA_SKIN_CARE'],
+        level: 2,
+        title: 'SkinCeuticals Chemical Peels',
+    },
+];
