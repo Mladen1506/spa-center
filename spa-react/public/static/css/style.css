@@ -72,7 +72,8 @@ header nav {
     flex-wrap: wrap;
 }
 
-header nav .option {
+header nav>.option {
+    /* prvi red opcija */
     position: relative;
     padding: 0px;
     margin-left: 2rem;
@@ -82,20 +83,49 @@ header nav .option {
     cursor: pointer;
 }
 
+header nav>.option .option {
+    /* druga, treca, cetvrti red opcija */
+    position: relative;
+    width: 150px;
+    text-align: left;
+}
+
 header nav .option.active {
     background-color: rgb(255, 255, 128, 0.5);
 }
 
-header nav .option .submenu {
+header nav>.option .submenu {
+    /* podmeni ispod prvog nivoa opcija */
     display: none;
     position: absolute;
-    top: 20px;
+    top: 17px;
     left: 0px;
     outline: 1px solid red;
 }
 
-header nav .option:hover .submenu {
+header nav>.option:hover>.submenu {
     display: block;
+}
+
+nav .option .submenu .option .submenu {
+    /* drugi,treci,cetvrti, podmenu itd */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 149px;
+    width: 150px;
+    outline: 1px solid red;
+}
+
+nav .option .submenu .option:hover .submenu {
+    display: block;
+}
+
+.submenu .option {
+    /* opcije podmenija */
+    padding: 3px;
+    background-color: white;
+    border: 1px solid gray;
 }
 
 header .hamburger {

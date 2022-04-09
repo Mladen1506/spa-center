@@ -25,10 +25,10 @@ const PageRouter = (props) => {
       <PageFacials/>
       );
     } else if (route === 'BASIC_BOTANICAL') {
+      /*
       jsx = (
         <PageBasicBotanical />
         );
-        /*
       } else if (route === 'MEDI_SKIN_CARE') {
         jsx = (
           <PageSpaSkinCare/>
