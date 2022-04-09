@@ -12,3 +12,32 @@
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
+
+.page-content figure figcaption {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.page-content figure.image-left {
+    float: left;
+    margin: 0px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page-content figure.image-right {
+    float: right;
+    margin: 0px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page-content figure.image-wide {
+    float: none;
+    display: block;
+    margin: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
