@@ -11,7 +11,7 @@ const MenuOptionList = (props) => {
 
   const [level1Options, setLevel1Options] = useState([]);
 
-  useEffect(()=>{
+  useEffect(() => {
     setLevel1Options(get_level_1_routes())
   }, []);
 
@@ -25,7 +25,12 @@ const MenuOptionList = (props) => {
     <>
       {level1Options.map((item, index) => {
         return (
-          <MenuOption key={index} level={1} title={item.title} active={route === item.route} handleClick={(e) => { _handleClickOption(item.route) }} />
+          <MenuOption
+            key={index}
+            level={1}
+            item={item}
+            _handleClickOption={_handleClickOption}
+          />
         );
       })}
     </>

@@ -81,3 +81,13 @@ export const get_level_1_routes = () => {
     });
     return level1;
 };
+
+export const get_children_routes = (parentRoute, childrenLevel) => {
+    let x = routes.filter((item) => {
+        if (item.breadcrumbs.includes(parentRoute) && item.level === childrenLevel) {
+            return true;
+        }
+        return false;
+    });
+    return x;
+};
