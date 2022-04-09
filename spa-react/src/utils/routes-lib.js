@@ -69,6 +69,14 @@ const routes = [{
         title: 'Aqua Gold',
     },
 
+    // grupa 4
+    {
+        route: 'MASSAGE_BODY',
+        breadcrumbs: ['HOME'],
+        level: 1,
+        title: 'Massage & Body',
+    },
+
 ];
 
 
