@@ -11,6 +11,47 @@
 .page-content h6 {
     margin-top: 1em;
     margin-bottom: 0.5em;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.page-content h1 {
+    font-size: 2.2em;
+}
+
+.page-content h2 {
+    font-size: 2.1em;
+}
+
+.page-content h3 {
+    font-size: 2em;
+}
+
+.page-content h4 {
+    font-size: 1.8em;
+}
+
+.page-content h5 {
+    font-size: 1.5em;
+}
+
+.page-content h6 {
+    font-size: 1.2em;
+}
+
+.page-content a,
+.page-content a:link {
+    color: #363636;
+    /* boja obicnih slova */
+    color: black;
+    text-decoration: underline;
+}
+
+.page-content a:visited {
+    color: #363636;
+    /* boja obicnih slova */
+    color: rgb(44, 44, 44);
+    text-decoration: underline;
 }
 
 .page-content figure figcaption {
@@ -40,4 +81,8 @@
     margin: 0px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.page-content .pricing-text {
+    font-size: 1.3em;
 }

@@ -1,8 +1,21 @@
+import { useState } from "react";
 import { useSelector } from "react-redux";
 import { get_children_routes } from "../utils/routes-lib";
 import Icon from "./Icon";
 
 const MenuOption = (props) => {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleClickExpanded = (e) => {
+    console.log('klik*****');
+    if (expanded) {
+      setExpanded(false);
+    } else {
+      setExpanded(true);
+    }
+  };
+
+
   const route = useSelector(state => state.route);
   const item = props.item;
 
@@ -18,7 +31,7 @@ const MenuOption = (props) => {
   if (item.hasChildren === true) {
     jsxTriangle = (
       <>
-        &nbsp;<Icon fa="fa fa-caret-down" />
+        &nbsp;<Icon fa="fa fa-caret-down" handleClick={handleClickExpanded} />
       </>
     );
   }
@@ -31,7 +44,7 @@ const MenuOption = (props) => {
     >{item.title}{jsxTriangle}
       <div className="submenu">
 
-        {childrenOptions.map((item, index) => {
+        {expanded && childrenOptions.map((item, index) => {
           return (
             <MenuOption
               key={index}
