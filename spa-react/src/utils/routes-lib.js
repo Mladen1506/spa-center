@@ -3,6 +3,7 @@ const routes = [{
         breadcrumbs: ['HOME'],
         level: 1,
         title: 'Home',
+        hasChildren: false,
     },
 
     // grupa 2
@@ -11,12 +12,14 @@ const routes = [{
         breadcrumbs: ['HOME'],
         level: 1,
         title: 'Spa Skin Care',
+        hasChildren: true,
     },
     {
         route: 'FACIALS',
         breadcrumbs: ['HOME', 'SPA_SKIN_CARE'],
         level: 2,
         title: 'Facials',
+        hasChildren: true,
     },
     {
         route: 'BASIC_BOTANICAL',
@@ -61,6 +64,7 @@ const routes = [{
         breadcrumbs: ['HOME'],
         level: 1,
         title: 'Medi Skin Care',
+        hasChildren: true,
     },
     {
         route: 'AQUA_GOLD',
@@ -75,6 +79,7 @@ const routes = [{
         breadcrumbs: ['HOME'],
         level: 1,
         title: 'Massage & Body',
+        hasChildren: true,
     },
 
 ];
