@@ -40,12 +40,25 @@ h1 {
 }
 
 .wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
     flex-wrap: nowrap;
     min-height: 100vh;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.57);
+}
+
+.wrapper,
+.drawer-opened .wrapper {
+    right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .drawer-opened .wrapper {
+        right: 70vw;
+    }
 }
 
 .inner {
@@ -91,7 +104,7 @@ header nav>.option .option {
 }
 
 header nav .option.active {
-    background-color: rgb(255, 255, 128, 0.5);
+    background-color: rgb(255, 255, 128, 0.7);
 }
 
 header nav>.option .submenu {
@@ -132,32 +145,45 @@ header .hamburger {
     display: none;
     font-size: 1.4rem;
     padding-left: 1rem;
-    padding-right: 2.5rem;
+    /* padding-right: 2.5rem; */
     cursor: pointer;
 }
 
+
+/*
 header .fix-drawer-push,
 header .fix-drawer-push.opened {
     width: 0%;
 }
+*/
 
-nav.drawer,
-nav.drawer.opened {
-    position: fixed;
+.drawer {
+    z-index: -11;
+    display: none;
+    right: -70vw;
+    left: unset;
+    width: 70vw;
+}
+
+.drawer,
+.drawer.opened {
+    /* position: fixed; */
+    position: absolute;
     top: 0px;
-    right: 0px;
     min-height: 100vh;
-    width: 0%;
-    background-color: rgb(164, 154, 138, 0.7);
-    display: flex;
+    /* background-color: rgb(164, 154, 138, 0.7); */
+    background-color: white;
+    /* display: flex; */
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
     flex-wrap: nowrap;
     padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* border: 1px solid blue; */
 }
 
-nav.drawer .option {
+.drawer .option {
     padding: 1.25rem;
     margin-left: 0px;
     text-align: center;
@@ -166,13 +192,13 @@ nav.drawer .option {
     cursor: pointer;
 }
 
-nav.drawer .option.active {
+.drawer .option.active {
     background-color: rgb(255, 255, 128, 0.5);
 }
 
 @media screen and (max-width: 768px) {
     header .logo {
-        display: none;
+        /* display: none; */
     }
     header nav {
         display: none;
@@ -181,10 +207,11 @@ nav.drawer .option.active {
         display: block;
     }
     header .fix-drawer-push.opened {
-        width: 70%;
+        /* width: 70%; */
     }
-    nav.drawer.opened {
-        width: 70%;
+    .drawer-opened .drawer.opened {
+        display: flex;
+        width: 70vw;
     }
 }
 
@@ -232,6 +259,10 @@ footer {
 .page-body {
     flex: 1;
     /* background: rgb(184, 184, 196); */
+}
+
+.page-body section {
+    overflow: hidden;
 }
 
 .page-body .page-inner {
