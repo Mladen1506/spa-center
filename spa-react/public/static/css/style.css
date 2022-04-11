@@ -198,6 +198,22 @@ header .fix-drawer-push.opened {
     background-color: rgb(255, 255, 128, 0.5);
 }
 
+.drawer .option i {
+    transform: rotate(-90deg);
+}
+
+.drawer .option.expanded>*>i {
+    transform: rotate(0deg);
+}
+
+.drawer .option .submenu {
+    display: none;
+}
+
+.drawer .option.expanded>.submenu {
+    display: block;
+}
+
 @media screen and (max-width: 768px) {
     header .logo {
         /* display: none; */
