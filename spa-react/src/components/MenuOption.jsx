@@ -7,6 +7,7 @@ const MenuOption = (props) => {
   const [expanded, setExpanded] = useState(false);
 
   const handleClickExpanded = (e) => {
+    e.stopPropagation();
     console.log('klik*****');
     if (expanded) {
       setExpanded(false);
@@ -36,15 +37,23 @@ const MenuOption = (props) => {
     );
   }
 
+  // className={route === item.route ? "option active" : "option"}
+  let cl = "option";
+  if (route === item.route) {
+    cl += " active";
+  }
+  if (expanded) {
+    cl += " expanded";
+  }
 
   return (
     <div
-      className={route === item.route ? "option active" : "option"}
+      className={cl}
       onClick={(e) => { e.stopPropagation(); _handleClickOption(item.route) }}
     >{item.title}{jsxTriangle}
       <div className="submenu">
 
-        {expanded && childrenOptions.map((item, index) => {
+        {childrenOptions.map((item, index) => {
           return (
             <MenuOption
               key={index}
