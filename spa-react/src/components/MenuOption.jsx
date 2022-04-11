@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import { get_children_routes } from "../utils/routes-lib";
+import Icon from "./Icon";
 
 const MenuOption = (props) => {
   const route = useSelector(state => state.route);
@@ -13,12 +14,21 @@ const MenuOption = (props) => {
 
   const _handleClickOption = props._handleClickOption;
 
+  let jsxTriangle = null;
+  if (item.hasChildren === true) {
+    jsxTriangle = (
+      <>
+        &nbsp;<Icon fa="fa fa-caret-down" />
+      </>
+    );
+  }
+
 
   return (
     <div
       className={route === item.route ? "option active" : "option"}
       onClick={(e) => { e.stopPropagation(); _handleClickOption(item.route) }}
-    >{item.title}
+    >{item.title}{jsxTriangle}
       <div className="submenu">
 
         {childrenOptions.map((item, index) => {
