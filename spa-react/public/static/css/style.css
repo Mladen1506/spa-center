@@ -68,6 +68,12 @@ h1 {
     margin: 0px auto;
 }
 
+@media screen and (max-width: 768px) {
+    .inner {
+        padding: 0.75rem;
+    }
+}
+
 header {
     height: 100px;
 }
@@ -277,12 +283,28 @@ footer {
     overflow: hidden;
 }
 
-.page-body .page-inner {
+.page-inner {
     padding: 2.5rem;
     max-width: 960px;
     margin: 0px auto;
 }
 
-.page-body .page-inner .page-content {
+.expandable .page-inner {
+    padding: 0px;
+}
+
+.page-inner .page-content {
     max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    .page-inner {
+        padding: 1rem;
+    }
+    .expandable .page-inner {
+        padding: 0px;
+    }
+    .page-inner .page-content {
+        max-width: unset;
+    }
 }
