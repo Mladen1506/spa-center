@@ -1,23 +1,31 @@
+import { useState } from "react";
 import Page from "../Page";
 import PageContent from "../PageContent";
 import WidgetExpandable from "../WidgetExpandable";
 
 
 const PageServices = (props) => {
+
+  const [expandedId, setExpandedId ] = useState(null);
+
+  const _expandSingle = (id)=>{
+    setExpandedId(id);
+  };
+
   return (
     <Page>
       <PageContent>
 
         <h1>Services</h1>
 
-        <WidgetExpandable />
-        <WidgetExpandable />
-        <WidgetExpandable />
-        <WidgetExpandable />
-        <WidgetExpandable />
-        <WidgetExpandable />
-        <WidgetExpandable />
-        <WidgetExpandable />
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'FACIALS'} ></WidgetExpandable>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle}  id={'MASSAGE'} ></WidgetExpandable>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle}  id={'BODY'} ></WidgetExpandable>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LASH_BAR'} ></WidgetExpandable>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle}  id={'MEDI_SPA'} ></WidgetExpandable>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle}  id={'HAIR_REMOVAL'} ></WidgetExpandable>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle}  id={'PERMANENT_MAKEUP'} ></WidgetExpandable>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle}  id={'PACKAGES'} ></WidgetExpandable>
 
       </PageContent>
     </Page>
