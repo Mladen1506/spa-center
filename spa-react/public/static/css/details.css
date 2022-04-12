@@ -30,3 +30,26 @@ a.btn:hover {
     max-width: 100%;
     height: auto;
 }
+
+
+/* WIDGET EXPANDABLE */
+
+.widget-expandable {
+    margin: 5px;
+}
+
+.widget-expandable header {
+    position: relative;
+    height: 3rem;
+    background-color: silver;
+    padding: 1rem;
+}
+
+.widget-expandable .expandable {
+    height: 0px;
+    overflow: hidden;
+}
+
+.widget-expandable.expanded .expandable {
+    height: unset;
+}

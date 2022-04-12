@@ -38,7 +38,7 @@ about us
 
 
 ## Strana SERVICES
-Kad se ode u SERVICEs onda kao ovde
+Kad se ode u SERVICES onda kao ovde
 https://www.guerlainspas.com/reserve-spa-experience/face/
 
 sklapajuci segmenti
@@ -57,8 +57,8 @@ Zapravo ovako treba meni da izgledaju sklapajuci segmenti
 https://www.musewithgrace.com/spa-services.html
 
 
-## nakon sto se udje u SERVICES > MASSAGE
-Prikazje se strana ako ova sa sklapaujucim segmentima
+## nakon sto se udje u SERVICES > MASSAGE segment
+Prikazje se podsegmniti kao ova sa sklapaujucim segmentima
 https://www.guerlainspas.com/reserve-spa-experience/massage/
 
 a svaki od segmenta sadrzi sadrzaj sa pojedinanih strana sa starog sajta koje su sada u MASSAGE & BODY > MASSAGE
