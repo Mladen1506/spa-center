@@ -1,17 +1,19 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { actionRouteSet } from "../redux/actions";
+import { actionDrawerToggle, actionRouteSet } from "../redux/actions";
 import Btn from "./Btn";
 import MenuOptionList from "./MenuOptionList";
 import PageRouter from "./PageRouter";
 
 
 const Layout = (props) => {
+  const dispatch = useDispatch();
+  const drawerOpened = useSelector(state => state.drawerOpened);
 
-  const [drawerOpened, setDrawerOpened] = useState(false);
+  // const [drawerOpened, setDrawerOpened] = useState(false);
 
-  useEffect(()=>{
+  useEffect(() => {
     if (drawerOpened) {
       //
       document.body.classList.add("drawer-opened"); // js
@@ -21,11 +23,14 @@ const Layout = (props) => {
   }, [drawerOpened]);
 
   const handleClickHamburger = () => {
+    /*
     if (drawerOpened) {
       setDrawerOpened(false);
     } else {
       setDrawerOpened(true);
     }
+    */
+    dispatch(actionDrawerToggle());
   };
 
   return (

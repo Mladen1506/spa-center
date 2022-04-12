@@ -1,6 +1,7 @@
 // ACTION TYPES
 
 export const ROUTE_SET = 'ROUTE_SET';
+export const DRAWER_TOGGLE = 'DRAWER_TOGGLE';
 
 
 
@@ -9,6 +10,13 @@ export const ROUTE_SET = 'ROUTE_SET';
 export const actionRouteSet = (route) => {
     return {
         type: ROUTE_SET,
+        payload: route
+    };
+};
+
+export const actionDrawerToggle = (route) => {
+    return {
+        type: DRAWER_TOGGLE,
         payload: route
     };
 };
