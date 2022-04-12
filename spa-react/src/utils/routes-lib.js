@@ -1,85 +1,141 @@
-const routes = [{
+const routes = [
+
+    {
         route: 'HOME',
-        breadcrumbs: ['HOME'],
+        breadcrumbs: [],
         level: 1,
         title: 'Home',
         hasChildren: false,
     },
+    /*
+    home
+    services
+    artists
+    products
+    gallery
+    giftcards
+    contact
+    about us
+    */
 
-    // grupa 2
     {
-        route: 'SPA_SKIN_CARE',
+        route: 'SERVICES',
         breadcrumbs: ['HOME'],
         level: 1,
-        title: 'Spa Skin Care',
-        hasChildren: true,
+        title: 'Services',
+        hasChildren: false,
     },
+    {
+        route: 'ARTISTS',
+        breadcrumbs: ['HOME'],
+        level: 1,
+        title: 'Artists',
+        hasChildren: false,
+    },
+    {
+        route: 'PRODUCTS',
+        breadcrumbs: ['HOME'],
+        level: 1,
+        title: 'Products',
+        hasChildren: false,
+    },
+    {
+        route: 'GALLERY',
+        breadcrumbs: ['HOME'],
+        level: 1,
+        title: 'Gallery',
+        hasChildren: false,
+    },
+    {
+        route: 'GIFTCARDS',
+        breadcrumbs: ['HOME'],
+        level: 1,
+        title: 'Giftcards',
+        hasChildren: false,
+    },
+    {
+        route: 'CONTACT',
+        breadcrumbs: ['HOME'],
+        level: 1,
+        title: 'Contact',
+        hasChildren: false,
+    },
+    {
+        route: 'ABOUT',
+        breadcrumbs: ['HOME'],
+        level: 1,
+        title: 'About Us',
+        hasChildren: false,
+    },
+
+
+    // SERVICES
+    /*
+    8 komada usluge:
+    facials
+    massage
+    body
+    brow and lash bar
+    medi spa tretmant
+    hair removal
+    permanent makeup
+    packages
+    */
     {
         route: 'FACIALS',
-        breadcrumbs: ['HOME', 'SPA_SKIN_CARE'],
+        breadcrumbs: ['HOME', 'SERVICES'],
         level: 2,
         title: 'Facials',
-        hasChildren: true,
+        hasChildren: false,
     },
     {
-        route: 'BASIC_BOTANICAL',
-        breadcrumbs: ['HOME', 'SPA_SKIN_CARE', 'FACIALS'],
-        level: 3,
-        title: 'Basic: Botanical',
-    },
-    {
-        route: 'SPECIALITY_DREAM_SKIN',
-        breadcrumbs: ['HOME', 'SPA_SKIN_CARE', 'FACIALS'],
-        level: 3,
-        title: 'Speciality: Dream Skin',
-    },
-    {
-        route: 'PREMIUM_PAMPER_YOURSELF',
-        breadcrumbs: ['HOME', 'SPA_SKIN_CARE', 'FACIALS'],
-        level: 3,
-        title: 'Premium: Pamper Yourself',
-    },
-    {
-        route: 'MICRO_DERMA_BRASION',
-        breadcrumbs: ['HOME', 'SPA_SKIN_CARE'],
+        route: 'MASSAGE',
+        breadcrumbs: ['HOME', 'SERVICES'],
         level: 2,
-        title: 'Micro-Dermabrasion',
+        title: 'Massage',
+        hasChildren: false,
     },
     {
-        route: 'MAGIC_FIX',
-        breadcrumbs: ['HOME', 'SPA_SKIN_CARE'],
+        route: 'BODY',
+        breadcrumbs: ['HOME', 'SERVICES'],
         level: 2,
-        title: 'Magic Fix',
+        title: 'Body',
+        hasChildren: false,
     },
     {
-        route: 'SKINCEUTICALS_CHEMICAL_PEELS',
-        breadcrumbs: ['HOME', 'SPA_SKIN_CARE'],
+        route: 'BROW_LASH_BAR',
+        breadcrumbs: ['HOME', 'SERVICES'],
         level: 2,
-        title: 'Skinceuticals Chemical Peels',
-    },
-
-    // grupa 3
-    {
-        route: 'MEDI_SKIN_CARE',
-        breadcrumbs: ['HOME'],
-        level: 1,
-        title: 'Medi Skin Care',
-        hasChildren: true,
+        title: 'Brow & Lash Bar',
+        hasChildren: false,
     },
     {
-        route: 'AQUA_GOLD',
-        breadcrumbs: ['HOME', 'MEDI_SKIN_CARE'],
+        route: 'MEDI_SPA',
+        breadcrumbs: ['HOME', 'SERVICES'],
         level: 2,
-        title: 'Aqua Gold',
+        title: 'Medi-Spa Treatmant',
+        hasChildren: false,
     },
-
-    // grupa 4
     {
-        route: 'MASSAGE_BODY',
-        breadcrumbs: ['HOME'],
-        level: 1,
-        title: 'Massage & Body',
-        hasChildren: true,
+        route: 'HAIR_REMOVAL',
+        breadcrumbs: ['HOME', 'SERVICES'],
+        level: 2,
+        title: 'Hair Removal',
+        hasChildren: false,
+    },
+    {
+        route: 'PERMANENT_MAKEUP',
+        breadcrumbs: ['HOME', 'SERVICES'],
+        level: 2,
+        title: 'Permanent Makeup',
+        hasChildren: false,
+    },
+    {
+        route: 'PACKAGES',
+        breadcrumbs: ['HOME', 'SERVICES'],
+        level: 2,
+        title: 'Packages',
+        hasChildren: false,
     },
 
 ];

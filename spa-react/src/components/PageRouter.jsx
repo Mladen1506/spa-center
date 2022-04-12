@@ -5,6 +5,7 @@ import PageFacials from "./pages/PageFacials";
 import PageSpaSkinCare from "./pages/PageSpaSkinCare";
 import PageBasicBotanical from "./pages/PageBasicBotanical.jsx";
 import PageMassageBody from "./pages/PageMassageBody";
+import PageServices from "./special-pages/PageServices";
 
 
 const PageRouter = (props) => {
@@ -17,6 +18,13 @@ const PageRouter = (props) => {
     jsx = (
       <PageHome />
     );
+  } else if (route === 'SERVICES') {
+    jsx = (
+      <PageServices />
+    );
+
+
+
   } else if (route === 'SPA_SKIN_CARE') {
     jsx = (
       <PageSpaSkinCare />
