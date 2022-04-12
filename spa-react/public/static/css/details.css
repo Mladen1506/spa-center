@@ -50,6 +50,10 @@ a.btn:hover {
     overflow: hidden;
 }
 
-.widget-expandable.expanded .expandable {
+.widget-expandable.expanded>.expandable {
     height: unset;
+}
+
+.widget-expandable .expandable .pad {
+    padding: 1rem;
 }

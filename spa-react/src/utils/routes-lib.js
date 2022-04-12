@@ -89,6 +89,29 @@ const routes = [
         hasChildren: false,
     },
     {
+        route: 'BASIC_BOTANICAL',
+        breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+        level: 3,
+        title: 'Basic: Botanical',
+        hasChildren: false,
+    },
+    {
+        route: 'SPECIALTY_DREAM_SKIN',
+        breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+        level: 3,
+        title: 'Specialty: Dream Skin',
+        hasChildren: false,
+    },
+    {
+        route: 'PREMIUM_PAMPER',
+        breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+        level: 3,
+        title: 'Premium: Pamper Yourself',
+        hasChildren: false,
+    },
+
+
+    {
         route: 'MASSAGE',
         breadcrumbs: ['HOME', 'SERVICES'],
         level: 2,
