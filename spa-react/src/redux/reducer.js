@@ -1,8 +1,8 @@
-import { ROUTE_SET } from "./actions";
+import { DRAWER_TOGGLE, ROUTE_SET } from "./actions";
 
 const initialState = {
     route: 'HOME',
-    nesto: 'bla bla',
+    drawerOpened: true,
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -12,7 +12,18 @@ const rootReducer = (state = initialState, action) => {
         case ROUTE_SET:
             return {
                 ...state,
-                route: payload
+                route: payload,
+                drawerOpened: false
+            };
+
+        case DRAWER_TOGGLE:
+            let drawerOpened = true;
+            if (state.drawerOpened) {
+                drawerOpened = false;
+            }
+            return {
+                ...state,
+                drawerOpened
             };
 
         default:
