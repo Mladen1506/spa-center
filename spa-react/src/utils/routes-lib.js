@@ -152,6 +152,15 @@ export const get_route_single = (route) => {
 };
 
 
+export const get_route_title = (route) => {
+    const item = get_route_single(route);
+    if (item) {
+        const title = item.title;
+        return title;
+    }
+    return 'NOT FOUND!';
+};
+
 export const get_breadcrumbs_single = (route) => {
     const item = get_route_single(route);
     const breadcrumbs = item.breadcrumbs;
