@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { get_route_title } from "../utils/routes-lib";
 
 
 const WidgetExpandable = (props) => {
@@ -26,7 +27,7 @@ const WidgetExpandable = (props) => {
   return (
     <>
       <div className={expanded ? "widget-expandable expanded" : "widget-expandable"}>
-        <header onClick={(e)=>{props._expandSingle(id)}}>TITLE HERE...</header>
+        <header onClick={(e)=>{props._expandSingle(id)}}>{get_route_title(id)}</header>
         <div className="expandable">
           <div className="pad">Nesto skriveno</div>
         </div>
