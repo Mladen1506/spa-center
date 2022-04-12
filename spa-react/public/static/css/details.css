@@ -42,7 +42,16 @@ a.btn:hover {
     position: relative;
     height: 3rem;
     background-color: silver;
-    padding: 1rem;
+    padding: 1rem 0px;
+}
+
+.widget-expandable.expandable-second-level header {
+    position: relative;
+    height: 2rem;
+    background-color: unset;
+    background-image: linear-gradient(0deg, white, silver);
+    padding: 0.5rem 0px;
+    border-top: 1px solid silver;
 }
 
 .widget-expandable .expandable {
@@ -55,5 +64,5 @@ a.btn:hover {
 }
 
 .widget-expandable .expandable .pad {
-    padding: 1rem;
+    padding: 1rem 0px;
 }

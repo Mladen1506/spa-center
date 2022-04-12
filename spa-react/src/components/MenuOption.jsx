@@ -51,8 +51,11 @@ const MenuOption = (props) => {
       className={cl}
       onClick={(e) => { e.stopPropagation(); _handleClickOption(item.route) }}
     >{item.title}{jsxTriangle}
+
+      {/*
       <div className="submenu">
 
+        
         {childrenOptions.map((item, index) => {
           return (
             <MenuOption
@@ -65,6 +68,8 @@ const MenuOption = (props) => {
         })}
 
       </div>
+      */}
+
     </div>
   );
 };
