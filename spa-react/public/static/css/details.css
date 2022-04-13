@@ -32,26 +32,56 @@ a.btn:hover {
 }
 
 
+/* WIDGET BREADCRUMBS */
+
+.expandable .breadcrumbs {
+    display: none;
+}
+
+
 /* WIDGET EXPANDABLE */
 
 .widget-expandable {
-    margin: 5px;
+    margin-bottom: 2px;
 }
 
 .widget-expandable header {
     position: relative;
-    height: 3rem;
-    background-color: silver;
-    padding: 1rem 0px;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: #E0E0E0;
+    opacity: 0.75;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0rem 0.7em;
+    cursor: pointer;
+}
+
+.widget-expandable header:hover {
+    background-color: #E0E0E0;
+    opacity: 1;
 }
 
 .widget-expandable.expandable-second-level header {
     position: relative;
-    height: 2rem;
-    background-color: unset;
-    background-image: linear-gradient(0deg, white, silver);
-    padding: 0.5rem 0px;
-    border-top: 1px solid silver;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0px 0.3em;
+    background-color: white;
+    background-image: linear-gradient(0deg, white, #E0E0E0);
+    opacity: 0.8;
+    border-top: 1px solid #E0E0E0;
+    cursor: pointer;
+}
+
+.widget-expandable.expandable-second-level header:hover {
+    background-color: white;
+    background-image: linear-gradient(0deg, #E0E0E0, #E0E0E0);
+    opacity: 1;
 }
 
 .widget-expandable .expandable {

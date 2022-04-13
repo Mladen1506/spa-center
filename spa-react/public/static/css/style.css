@@ -77,11 +77,11 @@ h1 {
     }
 }
 
-header {
+.wrapper>header {
     height: 100px;
 }
 
-header nav {
+.wrapper>header nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -89,7 +89,7 @@ header nav {
     flex-wrap: wrap;
 }
 
-header nav>.option {
+.wrapper>header nav>.option {
     /* prvi red opcija */
     position: relative;
     padding: 0px;
@@ -100,18 +100,18 @@ header nav>.option {
     cursor: pointer;
 }
 
-header nav>.option .option {
+.wrapper>header nav>.option .option {
     /* druga, treca, cetvrti red opcija */
     position: relative;
     width: 150px;
     text-align: left;
 }
 
-header nav .option.active {
+.wrapper>header nav .option.active {
     background-color: rgb(255, 255, 128, 0.7);
 }
 
-header nav>.option .submenu {
+.wrapper>header nav>.option .submenu {
     /* podmeni ispod prvog nivoa opcija */
     display: none;
     position: absolute;
@@ -120,11 +120,11 @@ header nav>.option .submenu {
     outline: 1px solid red;
 }
 
-header nav>.option:hover>.submenu {
+.wrapper>header nav>.option:hover>.submenu {
     display: block;
 }
 
-header nav .option .submenu .option .submenu {
+.wrapper>header nav .option .submenu .option .submenu {
     /* drugi,treci,cetvrti, podmenu itd */
     display: none;
     position: absolute;
@@ -134,7 +134,7 @@ header nav .option .submenu .option .submenu {
     outline: 1px solid red;
 }
 
-header nav .option .submenu .option:hover .submenu {
+.wrapper>header nav .option .submenu .option:hover .submenu {
     display: block;
 }
 
@@ -145,7 +145,7 @@ header nav .option .submenu .option:hover .submenu {
     border: 1px solid gray;
 }
 
-header .hamburger {
+.wrapper>header .hamburger {
     display: none;
     font-size: 1.4rem;
     padding-left: 1rem;
