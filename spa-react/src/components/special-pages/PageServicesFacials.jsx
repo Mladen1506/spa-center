@@ -3,23 +3,13 @@ import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
 import PageBasicBotanical from "../pages/PageBasicBotanical";
+import PageDreamSkin from "../pages/PageDreamSkin";
+import PageMicroDermabrasion from "../pages/PageMicroDermabrasion";
+import PagePamperYourself from "../pages/PagePamperYourself";
 import WidgetExpandable from "../WidgetExpandable";
 
 
 const PageServicesFacials = (props) => {
-  /*
-  const [expandedId, setExpandedId] = useState(null);
-
-  const _expandSingle = (id) => {
-    if (expandedId === id) {
-      setExpandedId(null); // ako dva puta kliknemo na isti id onda ga zatvaramo
-    } else {
-      setExpandedId(id);
-    }
-  };
-  */
-  // umesto toga
-  // const [expandedId, setExpandedId, _expandSingle] = useExpandSingle();
   const {expandedId, _expandSingle} = useExpandSingle();
 
   return (
@@ -32,8 +22,25 @@ const PageServicesFacials = (props) => {
           <PageBasicBotanical />
         </WidgetExpandable>
 
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'SPECIALTY_DREAM_SKIN'} expandableLevel={2} ></WidgetExpandable>
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PREMIUM_PAMPER'} expandableLevel={2}></WidgetExpandable>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'SPECIALTY_DREAM_SKIN'} expandableLevel={2} >
+          <PageDreamSkin />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PREMIUM_PAMPER'} expandableLevel={2}>
+          <PagePamperYourself />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MICRO_DERMABRASION'} expandableLevel={2}>
+          <PageMicroDermabrasion />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MAGIC_FIX'} expandableLevel={2}>
+
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'SKINCEUTICAL'} expandableLevel={2}>
+
+        </WidgetExpandable>
 
 
       </PageContent>

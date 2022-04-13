@@ -15,8 +15,7 @@ i
 https://www.guerlainspas.com/reserve-spa-experience/face/
 
 
-## 
-
+## + U header nove opcije
 Header slican kao ovo
 https://www.guerlainspas.com/reserve-spa-experience/face/
 
@@ -37,7 +36,7 @@ about us
 
 
 
-## Strana SERVICES
+## + Strana SERVICES
 Kad se ode u SERVICES onda kao ovde
 https://www.guerlainspas.com/reserve-spa-experience/face/
 
@@ -57,7 +56,7 @@ Zapravo ovako treba meni da izgledaju sklapajuci segmenti
 https://www.musewithgrace.com/spa-services.html
 
 
-## nakon sto se udje u SERVICES > MASSAGE segment
+## + nakon sto se udje u SERVICES > MASSAGE segment
 Prikazje se podsegmniti kao ova sa sklapaujucim segmentima
 https://www.guerlainspas.com/reserve-spa-experience/massage/
 
@@ -67,8 +66,12 @@ a svaki od segmenta sadrzi sadrzaj sa pojedinanih strana sa starog sajta koje su
 - Velika slika
 - Ispod negde 4 slicice i taster MORE PHOTOS
 
+##
+
+
+
 ## TODO
-- napraviti customHook za PageServicesFacials i PageServices jer je idealan primer, imaju identican state i handler...
++ napraviti customHook za PageServicesFacials i PageServices jer je idealan primer, imaju identican state i handler...
 
 
 

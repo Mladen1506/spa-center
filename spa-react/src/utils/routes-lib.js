@@ -81,6 +81,8 @@ const routes = [
     permanent makeup
     packages
     */
+
+    // segment facials
     {
         route: 'FACIALS',
         breadcrumbs: ['HOME', 'SERVICES'],
@@ -109,8 +111,30 @@ const routes = [
         title: 'Premium: Pamper Yourself',
         hasChildren: false,
     },
+    {
+        route: 'MICRO_DERMABRASION',
+        breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+        level: 3,
+        title: 'Micro Dermabrasion',
+        hasChildren: false,
+    },
+    {
+        route: 'MAGIC_FIX',
+        breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+        level: 3,
+        title: 'Magic Fix',
+        hasChildren: false,
+    },
+    {
+        route: 'SKINCEUTICAL',
+        breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+        level: 3,
+        title: 'Skinceutical',
+        hasChildren: false,
+    },
 
 
+    // sekgment massage
     {
         route: 'MASSAGE',
         breadcrumbs: ['HOME', 'SERVICES'],
@@ -118,6 +142,31 @@ const routes = [
         title: 'Massage',
         hasChildren: false,
     },
+    // ovde pod ocpije za masage
+    {
+        route: 'CLASSIC_MASSAGE_EXP',
+        breadcrumbs: ['HOME', 'SERVICES', 'MASSAGE'],
+        level: 3,
+        title: 'Cllasic Massage Experience',
+        hasChildren: false,
+    },
+    {
+        route: 'PREMIUM_MASSAGE_EXP',
+        breadcrumbs: ['HOME', 'SERVICES', 'MASSAGE'],
+        level: 3,
+        title: 'Premium Massage Experience',
+        hasChildren: false,
+    },
+    {
+        route: 'COUPLE_MASSAGE_EXP',
+        breadcrumbs: ['HOME', 'SERVICES', 'MASSAGE'],
+        level: 3,
+        title: 'Couple Massage Experience',
+        hasChildren: false,
+    },
+
+
+    // segment body
     {
         route: 'BODY',
         breadcrumbs: ['HOME', 'SERVICES'],
@@ -125,6 +174,37 @@ const routes = [
         title: 'Body',
         hasChildren: false,
     },
+    // ovde podopcije
+    {
+        route: 'ORGANIC_BODY_SPA',
+        breadcrumbs: ['HOME', 'SERVICES', 'BODY'],
+        level: 3,
+        title: 'Organic Body Spa',
+        hasChildren: false,
+    },
+    {
+        route: 'ORGANIC_BACK_SKINCARE',
+        breadcrumbs: ['HOME', 'SERVICES', 'BODY'],
+        level: 3,
+        title: 'Organic Back Skincare',
+        hasChildren: false,
+    },
+    {
+        route: 'CELLULITE_BODY_WRAP',
+        breadcrumbs: ['HOME', 'SERVICES', 'BODY'],
+        level: 3,
+        title: 'Cellulite Body Wrap',
+        hasChildren: false,
+    },
+
+
+
+
+
+
+
+
+    //
     {
         route: 'BROW_LASH_BAR',
         breadcrumbs: ['HOME', 'SERVICES'],
