@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { actionDrawerToggle, actionRouteSet } from "../redux/actions";
 import Btn from "./Btn";
+import Icon from "./Icon";
 import MenuOptionList from "./MenuOptionList";
 import PageRouter from "./PageRouter";
 
@@ -68,7 +69,25 @@ const Layout = (props) => {
 
       <footer>
         <div className="inner">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          <div className="social">
+            <div><Icon fa="fa fa-facebook"/></div>
+            <div><Icon fa="fa fa-instagram"/></div>
+            <div><Icon fa="fa fa-twitter"/></div>
+          </div>
+          <div className="columns">
+            <div className="col">
+              <h6>Location</h6>
+              Azure Dream Day Spa<br/>
+              2420 Wilson Blvd, Ste. 100<br />
+              Arlington, VA 22201<br />
+              Phone: 703-243-4343</div>
+          <div className="col">
+              <h6>Hours</h6>
+            Hours...</div>
+          </div>
+          <div className="spacer"></div>
+          <div className="copyright">Copyright © 2020 All Rights Reserved.</div>
+          <div className="copyright">Privacy Statement | Terms of Use</div>
         </div>
       </footer>
 
