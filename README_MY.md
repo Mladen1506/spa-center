@@ -67,6 +67,8 @@ a svaki od segmenta sadrzi sadrzaj sa pojedinanih strana sa starog sajta koje su
 - Velika slika
 - Ispod negde 4 slicice i taster MORE PHOTOS
 
+## TODO
+- napraviti customHook za PageServicesFacials i PageServices jer je idealan primer, imaju identican state i handler...
 
 
 

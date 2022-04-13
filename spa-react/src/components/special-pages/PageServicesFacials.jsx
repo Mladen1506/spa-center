@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
 import PageBasicBotanical from "../pages/PageBasicBotanical";
@@ -6,7 +7,7 @@ import WidgetExpandable from "../WidgetExpandable";
 
 
 const PageServicesFacials = (props) => {
-
+  /*
   const [expandedId, setExpandedId] = useState(null);
 
   const _expandSingle = (id) => {
@@ -16,6 +17,9 @@ const PageServicesFacials = (props) => {
       setExpandedId(id);
     }
   };
+  */
+  // umesto toga
+  const [expandedId, setExpandedId, _expandSingle] = useExpandSingle();
 
   return (
     <Page>
