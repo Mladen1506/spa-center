@@ -2,7 +2,13 @@
     font-size: 1.2rem;
 }
 
-.page-content p,
+.page-content p {
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    font-weight: 400;
+}
+
 .page-content h1,
 .page-content h2,
 .page-content h3,
@@ -24,7 +30,12 @@
 }
 
 .page-content h3 {
-    font-size: 2em;
+    /* glavni naslov */
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5em;
 }
 
 .page-content h4 {
@@ -85,4 +96,49 @@
 
 .page-content .pricing-text {
     font-size: 1.3em;
+}
+
+.page-content table {
+    border-collapse: collapse;
+}
+
+.page-content table thead tr {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.page-content table tbody tr:first-child {
+    border-top: 2px solid black;
+}
+
+.page-content table tbody tr {
+    border-bottom: 1px solid black;
+}
+
+.page-content table tbody tr:last-child {
+    border-bottom: 2px solid black;
+}
+
+.page-content table tr th,
+.page-content table tr td {
+    padding-right: 0.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.page-content table tr th {
+    font-weight: 600;
+    margin: 0px;
+}
+
+.page-content table tr th:last-child,
+.page-content table tr td:last-child {
+    padding-right: 0px;
+}
+
+.page-content table tr th h6,
+.page-content table tr td h6 {
+    font-weight: 600;
+    font-size: 1.1em;
+    margin: 0px;
 }
