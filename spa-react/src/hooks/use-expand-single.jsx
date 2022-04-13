@@ -11,5 +11,6 @@ export const useExpandSingle = () => {
     }
   };
 
-  return [expandedId, setExpandedId, _expandSingle];
+  // return [expandedId, setExpandedId, _expandSingle];
+  return {expandedId, setExpandedId, _expandSingle};
 };

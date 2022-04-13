@@ -19,7 +19,8 @@ const PageServices = (props) => {
     }
   };
   */
-  const [expandedId, setExpandedId, _expandSingle] = useExpandSingle();
+  // const [expandedId, setExpandedId, _expandSingle] = useExpandSingle();
+  const { expandedId, _expandSingle } = useExpandSingle();
 
   return (
     <Page>

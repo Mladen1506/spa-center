@@ -19,7 +19,8 @@ const PageServicesFacials = (props) => {
   };
   */
   // umesto toga
-  const [expandedId, setExpandedId, _expandSingle] = useExpandSingle();
+  // const [expandedId, setExpandedId, _expandSingle] = useExpandSingle();
+  const {expandedId, _expandSingle} = useExpandSingle();
 
   return (
     <Page>
