@@ -2,7 +2,7 @@ import { DRAWER_TOGGLE, ROUTE_SET } from "./actions";
 
 const initialState = {
     route: 'HOME',
-    drawerOpened: true,
+    drawerOpened: false,
 };
 
 const rootReducer = (state = initialState, action) => {
