@@ -1,3 +1,185 @@
 /* HEADER , MAIN MENU css */
 
-.wrapper header {}
+.wrapper>header {
+    height: 100px;
+    padding: 0px 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.wrapper>header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper>header nav>.option {
+    /* prvi red opcija */
+    position: relative;
+    padding: 0px;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid transparent;
+    margin-left: 0.4rem;
+    text-align: right;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.wrapper>header nav>.option .option {
+    /* druga, treca, cetvrti red opcija */
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+
+.wrapper>header nav .option.active {
+    /* background-color: rgb(255, 255, 128, 0.7); */
+    border: 1px solid #363636;
+}
+
+.wrapper>header nav .option:hover {
+    /* text-decoration: underline; */
+    border: 1px solid #363636;
+}
+
+.wrapper>header nav>.option .submenu {
+    /* podmeni ispod prvog nivoa opcija */
+    display: none;
+    position: absolute;
+    top: 17px;
+    left: 0px;
+    outline: 1px solid red;
+}
+
+.wrapper>header nav>.option:hover>.submenu {
+    display: block;
+}
+
+.wrapper>header nav .option .submenu .option .submenu {
+    /* drugi,treci,cetvrti, podmenu itd */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 149px;
+    width: 150px;
+    outline: 1px solid red;
+}
+
+.wrapper>header nav .option .submenu .option:hover .submenu {
+    display: block;
+}
+
+.submenu .option {
+    /* opcije podmenija */
+    padding: 3px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.wrapper>header .hamburger {
+    display: none;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    /* padding-right: 2.5rem; */
+    cursor: pointer;
+}
+
+
+/*
+header .fix-drawer-push,
+header .fix-drawer-push.opened {
+    width: 0%;
+}
+*/
+
+@media screen and (max-width: 768px) {
+    .wrapper>header .logo {
+        /* display: none; */
+    }
+    .wrapper>header nav {
+        display: none;
+    }
+    .wrapper>header .hamburger {
+        display: block;
+    }
+    .wrapper>header .fix-drawer-push.opened {
+        /* width: 70%; */
+    }
+}
+
+
+/* DRAWER */
+
+.drawer {
+    /* z-index: -11; */
+    display: none;
+    right: -70vw;
+    left: unset;
+    width: 70vw;
+}
+
+.drawer,
+.drawer.opened {
+    /* position: fixed; */
+    position: absolute;
+    top: 0px;
+    min-height: 100vh;
+    /* background-color: rgb(164, 154, 138, 0.7); */
+    /* background-color: white; */
+    background-color: transparent;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* border: 1px solid blue; */
+}
+
+.drawer .option {
+    padding: 1.25rem;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.drawer .option.active {
+    /* background-color: rgb(255, 255, 128, 0.5); */
+    background-color: #E0E0E0;
+}
+
+.drawer .option:hover {
+    background-color: #E0E0E0;
+}
+
+.drawer .option i {
+    transform: rotate(-90deg);
+}
+
+.drawer .option.expanded>*>i {
+    transform: rotate(0deg);
+}
+
+.drawer .option .submenu {
+    display: none;
+}
+
+.drawer .option.expanded>.submenu {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .drawer-opened .drawer.opened {
+        display: flex;
+        width: 70vw;
+    }
+}
