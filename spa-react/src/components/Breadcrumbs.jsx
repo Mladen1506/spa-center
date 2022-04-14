@@ -31,14 +31,14 @@ const Breadcrumbs = (props) => {
         if (bc.route === 'HOME') {
           return (
             <>
-              <span onClick={(e)=>{_handleClickOption(bc.route)}}> <i className="fa fa-home" aria-hidden="true"></i> </span>
+              <span className="clickable" onClick={(e)=>{_handleClickOption(bc.route)}}> <i className="fa fa-home" aria-hidden="true"></i> Home </span>
               {notLast ? GT : ''}
             </>
           );
         }
         return (
           <>
-            <span onClick={(e) => { _handleClickOption(bc.route) }}> {bc.title} </span>
+            <span className="clickable" onClick={(e) => { _handleClickOption(bc.route) }}> {bc.title} </span>
             {notLast ? GT : ''}
           </>
         )

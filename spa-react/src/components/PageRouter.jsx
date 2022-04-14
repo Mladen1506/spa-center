@@ -6,6 +6,7 @@ import PageSpaSkinCare from "./pages/PageSpaSkinCare";
 import PageBasicBotanical from "./pages/PageBasicBotanical.jsx";
 import PageMassageBody from "./pages/PageMassageBody";
 import PageServices from "./special-pages/PageServices";
+import PageContact from "./special-pages/PageContact";
 
 
 const PageRouter = (props) => {
@@ -22,8 +23,10 @@ const PageRouter = (props) => {
     jsx = (
       <PageServices />
     );
-
-
+  } else if (route === 'CONTACT') {
+    jsx = (
+      <PageContact />
+    );
 
   } else if (route === 'SPA_SKIN_CARE') {
     jsx = (
@@ -49,7 +52,7 @@ const PageRouter = (props) => {
     );
   } else if (route === 'MASSAGE_BODY') {
     jsx = (
-      <PageMassageBody/>
+      <PageMassageBody />
     );
   } else {
     jsx = (
