@@ -165,3 +165,12 @@ a.btn:hover {
   max-height: 10rem;
   resize: vertical;
 }
+
+/* MAP */
+.map-wrapper {
+  display: block;
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid greenyellow;
+  width: 100%;
+}
