@@ -19,7 +19,7 @@ const Breadcrumbs = (props) => {
   const GT = (
     <>&gt;</>
   );
-  
+
   return (
     <div className="breadcrumbs">
 
@@ -31,14 +31,14 @@ const Breadcrumbs = (props) => {
         if (bc.route === 'HOME') {
           return (
             <>
-              <span className="clickable" onClick={(e)=>{_handleClickOption(bc.route)}}> <i className="fa fa-home" aria-hidden="true"></i> Home </span>
+              <span key={bc.route} className="clickable" onClick={(e) => { _handleClickOption(bc.route) }}> <i className="fa fa-home" aria-hidden="true"></i> Home </span>
               {notLast ? GT : ''}
             </>
           );
         }
         return (
           <>
-            <span className="clickable" onClick={(e) => { _handleClickOption(bc.route) }}> {bc.title} </span>
+            <span key={bc.route} className="clickable" onClick={(e) => { _handleClickOption(bc.route) }}> {bc.title} </span>
             {notLast ? GT : ''}
           </>
         )
