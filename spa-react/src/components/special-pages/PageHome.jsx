@@ -1,3 +1,4 @@
+import { imagesFolderUrl } from "../../utils/url-lib";
 import Btn from "../Btn";
 
 const PageHome = (props) => {
@@ -6,7 +7,7 @@ const PageHome = (props) => {
       <section>
         <div id="paralax-images222">
           <div className="image-container">
-            <img className="ic" src="/static/img/test.webp" />
+            <img className="ic" src={imagesFolderUrl("spa-background.jpeg")} />
           </div>
         </div>
         {/*
@@ -57,7 +58,7 @@ const PageHome = (props) => {
       <section>
         <div id="paralax-images222">
           <div className="image-container">
-            <img className="ic" src="/static/img/test.webp" />
+            <img className="ic" src={imagesFolderUrl("test.webp")} />
           </div>
         </div>
         {/*

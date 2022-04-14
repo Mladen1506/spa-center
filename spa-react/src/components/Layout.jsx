@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { actionDrawerToggle, actionRouteSet } from "../redux/actions";
+import { imagesFolderUrl } from "../utils/url-lib";
 import Btn from "./Btn";
 import Icon from "./Icon";
 import MenuOptionList from "./MenuOptionList";
@@ -37,7 +38,10 @@ const Layout = (props) => {
   return (
     <div className="wrapper">
       <header>
-        <div className="logo">SPA LOGO</div>
+        <div className="logo">
+          <img src={imagesFolderUrl("image.png")} alt="" />
+          <div className="logo-bg-img"></div>
+        </div>
         <div className="flex-1"></div>
         <span className="hamburger" onClick={handleClickHamburger}>
           <i className="fa fa-bars" aria-hidden="true"></i>
@@ -70,20 +74,20 @@ const Layout = (props) => {
       <footer>
         <div className="inner">
           <div className="social">
-            <div><Icon fa="fa fa-facebook"/></div>
-            <div><Icon fa="fa fa-instagram"/></div>
-            <div><Icon fa="fa fa-twitter"/></div>
+            <div><Icon fa="fa fa-facebook" /></div>
+            <div><Icon fa="fa fa-instagram" /></div>
+            <div><Icon fa="fa fa-twitter" /></div>
           </div>
           <div className="columns">
-            <div className="col">
+            <div className="column">
               <h6>Location</h6>
-              Azure Dream Day Spa<br/>
+              Azure Dream Day Spa<br />
               2420 Wilson Blvd, Ste. 100<br />
               Arlington, VA 22201<br />
               Phone: 703-243-4343</div>
-          <div className="col">
+            <div className="column">
               <h6>Hours</h6>
-            Hours...</div>
+              Hours...</div>
           </div>
           <div className="spacer"></div>
           <div className="copyright">Copyright © 2020 All Rights Reserved.</div>
