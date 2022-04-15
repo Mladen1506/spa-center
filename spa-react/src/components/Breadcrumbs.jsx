@@ -3,22 +3,40 @@ import { actionRouteSet } from "../redux/actions";
 import { get_breadcrumbs_single_full } from "../utils/routes-lib";
 
 
-
-
-const Breadcrumbs = (props) => {
+const BCItem = (props) => {
   const dispatch = useDispatch();
-  const route = useSelector(state => state.route);
+
+  const bc = props.bc;
 
   const _handleClickOption = (route) => {
     dispatch(actionRouteSet(route));
   };
 
-  const breadcrumbsFull = get_breadcrumbs_single_full(route);
-  console.log(breadcrumbsFull)
-
   const GT = (
     <>&gt;</>
   );
+
+  if (props.isHome) {
+    return (
+      <>
+        <span key={bc.route} className="clickable" onClick={(e) => { _handleClickOption(bc.route) }}> <i className="fa fa-home" aria-hidden="true"></i> Home </span>
+        {props.notLast ? GT : ''}
+      </>
+    );
+  }
+  return (
+    <>
+      <span key={bc.route} className="clickable" onClick={(e) => { _handleClickOption(bc.route) }}> {bc.title} </span>
+      {props.notLast ? GT : ''}
+    </>
+  )
+};
+
+
+const Breadcrumbs = (props) => {
+  const route = useSelector(state => state.route)
+  const breadcrumbsFull = get_breadcrumbs_single_full(route);
+  console.log(breadcrumbsFull)
 
   return (
     <div className="breadcrumbs">
@@ -30,17 +48,11 @@ const Breadcrumbs = (props) => {
         }
         if (bc.route === 'HOME') {
           return (
-            <>
-              <span key={bc.route} className="clickable" onClick={(e) => { _handleClickOption(bc.route) }}> <i className="fa fa-home" aria-hidden="true"></i> Home </span>
-              {notLast ? GT : ''}
-            </>
+            <BCItem key={bc.route} isHome notLast={notLast} bc={bc} />
           );
         }
         return (
-          <>
-            <span key={bc.route} className="clickable" onClick={(e) => { _handleClickOption(bc.route) }}> {bc.title} </span>
-            {notLast ? GT : ''}
-          </>
+          <BCItem key={bc.route} notLast={notLast} bc={bc} />
         )
       })}
 

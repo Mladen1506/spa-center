@@ -29,14 +29,25 @@ const PageContact = (props) => {
           <h3>Contact</h3>
 
 
-          <UniversalMap ll={coordinatesOfSpaArlingtonQuincy} zoom={13} />
-          <a target="_blank" href={googleMapsUrl}>Open on Google Maps</a>
 
 
-          <ContactForm />
 
         </PageContent>
       </Page>
+      <div className="container contact-and-map-group">
+        <div className="row">
+          <div className="col-12 col-lg-6">
+            <UniversalMap ll={coordinatesOfSpaArlingtonQuincy} zoom={13} />
+          <a className="link-open-map" target="_blank" rel="noreferrer" href={googleMapsUrl}>Open on Google Maps</a>
+          </div>
+          <div className="col-12 col-lg-6">
+            <ContactForm />
+          </div>
+        </div>
+      </div>
+
+      <div></div>
+
     </>
   );
 };

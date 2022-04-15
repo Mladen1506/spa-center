@@ -177,7 +177,7 @@ a.btn:hover {
 .map-widget-group {
   position: relative;
   display: block;
-  margin: 20px 0px;
+  margin: 0px;
   padding: 0px;
   /* outline: 2px solid greenyellow; */
   width: 100%;
@@ -185,4 +185,14 @@ a.btn:hover {
 }
 .map-widget-group .map-widget{
   height: 400px;
+}
+
+.contact-and-map-group {
+  max-width: 1024px;
+  padding-bottom: 2.4rem;
+}
+.contact-and-map-group a.link-open-map {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 1em;
 }
