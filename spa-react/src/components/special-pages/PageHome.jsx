@@ -1,23 +1,26 @@
+import { Parallax, Background } from "react-parallax";
 import { imagesFolderUrl } from "../../utils/url-lib";
 import Btn from "../Btn";
 
 const PageHome = (props) => {
+
+
+  const image4 =
+    "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
+
+  const parallaxImage1 = imagesFolderUrl('spa-big1.jpg');
+  const parallaxImage2 = imagesFolderUrl("spa-background.jpg");
+  const parallaxImage3 = imagesFolderUrl("test.webp");
+
+
   return (
     <>
       <section>
-        <div id="paralax-images222">
-          <div className="image-container">
-            <img className="ic" src={imagesFolderUrl("spa-background.jpeg")} />
+        <Parallax bgImage={parallaxImage1} strength={250}>
+          <div style={{ height: 500 }}>
+            <div>HTML inside the parallax</div>
           </div>
-        </div>
-        {/*
-          <div className="paralax-item">
-            <div className="has-main-image">
-              <div className="title-desc-image">
-                <img className="pi" src="/static/img/test.webp" />
-              </div>
-            </div>
-          </div>*/}
+        </Parallax>
       </section>
 
       <section>
@@ -56,20 +59,25 @@ const PageHome = (props) => {
       </section>
 
       <section>
-        <div id="paralax-images222">
-          <div className="image-container">
-            <img className="ic" src={imagesFolderUrl("test.webp")} />
+        <Parallax bgImage={parallaxImage2} strength={250}>
+          <div style={{ height: 500 }}>
+            <div>HTML inside the parallax</div>
           </div>
+        </Parallax>
+      </section>
+
+      <section>
+        <div className="inner">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
-        {/*
-          <div className="paralax-item">
-            <div className="has-main-image">
-              <div className="title-desc-image">
-                <img className="pi" src="/static/img/test.webp" />
-              </div>
-            </div>
+      </section>
+
+      <section>
+        <Parallax bgImage={parallaxImage3} strength={250}>
+          <div style={{ height: 500 }}>
+            <div>HTML inside the parallax</div>
           </div>
-          */}
+        </Parallax>
       </section>
 
       <section>
