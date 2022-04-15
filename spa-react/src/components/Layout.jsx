@@ -87,7 +87,13 @@ const Layout = (props) => {
               Phone: 703-243-4343</div>
             <div className="column">
               <h6>Hours</h6>
-              Hours...</div>
+              Monday	8am - 7pm<br />
+              Tuesday	8am - 7pm<br />
+              Wednesday	8am - 7pm<br />
+              Thursday	8am - 7pm<br />
+              Friday	8am - 7pm<br />
+              Saturday	8am - 5pm<br/>
+              Sunday	8am - 5pm</div>
           </div>
           <div className="spacer"></div>
           <div className="copyright">Copyright © 2020 All Rights Reserved.</div>

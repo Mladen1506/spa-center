@@ -126,12 +126,13 @@ footer {
 footer .columns {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 footer .columns .column {
   padding-bottom: 3rem;
+  margin-right: 3rem;
 }
 footer .columns .column h6 {
   margin-top: 0px;
