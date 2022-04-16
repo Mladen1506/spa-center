@@ -8,6 +8,7 @@ import PageDiscoloration from "../pages/PageDiscoloration";
 import PageLaserSkinTightening from "../pages/PageLaserSkinTightening";
 import PageMicroNeedling from "../pages/PageMicroNeedling";
 import WidgetExpandable from "../WidgetExpandable";
+import PageServicesMediSpaTreatmentVenusConcept from "./PageServicesMediSpaTreatmentVenusConcept";
 
 
 const PageServicesMediSpaTreatment = (props) => {
@@ -24,7 +25,7 @@ const PageServicesMediSpaTreatment = (props) => {
         </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'VENUS_CONCEPT'} expandableLevel={2} >
-          
+          <PageServicesMediSpaTreatmentVenusConcept />
         </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASER_SKIN_TIGHTENING'} expandableLevel={2}>

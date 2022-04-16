@@ -261,6 +261,20 @@ const routes = [
     hasChildren: false,
   },
   {
+    route: 'VENUS_VIVA',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA', 'VENUS_CONCEPT'],
+    level: 4,
+    title: 'Venus VIva',
+    hasChildren: false,
+  },
+  {
+    route: 'IPL',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA', 'VENUS_CONCEPT'],
+    level: 4,
+    title: 'IPL',
+    hasChildren: false,
+  },
+  {
     route: 'LASER_SKIN_TIGHTENING',
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
     level: 3,
