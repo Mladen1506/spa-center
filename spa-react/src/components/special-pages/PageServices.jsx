@@ -5,9 +5,14 @@ import CoverImage from "../CoverImage";
 import Page from "../Page";
 import PageContent from "../PageContent";
 import WidgetExpandable from "../WidgetExpandable";
+import PageServicesBrowAndLash from "./PageServicesBrowAndLash";
 import PageServicesFacials from "./PageServicesFacials";
+import PageServicesHairRemoval from "./PageServicesHairRemoval";
 import PageServicesMassage from "./PageServicesMassage";
 import PageServicesBody from "./PageServicesMassageBody";
+import PageServicesMediSpaTreatment from "./PageServicesMediSpaTreatment";
+import PageServicesPackages from "./PageServicesPackages";
+import PageServicesPermanentMakeup from "./PageServicesPermanentMakeup";
 
 
 const PageServices = (props) => {
@@ -17,9 +22,9 @@ const PageServices = (props) => {
     <>
       <CoverImage src={imagesFolderUrl("cover1.png")} alt="Spa services" />
       <Page>
-        <PageContent>
+        <div className="">
 
-          <h1>Services</h1>
+          {/* <h1>Services</h1> */}
 
           <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'FACIALS'} >
             <PageServicesFacials />
@@ -34,13 +39,27 @@ const PageServices = (props) => {
           </WidgetExpandable>
 
 
-          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LASH_BAR'} ></WidgetExpandable>
-          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEDI_SPA'} ></WidgetExpandable>
-          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} ></WidgetExpandable>
-          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PERMANENT_MAKEUP'} ></WidgetExpandable>
-          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PACKAGES'} ></WidgetExpandable>
+          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LASH_BAR'} >
+            <PageServicesBrowAndLash />
+          </WidgetExpandable>
 
-        </PageContent>
+          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEDI_SPA'} >
+            <PageServicesMediSpaTreatment />
+          </WidgetExpandable>
+
+          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} >
+            <PageServicesHairRemoval />
+          </WidgetExpandable>
+
+          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PERMANENT_MAKEUP'} >
+            <PageServicesPermanentMakeup />
+          </WidgetExpandable>
+
+          <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PACKAGES'} >
+            <PageServicesPackages />
+          </WidgetExpandable>
+
+        </div>
       </Page>
     </>
   );

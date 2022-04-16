@@ -12,6 +12,10 @@ const Image = (props) => {
   if (props.wide === true) {
     cl = "image-widet";
   }
+  
+  if (props.small === true) {
+    cl += " small200";
+  }
 
   let jsxCaption = null;
   if (typeof props.caption === 'string') {

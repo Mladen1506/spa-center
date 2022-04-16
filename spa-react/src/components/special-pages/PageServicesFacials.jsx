@@ -4,8 +4,10 @@ import Page from "../Page";
 import PageContent from "../PageContent";
 import PageBasicBotanical from "../pages/PageBasicBotanical";
 import PageDreamSkin from "../pages/PageDreamSkin";
+import PageMagicFix from "../pages/PageMagicFix";
 import PageMicroDermabrasion from "../pages/PageMicroDermabrasion";
 import PagePamperYourself from "../pages/PagePamperYourself";
+import PageSkinceuticals from "../pages/PageSkinceuticals";
 import WidgetExpandable from "../WidgetExpandable";
 
 
@@ -16,7 +18,7 @@ const PageServicesFacials = (props) => {
     <Page>
       <PageContent>
 
-        <h3>facials</h3>
+        {/* <h3>facials</h3> */}
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BASIC_BOTANICAL'} expandableLevel={2} >
           <PageBasicBotanical />
@@ -33,13 +35,13 @@ const PageServicesFacials = (props) => {
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MICRO_DERMABRASION'} expandableLevel={2}>
           <PageMicroDermabrasion />
         </WidgetExpandable>
-
+        
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MAGIC_FIX'} expandableLevel={2}>
-
+          <PageMagicFix />
         </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'SKINCEUTICAL'} expandableLevel={2}>
-
+          <PageSkinceuticals />
         </WidgetExpandable>
 
 

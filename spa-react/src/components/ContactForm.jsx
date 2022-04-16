@@ -15,7 +15,7 @@ const ContactForm = (props) => {
                 <input type="text"/>
               </div>
               <div className="col-12 col-sm-6">
-                <label>First Name</label>
+                <label>Last Name</label>
                 <input type="text"/>
               </div>
             </div>
