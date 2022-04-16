@@ -1,5 +1,5 @@
 import { imagesFolderUrl } from "../../utils/url-lib";
-import Image from "../image";
+import Image from "../Image";
 import Page from "../Page";
 import PageContent from "../PageContent";
 
