@@ -202,3 +202,31 @@ a.btn:hover {
   font-size: 0.8rem;
   margin-top: 1em;
 }
+
+/* TEASER */
+.teaser {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.teaser .teaser-body {
+  padding-bottom: 1rem;
+}
+.teaser figure {
+  float: left;
+  margin: 0px;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  width: 100px;
+  height: 100px;
+}
+.teaser figure img {
+  width: 100px;
+  height: 100px;
+}

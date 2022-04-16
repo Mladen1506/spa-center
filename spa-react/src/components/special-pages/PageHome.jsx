@@ -1,6 +1,7 @@
 import { Parallax, Background } from "react-parallax";
 import { imagesFolderUrl } from "../../utils/url-lib";
 import Btn from "../Btn";
+import Image from "../Image";
 
 const PageHome = (props) => {
 
@@ -25,14 +26,43 @@ const PageHome = (props) => {
 
       <section>
         <div className="inner">
-          <div className="grid-container">
-            <div className="grid-item"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
-            <div className="grid-item"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
-            <div className="grid-item"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
-            <div className="grid-item"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-4">
+                <div className="teaser">
+                  <div className="teaser-body">
+                    <Image left small src={imagesFolderUrl('face.jpeg')} />
+                    Sample our delicious menu of organic <a href="/facials/">facials</a> and skin care treatments to reveal your sumptuous skin. And, for specific skin care goals, we offer a range of medi-skin care treatments.
+                  </div>
+                  <Btn>MORE...</Btn>
+                </div>
+              </div>
+              <div className="col-12 col-md-4">
+                <div className="teaser">
+                  <div className="teaser-body">
+                    <Image left small src={imagesFolderUrl('daisy-150x150.jpeg')} />
+                    Enjoy the feeling of serenity as the stress dissipates from your body and mind. <a href="https://azuredreamspa.com/massage-2/">Massages</a>, <a href="https://azuredreamspa.com/cellulite-body-wrap/">body wraps</a>, and our decadent <a href="https://azuredreamspa.com/spa-combo-packages/">spa packages</a> will leave you relaxed and rejuvenated.
+                  </div>
+                  <Btn>MORE...</Btn>
+                </div>
+              </div>
+              <div className="col-12 col-md-4">
+                <div className="teaser">
+                  <div className="teaser-body">
+                    <Image left small src={imagesFolderUrl('escape1-150x150.jpeg')} />
+                    The newest technology has made <a href="https://azuredreamspa.com/electrolysis/">electrolysis </a>and <a href="https://azuredreamspa.com/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
+                  </div>
+                  <Btn>MORE...</Btn>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
 
-          <div className="container222">
+      <section>
+        <div className="inner">
+          <div className="container">
             <div className="row">
               <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
               <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
