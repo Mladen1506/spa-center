@@ -80,7 +80,8 @@ a.btn:hover {
   opacity: 1;
 }
 
-.widget-expandable.expandable-second-level header {
+.widget-expandable.expandable-second-level header,
+.widget-expandable.expandable-third-level header {
   position: relative;
   height: 3rem;
   line-height: 3rem;
@@ -95,7 +96,12 @@ a.btn:hover {
   cursor: pointer;
 }
 
-.widget-expandable.expandable-second-level header:hover {
+.widget-expandable.expandable-third-level header {
+  margin-left: 2.5rem;
+}
+
+.widget-expandable.expandable-second-level header:hover,
+.widget-expandable.expandable-third-level header:hover {
   background-color: white;
   background-image: linear-gradient(0deg, #e0e0e0, #e0e0e0);
   opacity: 1;

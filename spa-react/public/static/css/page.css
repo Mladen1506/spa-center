@@ -110,6 +110,10 @@
   max-width: 200px;
 }
 
+.page-content .subtitle {
+  font-size: 1.3em;
+  font-weight: 600;
+}
 .page-content .pricing-text {
   font-size: 1.3em;
 }
