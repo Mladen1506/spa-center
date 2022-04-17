@@ -13,7 +13,9 @@ const Layout = (props) => {
   const dispatch = useDispatch();
   const drawerOpened = useSelector(state => state.drawerOpened);
 
-  // const [drawerOpened, setDrawerOpened] = useState(false);
+  const _handleClickRoute = (route) => {
+    dispatch(actionRouteSet(route));
+  }
 
   useEffect(() => {
     if (drawerOpened) {
@@ -92,12 +94,12 @@ const Layout = (props) => {
               Wednesday	8am - 7pm<br />
               Thursday	8am - 7pm<br />
               Friday	8am - 7pm<br />
-              Saturday	8am - 5pm<br/>
+              Saturday	8am - 5pm<br />
               Sunday	8am - 5pm</div>
           </div>
           <div className="spacer"></div>
           <div className="copyright">Copyright © 2020 All Rights Reserved.</div>
-          <div className="copyright">Privacy Statement | Terms of Use</div>
+          <div className="copyright"><a href="/privacy-policy" onClick={(e) => { e.preventDefault(); _handleClickRoute('PRIVACY') }}>Privacy Statement</a> | <a href="/terms-of-use" onClick={(e) => { e.preventDefault(); _handleClickRoute('TERMS') }}>Terms of Use</a></div>
         </div>
       </footer>
 

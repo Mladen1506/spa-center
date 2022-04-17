@@ -3,7 +3,7 @@ export const responsiveUtils = {};
 responsiveUtils.onScroll = () => {
   // zovemo svaki put kada se event scroll desi
   const scrollPosition = window.scrollY;
-  console.log('scroll position', scrollPosition);
+  // console.log('scroll position', scrollPosition);
   if (scrollPosition > 1) {
     document.body.classList.add("scrolled");
   } else {

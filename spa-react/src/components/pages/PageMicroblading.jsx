@@ -5,7 +5,7 @@ const PageMicroblading = () => {
   return (
     <Page>
       <PageContent>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           
             <h3>Microblading</h3>
             <p>Microblading is designed for individuals who want to enhance the shape and look of their eyebrows and to achiever fuller eyebrows created with natural hair-like strokes. These natural hair-like strokes are drawn on by a very fine, sterile, and 100% disposable hand held tool that deposits pigment into the epidermis. Brow color may become significantly darker and sharper within the first few days of the procedure, but it will fade (approx. 30-50%) over the healing process. Since microblading is a multi-step process, it is recommended to return for an enhancement to perfect the color, shape, and density of the brows, for the very best results. After the initial session and the follow-up session, it is recommended that you receive annual touch-ups to retain your ideal brow shape and pigmentation.</p>

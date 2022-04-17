@@ -5,7 +5,7 @@ const PageClassicMassage = () => {
   return (
     <Page>
       <PageContent>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           <h3>Classic Massage Experience</h3>
           <p>We offer a variety of massages, which focus on relaxation and/or pain relief. Our massages come at two different price points – choose from our Classic Massage Experience or the upgraded Premium Massage Experience. For savings and convenience, consider one of our packages.</p>
           <h6>Swedish</h6>
@@ -13,7 +13,7 @@ const PageClassicMassage = () => {
           <h6>Foot Reflexology</h6>
           <p>An ancient Chinese healing art, this treatment acts to detoxify the body, release tension, and increase circulation and energy. Practitioners explain that the foot has more than 7,000 nerve endings, called reflexes, that correspond to every organ and system within the body. Foot reflexology is an applied-pressure therapy that stimulates reflex points and produces therapeutic benefits.</p>
           <h3>Swedish and Foot Reflexology Massage Pricing</h3>
-          <table class="table table-bordered">
+          <table className="table table-bordered">
             <tbody>
               <tr>
                 <td colspan="2">

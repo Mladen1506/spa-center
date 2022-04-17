@@ -77,7 +77,7 @@ const PageHome = (props) => {
               <div className="col-12 col-md-4">
                 <div className="card">
                   <div className="card-header">
-                    <a href="http://mailchi.mp/azuredreamspa/website-special-sy2m9gh2et-363949" target="_blank" class="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow"><p>Referral Rewards</p></a>
+                    <a href="http://mailchi.mp/azuredreamspa/website-special-sy2m9gh2et-363949" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow"><p>Referral Rewards</p></a>
                   </div>
                   <div className="card-body">
                     Refer a friend & earn 10% of their first visit to use as credit toward your own future services.
@@ -87,7 +87,7 @@ const PageHome = (props) => {
               <div className="col-12 col-md-4">
                 <div className="card">
                   <div className="card-header">
-                    <a href="https://azuredream.boomtime.com/lgift" target="_blank" class="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow"><p>Gift Certificates</p></a>
+                    <a href="https://azuredream.boomtime.com/lgift" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow"><p>Gift Certificates</p></a>
                   </div>
                   <div className="card-body">
                     Give the perfect gift for that special someone!
@@ -97,7 +97,7 @@ const PageHome = (props) => {
               <div className="col-12 col-md-4">
                 <div className="card">
                   <div className="card-header">
-                    <a href="https://mailchi.mp/azuredreamspa/spring-special" target="_blank" class="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
+                    <a href="https://mailchi.mp/azuredreamspa/spring-special" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
                   </div>
                   <div className="card-body">
                     Treat yourself or your loved ones to some of our wonderful services!

@@ -5,7 +5,7 @@ const PageSkinceuticals = () => {
   return (
     <Page>
       <PageContent>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           <h3>SkinCeuticals Chemical Peels</h3>
           <p>Over time, exposure to sun, pollution, stress, and other environmental aggressors can cause signs of premature aging. Chemical peels improve skin texture and appearance by exfoliating skin's outer layers to reveal newer, healthier-looking skin underneath. SkinCeuticals peels target various skin concerns including fine lines and wrinkles, blemishes, rough texture, dullness, and uneven skin tone.</p>
           <h6>Smart TCA Peel</h6>

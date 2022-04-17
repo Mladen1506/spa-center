@@ -465,11 +465,16 @@ export const get_breadcrumbs_single = (route) => {
 export const get_breadcrumbs_single_full = (route) => {
   // const home_breadcrumbs = get_breadcrumbs_single('HOME');
   const breadcrumbs = get_breadcrumbs_single(route);
-  let breadcrumbsFull = breadcrumbs.map((bc) => {
-    const item = get_route_single(bc);
-    return item;
-  });
-  return breadcrumbsFull;
+  if (Array.isArray(breadcrumbs)) {
+    let breadcrumbsFull = breadcrumbs.map((bc) => {
+      const item = get_route_single(bc);
+      return item;
+    });
+    return breadcrumbsFull;
+  } else {
+    // error
+    return [];
+  }
 };
 
 

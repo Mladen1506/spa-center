@@ -7,7 +7,7 @@ const PageIPL = () => {
   return (
     <Page>
       <PageContent>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           <h3>IPL Photo-Facial</h3>
           <h1>INTENSE PULSED LIGHT (IPL) WITH SMARTPULSE™</h1>
           <div className="subtitle">Photorejuvenation/photofacial, acne treatment</div>

@@ -5,7 +5,7 @@ const PagePremiumMassage = () => {
   return (
     <Page>
       <PageContent>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           <h3>Premium Massage Experience</h3>
           <p>Requiring additional expertise and certification, the Premium Massage treatments offer an extended combination of ancient healing arts, pain reduction, and relaxation.</p>
           <h6>Aromatherapy</h6>
@@ -36,7 +36,7 @@ const PagePremiumMassage = () => {
           <h6>Travel Relief</h6>
           <p>For the traveler (or anyone) who needs to release tension from sitting too long in a confined space, this massage is a combination of hot packs, stretching, and deep-tissue work on legs, back, shoulders, and neck. It is designed specifically for those who need to increase circulation and relieve aches caused by air travel and long car trips.</p>
           <h3>Aromatherapy, Bamboo, Cranial Sacral, Cupping, Deep Tissue, Hot Stone, Myofascial Release, Prenatal, Sport, Stress Relief, Thai*, Travel Relief Pricing</h3>
-          <table class="table table-bordered">
+          <table className="table table-bordered">
             <tbody>
               <tr>
                 <td colspan="2">
