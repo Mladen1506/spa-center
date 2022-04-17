@@ -20,9 +20,9 @@ const PageHome = (props) => {
     dispatch(actionRouteSet(route));
   }
 
+  const googleMapsDirectionsUrl = "https://www.google.com/maps/dir/?api=1&destination=" + 38.8810 + ',' + -77.1074;
 
   const handleClickDirections = (e) => {
-    const googleMapsDirectionsUrl = "https://www.google.com/maps/dir/?api=1&destination=" + 38.8810 + ',' + -77.1074;
     window.open(googleMapsDirectionsUrl, '_blank').focus();
   };
 
@@ -50,7 +50,7 @@ const PageHome = (props) => {
                     <p>We offer a full range of services for a perfect spa experience.<br />
                       <em><a href="https://azuredreamspa.com/About-Us">Read more...</a></em></p>
                   </div>
-                  <Btn handleClick={(e) => { _handleClickRoute('ABOUT') }}>MORE...</Btn>
+                  <Btn href="/about" handleClick={(e) => { e.preventDefault(); _handleClickRoute('ABOUT') }}>MORE...</Btn>
                 </div>
               </div>
               <div className="col-12 col-md-6">
@@ -60,7 +60,7 @@ const PageHome = (props) => {
                     <Image left small src={imagesFolderUrl('maindesk1-237x300.jpg')} />
                     Located on Wilson Blvd., in the heart of Arlington, VA. Our convenient NOVA location is a just minutes from DC and Alexandria -- and less than five minutes walking distance from Courthouse Metro.
                   </div>
-                  <Btn handleClick={handleClickDirections}>Directions</Btn>
+                  <Btn newTab href={googleMapsDirectionsUrl}>Directions</Btn>
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ const PageHome = (props) => {
                     <Image left small src={imagesFolderUrl('face.jpeg')} />
                     Sample our delicious menu of organic <a href="/facials/">facials</a> and skin care treatments to reveal your sumptuous skin. And, for specific skin care goals, we offer a range of medi-skin care treatments.
                   </div>
-                  <Btn handleClick={(e) => { _handleClickRoute('SERVICES') }}>MORE...</Btn>
+                  <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
                 </div>
               </div>
               <div className="col-12 col-md-4">
@@ -132,7 +132,7 @@ const PageHome = (props) => {
                     <Image left small src={imagesFolderUrl('daisy-150x150.jpeg')} />
                     Enjoy the feeling of serenity as the stress dissipates from your body and mind. <a href="https://azuredreamspa.com/massage-2/">Massages</a>, <a href="https://azuredreamspa.com/cellulite-body-wrap/">body wraps</a>, and our decadent <a href="https://azuredreamspa.com/spa-combo-packages/">spa packages</a> will leave you relaxed and rejuvenated.
                   </div>
-                  <Btn handleClick={(e) => { _handleClickRoute('SERVICES') }}>MORE...</Btn>
+                  <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
                 </div>
               </div>
               <div className="col-12 col-md-4">
@@ -142,7 +142,7 @@ const PageHome = (props) => {
                     <Image left small src={imagesFolderUrl('escape1-150x150.jpeg')} />
                     The newest technology has made <a href="https://azuredreamspa.com/electrolysis/">electrolysis </a>and <a href="https://azuredreamspa.com/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
                   </div>
-                  <Btn handleClick={(e) => { _handleClickRoute('SERVICES') }}>MORE...</Btn>
+                  <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
                 </div>
               </div>
             </div>
