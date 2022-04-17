@@ -1,9 +1,12 @@
 import { Parallax, Background } from "react-parallax";
+import { useDispatch } from "react-redux";
+import { actionRouteSet } from "../../redux/actions";
 import { imagesFolderUrl } from "../../utils/url-lib";
 import Btn from "../Btn";
 import Image from "../Image";
 
 const PageHome = (props) => {
+  const dispatch = useDispatch();
 
 
   const image4 =
@@ -13,16 +16,58 @@ const PageHome = (props) => {
   const parallaxImage2 = imagesFolderUrl("spa-background.jpeg");
   const parallaxImage3 = imagesFolderUrl("test.webp");
 
+  const _handleClickRoute = (route) => {
+    dispatch(actionRouteSet(route));
+  }
+
+
+  const handleClickDirections = (e) => {
+    const googleMapsDirectionsUrl = "https://www.google.com/maps/dir/?api=1&destination=" + 38.8810 + ',' + -77.1074;
+    window.open(googleMapsDirectionsUrl, '_blank').focus();
+  };
 
   return (
     <>
-      <section>
+      <section className="image-large">
         <Parallax bgImage={parallaxImage1} strength={250}>
           <div style={{ height: 500 }}>
             <div>HTML inside the parallax</div>
           </div>
         </Parallax>
       </section>
+
+
+      <section className="section-welcome">
+        <div className="inner">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6">
+                <div className="teaser">
+                  <div className="teaser-body">
+                    <h4>Welcome</h4>
+                    <p>At Azure Dream Spa we connect your inner peace with your body, mind, and spirit.</p>
+                    <p>We invite you to visit us at our <a href="https://azuredreamspa.com/About-Us/Contact-Us">location</a> in the heart of Arlington, VA, and indulge yourself at our luxurious yet cozy day spa – enjoy pampering, comfort, and a sense of belonging.</p>
+                    <p>We offer a full range of services for a perfect spa experience.<br />
+                      <em><a href="https://azuredreamspa.com/About-Us">Read more...</a></em></p>
+                  </div>
+                  <Btn handleClick={(e) => { _handleClickRoute('ABOUT') }}>MORE...</Btn>
+                </div>
+              </div>
+              <div className="col-12 col-md-6">
+                <div className="teaser">
+                  <div className="teaser-body">
+                    <h4>Visit Azure Dream Day Spa</h4>
+                    <Image left small src={imagesFolderUrl('maindesk1-237x300.jpg')} />
+                    Located on Wilson Blvd., in the heart of Arlington, VA. Our convenient NOVA location is a just minutes from DC and Alexandria -- and less than five minutes walking distance from Courthouse Metro.
+                  </div>
+                  <Btn handleClick={handleClickDirections}>Directions</Btn>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <section className="section-cards">
         <div className="inner">
@@ -65,6 +110,7 @@ const PageHome = (props) => {
         </div>
       </section>
 
+
       <section className="section-teasers">
         <div className="inner">
           <div className="container">
@@ -72,28 +118,31 @@ const PageHome = (props) => {
               <div className="col-12 col-md-4">
                 <div className="teaser">
                   <div className="teaser-body">
+                    <h4>Dream Skin</h4>
                     <Image left small src={imagesFolderUrl('face.jpeg')} />
                     Sample our delicious menu of organic <a href="/facials/">facials</a> and skin care treatments to reveal your sumptuous skin. And, for specific skin care goals, we offer a range of medi-skin care treatments.
                   </div>
-                  <Btn>MORE...</Btn>
+                  <Btn handleClick={(e) => { _handleClickRoute('SERVICES') }}>MORE...</Btn>
                 </div>
               </div>
               <div className="col-12 col-md-4">
                 <div className="teaser">
                   <div className="teaser-body">
+                    <h4>Relaxing Escape</h4>
                     <Image left small src={imagesFolderUrl('daisy-150x150.jpeg')} />
                     Enjoy the feeling of serenity as the stress dissipates from your body and mind. <a href="https://azuredreamspa.com/massage-2/">Massages</a>, <a href="https://azuredreamspa.com/cellulite-body-wrap/">body wraps</a>, and our decadent <a href="https://azuredreamspa.com/spa-combo-packages/">spa packages</a> will leave you relaxed and rejuvenated.
                   </div>
-                  <Btn>MORE...</Btn>
+                  <Btn handleClick={(e) => { _handleClickRoute('SERVICES') }}>MORE...</Btn>
                 </div>
               </div>
               <div className="col-12 col-md-4">
                 <div className="teaser">
                   <div className="teaser-body">
+                    <h4>Hair Removal</h4>
                     <Image left small src={imagesFolderUrl('escape1-150x150.jpeg')} />
                     The newest technology has made <a href="https://azuredreamspa.com/electrolysis/">electrolysis </a>and <a href="https://azuredreamspa.com/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
                   </div>
-                  <Btn>MORE...</Btn>
+                  <Btn handleClick={(e) => { _handleClickRoute('SERVICES') }}>MORE...</Btn>
                 </div>
               </div>
             </div>
@@ -101,14 +150,23 @@ const PageHome = (props) => {
         </div>
       </section>
 
-      <section>
+      <section className="image-large">
+        <Parallax bgImage={parallaxImage2} strength={250}>
+          <div style={{ height: 500 }}>
+            <div>HTML inside the parallax</div>
+          </div>
+        </Parallax>
+      </section>
+
+
+      <section className="eksperimenti-sa-grid">
         <div className="inner">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
-              <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
-              <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
-              <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/lejla.jpeg" /></div>
+              <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/maindesk1-237x300.jpg" /></div>
+              <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/maindesk1-237x300.jpg" /></div>
+              <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/maindesk1-237x300.jpg" /></div>
+              <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/maindesk1-237x300.jpg" /></div>
             </div>
           </div>
 
@@ -129,13 +187,6 @@ const PageHome = (props) => {
         </div>
       </section>
 
-      <section>
-        <Parallax bgImage={parallaxImage2} strength={250}>
-          <div style={{ height: 500 }}>
-            <div>HTML inside the parallax</div>
-          </div>
-        </Parallax>
-      </section>
 
       <section>
         <div className="inner">
