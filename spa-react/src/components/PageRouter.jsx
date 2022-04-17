@@ -9,6 +9,7 @@ import PageServices from "./special-pages/PageServices";
 import PageContact from "./special-pages/PageContact";
 import PageTerms from "./special-pages/PageTerms";
 import PagePrivacyPolicy from "./special-pages/PagePrivacyPolicy";
+import PageAbout from "./special-pages/PageAbout";
 
 
 const PageRouter = (props) => {
@@ -36,6 +37,10 @@ const PageRouter = (props) => {
   } else if (route === 'CONTACT') {
     jsx = (
       <PageContact />
+    );
+  } else if (route === 'ABOUT') {
+    jsx = (
+      <PageAbout />
     );
 
   } else if (route === 'SPA_SKIN_CARE') {
