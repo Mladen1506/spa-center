@@ -242,8 +242,19 @@ a.btn:hover {
   padding-bottom: 1rem;
 }
 .teaser .teaser-body {
-  min-height: 230px;
+  min-height: 215px;
   padding-bottom: 1rem;
+}
+.teaser .teaser-body h4 {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.teaser .teaser-body p {
+  margin-top: 0px;
+  margin-bottom: 1em;
 }
 .teaser figure {
   float: left;

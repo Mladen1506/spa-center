@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { Parallax } from "react-parallax";
 import { imagesFolderUrl } from "../../utils/url-lib";
 import ContactForm from "../ContactForm";
 import CoverImage from "../CoverImage";
@@ -22,9 +23,15 @@ const PageContact = (props) => {
   // https://www.google.com/maps/dir/?api=1&destination=38.881,-77.1074
   const googleMapsDirectionsUrl = "https://www.google.com/maps/dir/?api=1&destination=" + 38.8810 + ',' + -77.1074;
 
+  const parallaxImage1 = imagesFolderUrl('spa-big4.jpg');
 
   return (
     <>
+      <Parallax bgImage={parallaxImage1} strength={250}>
+        <div style={{ height: 800 }}>
+          <div>HTML inside the parallax</div>
+        </div>
+      </Parallax>
       <CoverImage src={imagesFolderUrl("cover1.png")} alt="Spa services" />
       <Page>
         <PageContent>
