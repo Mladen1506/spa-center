@@ -7,7 +7,7 @@ const PageVenusViva = () => {
   return (
     <Page>
       <PageContent>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           <h2>NANOFRACTIONAL RADIO FREQUENCY (RF) WITH SMARTSCAN™</h2>
           <h3>Skin resurfacing</h3>
           <Image right small src={imagesFolderUrl("pages/smartscan_device1.png")} alt="smart scan device" />

@@ -7,6 +7,8 @@ import PageBasicBotanical from "./pages/PageBasicBotanical.jsx";
 import PageMassageBody from "./pages/PageMassageBody";
 import PageServices from "./special-pages/PageServices";
 import PageContact from "./special-pages/PageContact";
+import PageTerms from "./special-pages/PageTerms";
+import PagePrivacyPolicy from "./special-pages/PagePrivacyPolicy";
 
 
 const PageRouter = (props) => {
@@ -18,6 +20,14 @@ const PageRouter = (props) => {
   if (route === 'HOME') {
     jsx = (
       <PageHome />
+    );
+  } else if (route === 'TERMS') {
+    jsx = (
+      <PageTerms />
+    );
+  } else if (route === 'PRIVACY') {
+    jsx = (
+      <PagePrivacyPolicy />
     );
   } else if (route === 'SERVICES') {
     jsx = (

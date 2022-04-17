@@ -5,7 +5,7 @@ const PageLaserSkinTightening = () => {
   return (
     <Page>
       <PageContent>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
             <h3>Picoway Laser</h3>
             <p>It’s time to feel confident in your skin again. PicoWay™ is an advanced laser treatment that effectively removes dark spots, wrinkles, acne scars, and unwanted tattoos. This non-surgical procedure improves upon past technology to give you better results with minimal downtime.</p>
             <h6>How it Works</h6>

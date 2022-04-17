@@ -7,7 +7,7 @@ const PageElectrolysis = () => {
   return (
     <Page>
       <PageContent>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           <h3>Electrolysis</h3>
           <h6>What is Electrolysis?</h6>
           <p>Electrolysis is a safe method of hair removal, suitable for both men and women. The only method approved by the FDA for the removal of unwanted hair, electrolysis provides a targeted solution to undesired hair growth, and it delivers immediate results.</p>

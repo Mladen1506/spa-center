@@ -96,7 +96,7 @@ a:visited {
 }
 
 footer {
-  /* padding: 2.5rem; */
+  padding: 2.5rem 0px;
   background-color: #171717;
   color: white;
   font-size: 0.9rem;
@@ -146,6 +146,14 @@ footer .copyright {
   margin-top: 0px;
   margin-bottom: 0.5rem;
 }
+
+footer a,
+footer a:link {
+  color: white;
+  text-decoration: underline;
+}
+
+/* mobile info bar */
 
 .mobile-info-bar {
   z-index: 10000;
