@@ -35,7 +35,8 @@
   flex-wrap: wrap;
 }
 
-.wrapper > header nav > .option {
+.wrapper > header nav > .option,
+.wrapper > header nav > a.option {
   /* prvi red opcija */
   position: relative;
   padding: 0px;
@@ -45,6 +46,7 @@
   text-align: right;
   font-size: 0.75rem;
   text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -158,12 +160,14 @@ header .fix-drawer-push.opened {
   /* border: 1px solid blue; */
 }
 
-.drawer .option {
+.drawer .option,
+.drawer a.option {
   padding: 1.25rem;
   margin-left: 0px;
   text-align: center;
   font-size: 1rem;
   text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
 }
 

@@ -10,6 +10,7 @@ import PageContact from "./special-pages/PageContact";
 import PageTerms from "./special-pages/PageTerms";
 import PagePrivacyPolicy from "./special-pages/PagePrivacyPolicy";
 import PageAbout from "./special-pages/PageAbout";
+import PageGiftCertificates from "./special-pages/PageGiftCertificates";
 
 
 const PageRouter = (props) => {
@@ -18,6 +19,10 @@ const PageRouter = (props) => {
   const route = useSelector(state => state.route);
 
   let jsx = null;
+  jsx = (
+    <div>Page {route} not found!</div>
+  ); // default
+
   if (route === 'HOME') {
     jsx = (
       <PageHome />
@@ -33,6 +38,10 @@ const PageRouter = (props) => {
   } else if (route === 'SERVICES') {
     jsx = (
       <PageServices />
+    );
+  } else if (route === 'GIFTCARDS') {
+    jsx = (
+      <PageGiftCertificates />
     );
   } else if (route === 'CONTACT') {
     jsx = (
@@ -70,9 +79,7 @@ const PageRouter = (props) => {
       <PageMassageBody />
     );
   } else {
-    jsx = (
-      <div>Page {route} not found!</div>
-    );
+
   }
 
 

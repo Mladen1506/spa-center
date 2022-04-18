@@ -2,7 +2,7 @@ import Btn from "./Btn";
 
 
 
-const ContactForm = (props) => {
+const FormContact = (props) => {
   return (
     <>
       <div className="form-contact-us">
@@ -44,4 +44,4 @@ const ContactForm = (props) => {
   );
 };
 
-export default ContactForm;
+export default FormContact;

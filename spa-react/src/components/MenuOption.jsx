@@ -47,9 +47,10 @@ const MenuOption = (props) => {
   }
 
   return (
-    <div
+    <a
       className={cl}
-      onClick={(e) => { e.stopPropagation(); _handleClickOption(item.route) }}
+      href={item.slug}
+      onClick={(e) => { e.preventDefault(); e.stopPropagation(); _handleClickOption(item.route) }}
     >{item.title}{jsxTriangle}
 
       {/*
@@ -70,7 +71,7 @@ const MenuOption = (props) => {
       </div>
       */}
 
-    </div>
+    </a>
   );
 };
 

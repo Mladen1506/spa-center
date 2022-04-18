@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Parallax } from "react-parallax";
 import { imagesFolderUrl } from "../../utils/url-lib";
-import ContactForm from "../ContactForm";
+import FormContact from "../FormContact";
 import CoverImage from "../CoverImage";
 import Page from "../Page";
 import PageContent from "../PageContent";
@@ -52,7 +52,7 @@ const PageContact = (props) => {
           <a className="link-open-map" target="_blank" rel="noreferrer" href={googleMapsDirectionsUrl}>Show directions on Google Maps</a>
           </div>
           <div className="col-12 col-lg-6">
-            <ContactForm />
+            <FormContact />
           </div>
         </div>
       </div>
