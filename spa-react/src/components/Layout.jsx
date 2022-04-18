@@ -76,9 +76,9 @@ const Layout = (props) => {
       <footer>
         <div className="inner">
           <div className="social">
-            <div><Icon fa="fa fa-facebook" /></div>
-            <div><Icon fa="fa fa-instagram" /></div>
-            <div><Icon fa="fa fa-twitter" /></div>
+            <a target="_blank" rel="noreferrer" href="https://facebook.com"><div><Icon fa="fa fa-facebook" /></div></a>
+            <a target="_blank" rel="noreferrer" href="https://instagram.com"><div><Icon fa="fa fa-instagram" /></div></a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com"><div><Icon fa="fa fa-twitter" /></div></a>
           </div>
           <div className="columns">
             <div className="column">

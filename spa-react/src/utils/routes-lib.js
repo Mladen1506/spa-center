@@ -6,6 +6,7 @@ const routes = [
     level: 1,
     title: 'Home',
     hasChildren: false,
+    slug: '/',
   },
   /*
   home
@@ -17,13 +18,14 @@ const routes = [
   contact
   about us
   */
-
-  {
-    route: 'SERVICES',
-    breadcrumbs: ['HOME'],
-    level: 1,
-    title: 'Services',
-    hasChildren: false,
+ 
+ {
+   route: 'SERVICES',
+   breadcrumbs: ['HOME'],
+   level: 1,
+   title: 'Services',
+   hasChildren: false,
+   slug: '/services',
   },
   {
     route: 'ARTISTS',
@@ -31,6 +33,7 @@ const routes = [
     level: 1,
     title: 'Artists',
     hasChildren: false,
+    slug: '/artists',
   },
   {
     route: 'PRODUCTS',
@@ -38,6 +41,7 @@ const routes = [
     level: 1,
     title: 'Products',
     hasChildren: false,
+    slug: '/products',
   },
   {
     route: 'GALLERY',
@@ -45,6 +49,7 @@ const routes = [
     level: 1,
     title: 'Gallery',
     hasChildren: false,
+    slug: '/gallery',
   },
   {
     route: 'GIFTCARDS',
@@ -52,6 +57,7 @@ const routes = [
     level: 1,
     title: 'Giftcards',
     hasChildren: false,
+    slug: '/gift-certificates',
   },
   {
     route: 'CONTACT',
@@ -59,6 +65,7 @@ const routes = [
     level: 1,
     title: 'Contact',
     hasChildren: false,
+    slug: '/contact-us',
   },
   {
     route: 'ABOUT',
@@ -66,6 +73,7 @@ const routes = [
     level: 1,
     title: 'About Us',
     hasChildren: false,
+    slug: '/about-us',
   },
 
 
