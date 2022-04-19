@@ -84,8 +84,8 @@ const Layout = (props) => {
             <div className="column">
               <h6>Location</h6>
               Azure Dream Day Spa<br />
-              2420 Wilson Blvd, Ste. 100<br />
-              Arlington, VA 22201<br />
+              901 North Quincy Street<br />
+              Arlington, VA 22203<br />
               Phone: 703-243-4343</div>
             <div className="column">
               <h6>Hours</h6>

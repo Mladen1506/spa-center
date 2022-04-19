@@ -32,8 +32,19 @@ a.btn:hover {
 
 .grid-img {
   /* za sliku u grid eleementu */
+  display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 1.5rem;
+}
+
+/* BOOTSTRAP GRID customizacija */
+
+.page-home .container .row {
+  margin-top: 1.5rem;
+}
+.page-home .container .row:first-child {
+  margin-top: 0px;
 }
 
 /* WIDGET BREADCRUMBS */
@@ -213,7 +224,8 @@ a.btn:hover {
 
   border: 1px solid #363636;
   border-radius: 4px;
-  min-height: 240px
+  min-height: 240px;
+  margin-bottom: 1.5rem;
 }
 .card .card-header {
   padding: 0.5rem 1.1rem;
@@ -243,7 +255,13 @@ a.btn:hover {
 }
 .teaser .teaser-body {
   min-height: 215px;
+  min-height: 255px;
   padding-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .teaser .teaser-body {
+    min-height: unset;
+  }
 }
 .teaser .teaser-body h4 {
   margin-top: 0px;

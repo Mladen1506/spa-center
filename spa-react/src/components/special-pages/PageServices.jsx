@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Parallax } from "react-parallax";
 import { useExpandSingle } from "../../hooks/use-expand-single";
 import { imagesFolderUrl } from "../../utils/url-lib";
 import CoverImage from "../CoverImage";
@@ -14,13 +15,18 @@ import PageServicesMediSpaTreatment from "./PageServicesMediSpaTreatment";
 import PageServicesPackages from "./PageServicesPackages";
 import PageServicesPermanentMakeup from "./PageServicesPermanentMakeup";
 
-
+const parallaxImage2 = imagesFolderUrl("services.jpeg");
 const PageServices = (props) => {
   const { expandedId, _expandSingle } = useExpandSingle();
 
   return (
     <>
-      <CoverImage src={imagesFolderUrl("cover1.png")} alt="Spa services" />
+      {/* <CoverImage src={imagesFolderUrl("services.jpeg")} alt="Spa services" /> */}
+      <Parallax bgImage={parallaxImage2} strength={250}>
+        <div style={{ height: 600 }}>
+          <div>HTML inside the parallax</div>
+        </div>
+      </Parallax>
       <Page>
         <div className="">
 
