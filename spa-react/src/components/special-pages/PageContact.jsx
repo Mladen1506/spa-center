@@ -23,20 +23,20 @@ const PageContact = (props) => {
   // https://www.google.com/maps/dir/?api=1&destination=38.881,-77.1074
   const googleMapsDirectionsUrl = "https://www.google.com/maps/dir/?api=1&destination=" + 38.8810 + ',' + -77.1074;
 
-  const parallaxImage1 = imagesFolderUrl('spa-big4.jpg');
+  const parallaxImage1 = imagesFolderUrl('background_2.jpeg');
 
   return (
     <>
       <Parallax bgImage={parallaxImage1} strength={250}>
-        <div style={{ height: 800 }}>
+        <div style={{ height: 600 }}>
           <div>HTML inside the parallax</div>
         </div>
       </Parallax>
-      <CoverImage src={imagesFolderUrl("cover1.png")} alt="Spa services" />
+      {/* <CoverImage src={imagesFolderUrl("cover1.png")} alt="Spa services" /> */}
       <Page>
         <PageContent>
 
-          <h3>Contact</h3>
+          {/* <h3>Contact</h3> */}
 
 
 

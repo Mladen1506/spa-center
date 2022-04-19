@@ -2,15 +2,13 @@ import { useState } from "react";
 import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
-import PageClassicMassage from "../pages/PageClassicMassage";
-import PageCoupleMassage from "../pages/PageCoupleMassage";
 import PageElectrolysis from "../pages/PageElectrolysis";
-import PagePremiumMassage from "../pages/PagePremiumMassage";
+import PageLaserWomen from "../pages/PageLaser";
 import WidgetExpandable from "../WidgetExpandable";
 
 
 const PageServicesHairRemoval = (props) => {
-  const {expandedId, _expandSingle} = useExpandSingle();
+  const { expandedId, _expandSingle } = useExpandSingle();
 
   return (
     <Page>
@@ -19,7 +17,7 @@ const PageServicesHairRemoval = (props) => {
         {/* <h3>Massage</h3> */}
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASER'} expandableLevel={2} >
-         
+          <PageLaserWomen />
         </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'ELECTROLYSIS'} expandableLevel={2} >
