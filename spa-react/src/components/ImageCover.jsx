@@ -1,6 +1,6 @@
 
 
-const CoverImage = (props) => {
+const ImageCover = (props) => {
 
   let cl = "";
 
@@ -11,4 +11,4 @@ const CoverImage = (props) => {
   );
 };
 
-export default CoverImage;
+export default ImageCover;

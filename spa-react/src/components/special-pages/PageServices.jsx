@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Parallax } from "react-parallax";
 import { useExpandSingle } from "../../hooks/use-expand-single";
 import { imagesFolderUrl } from "../../utils/url-lib";
-import CoverImage from "../CoverImage";
+import ImageCover2 from "../ImageCover2";
 import Page from "../Page";
 import PageContent from "../PageContent";
 import WidgetExpandable from "../WidgetExpandable";
@@ -21,12 +21,10 @@ const PageServices = (props) => {
 
   return (
     <>
-      {/* <CoverImage src={imagesFolderUrl("services.jpeg")} alt="Spa services" /> */}
-      <Parallax bgImage={parallaxImage2} strength={250}>
-        <div style={{ height: 600 }}>
-          <div>HTML inside the parallax</div>
-        </div>
-      </Parallax>
+      {/* <ImageCover src={imagesFolderUrl("services.jpeg")} alt="Spa services" /> */}
+      <section className="image-large">
+        <ImageCover2 src={parallaxImage2} />
+      </section>
       <Page>
         <div className="">
 

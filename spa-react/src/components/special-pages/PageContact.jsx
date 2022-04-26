@@ -3,10 +3,10 @@ import { useState } from "react";
 import { Parallax } from "react-parallax";
 import { imagesFolderUrl } from "../../utils/url-lib";
 import FormContact from "../FormContact";
-import CoverImage from "../CoverImage";
 import Page from "../Page";
 import PageContent from "../PageContent";
 import UniversalMap from "../UniversalMap";
+import ImageCover2 from "../ImageCover2";
 
 
 const PageContact = (props) => {
@@ -27,12 +27,10 @@ const PageContact = (props) => {
 
   return (
     <>
-      <Parallax bgImage={parallaxImage1} strength={250}>
-        <div style={{ height: 600 }}>
-          <div>HTML inside the parallax</div>
-        </div>
-      </Parallax>
-      {/* <CoverImage src={imagesFolderUrl("cover1.png")} alt="Spa services" /> */}
+      <section className="image-large">
+        <ImageCover2 src={parallaxImage1} />
+      </section>
+      {/* <ImageCover src={imagesFolderUrl("cover1.png")} alt="Spa services" /> */}
       <Page>
         <PageContent>
 

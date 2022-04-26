@@ -10,7 +10,7 @@ const Image = (props) => {
     cl = "image-right";
   }
   if (props.wide === true) {
-    cl = "image-widet";
+    cl = "image-wide";
   }
   
   if (props.small === true) {
