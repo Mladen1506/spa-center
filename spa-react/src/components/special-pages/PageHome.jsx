@@ -4,6 +4,7 @@ import { actionRouteSet } from "../../redux/actions";
 import { imagesFolderUrl } from "../../utils/url-lib";
 import Btn from "../Btn";
 import Image from "../Image";
+import ImageCover2 from "../ImageCover2";
 
 const PageHome = (props) => {
   const dispatch = useDispatch();
@@ -12,8 +13,8 @@ const PageHome = (props) => {
   const image4 =
     "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
 
-  const parallaxImage1 = imagesFolderUrl('spa1.jpg');
-  const parallaxImage2 = imagesFolderUrl("spa2.jpeg");
+  const parallaxImage1 = imagesFolderUrl('massage11.webp');
+  const parallaxImage2 = imagesFolderUrl("massage6.jpeg");
   const parallaxImage3 = imagesFolderUrl("spa-test1.jpeg");
 
   const _handleClickRoute = (route) => {
@@ -30,11 +31,7 @@ const PageHome = (props) => {
     <>
       <div className="page-home">
         <section className="image-large">
-          <Parallax bgImage={parallaxImage1} strength={250}>
-            <div style={{ height: 800 }}>
-              <div>HTML inside the parallax</div>
-            </div>
-          </Parallax>
+          <ImageCover2 src={parallaxImage1} />
         </section>
 
 
@@ -113,11 +110,7 @@ const PageHome = (props) => {
 
 
         <section className="image-large">
-          <Parallax bgImage={parallaxImage2} strength={250}>
-            <div style={{ height: 600 }}>
-              <div>HTML inside the parallax</div>
-            </div>
-          </Parallax>
+          <ImageCover2 src={parallaxImage2} />
         </section>
 
 
@@ -175,7 +168,9 @@ const PageHome = (props) => {
                   <h2>Creative excellence and unparalleled hospitality are the driving forces behind the Muse experience.</h2>
                 </div>
                 <div className="col-12 col-sm-6">
-                  <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+                  <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
+                  </div>
                 </div>
               </div>
               <div className="row">
@@ -186,7 +181,7 @@ const PageHome = (props) => {
             </div>
           </div>
         </section>
-
+{/* 
 
         <section>
           <Parallax bgImage={parallaxImage3} strength={250}>
@@ -194,13 +189,13 @@ const PageHome = (props) => {
               <div>HTML inside the parallax</div>
             </div>
           </Parallax>
-        </section>
+        </section> */}
 
-        <section>
+        {/* <section>
           <div className="inner">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
-        </section>
+        </section> */}
 
 
       </div>

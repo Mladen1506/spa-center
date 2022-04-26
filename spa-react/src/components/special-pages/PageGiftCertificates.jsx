@@ -2,7 +2,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Parallax } from "react-parallax";
 import { imagesFolderUrl } from "../../utils/url-lib";
-import CoverImage from "../CoverImage";
+import Image from "../Image";
+import ImageCover2 from "../ImageCover2";
 import Page from "../Page";
 import PageContent from "../PageContent";
 // import FormGiftCard from "../FormGiftCard";
@@ -14,20 +15,15 @@ const PageGiftCertificates = (props) => {
 
   return (
     <>
-      <Parallax bgImage={parallaxImage1} strength={250}>
-        <div style={{ height: 800 }}>
-          <div>HTML inside the parallax</div>
-        </div>
-      </Parallax>
-      <CoverImage src={imagesFolderUrl("cover1.png")} alt="Spa services" />
+      <section className="image-large">
+        <ImageCover2 src={parallaxImage1} />
+      </section>
       <Page>
         <PageContent>
 
           <h3>Gift Certificates</h3>
 
-
-
-
+          <a target="_blank" rel="noreferrer" href="https://azuredream.boomtime.com/lgift"><img  src={imagesFolderUrl('pages/gift-cert-button.png')} alt="buy gift certificate" /></a>
 
         </PageContent>
       </Page>
