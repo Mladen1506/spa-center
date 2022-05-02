@@ -236,10 +236,10 @@ const routes = [
     hasChildren: false,
   },
   {
-    route: 'BROW_LUMINATION',
+    route: 'BROW_LAMINATION',
     breadcrumbs: ['HOME', 'SERVICES', 'BROW_LASH_BAR'],
     level: 3,
-    title: 'Brow Lumination',
+    title: 'Brow Lamination',
     hasChildren: false,
   },
 
@@ -334,7 +334,14 @@ const routes = [
     route: 'ELECTROLYSIS',
     breadcrumbs: ['HOME', 'SERVICES', 'HAIR_REMOVAL'],
     level: 2,
-    title: 'ELECTROLYSIS',
+    title: 'Electrolysis',
+    hasChildren: false,
+  },
+  {
+    route: 'WAXING',
+    breadcrumbs: ['HOME', 'SERVICES', 'HAIR_REMOVAL'],
+    level: 2,
+    title: 'Waxing',
     hasChildren: false,
   },
 
@@ -405,7 +412,7 @@ const routes = [
     route: 'PACKAGES',
     breadcrumbs: ['HOME', 'SERVICES'],
     level: 2,
-    title: 'Packages',
+    title: 'Spa Combos',
     hasChildren: false,
   },
 

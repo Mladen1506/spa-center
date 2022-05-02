@@ -13,7 +13,7 @@ const PageHome = (props) => {
   const image4 =
     "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
 
-  const parallaxImage1 = imagesFolderUrl('massage11.webp');
+  const parallaxImage1 = imagesFolderUrl('spa2.jpeg');
   const parallaxImage2 = imagesFolderUrl("massage6.jpeg");
   const parallaxImage3 = imagesFolderUrl("spa-test1.jpeg");
 

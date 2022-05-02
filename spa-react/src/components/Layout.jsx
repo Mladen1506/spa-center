@@ -87,7 +87,7 @@ const Layout = (props) => {
               901 North Quincy Street<br />
               Arlington, VA 22203<br />
               Phone: 703-243-4343</div>
-            <div className="column">
+            <div className="column column-last">
               <h6>Hours</h6>
               Monday	8am - 7pm<br />
               Tuesday	8am - 7pm<br />

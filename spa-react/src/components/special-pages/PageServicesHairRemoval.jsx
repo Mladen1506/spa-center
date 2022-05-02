@@ -24,6 +24,10 @@ const PageServicesHairRemoval = (props) => {
           <PageElectrolysis />
         </WidgetExpandable>
 
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'WAXING'} expandableLevel={2} >
+          
+        </WidgetExpandable>
+
 
       </PageContent>
     </Page>

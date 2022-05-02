@@ -66,7 +66,16 @@ a svaki od segmenta sadrzi sadrzaj sa pojedinanih strana sa starog sajta koje su
 - Velika slika
 - Ispod negde 4 slicice i taster MORE PHOTOS
 
-##
+## Izmene Maj.
+- Stranica WAXING AND THREADING ostaje ali deo njenog sadrzaja se kpira i od tgoa se pravi nova stranica.
+iskopirati sam odeo pod podnaslovom VAXING i od toga napraviti, novu stranicu u 
+Services > Hair Removal i da se ta stranica zove VAXING.
+
+#
+
+
+
+
 
 
 
