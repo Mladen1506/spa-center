@@ -24,17 +24,22 @@ const WidgetExpandable = (props) => {
     expanded = true;
   }
 
+  let expandableLevel = 0
+  if (props.expandableLevel > 0) {
+    expandableLevel = props.expandableLevel;
+  }
+
   let cl2 = "";
-  if (props.expandableLevel === 2) {
+  if (expandableLevel === 2) {
     cl2 = " expandable-second-level";
-  } else if (props.expandableLevel === 3) {
+  } else if (expandableLevel === 3) {
     cl2 = " expandable-third-level";
   }
 
   return (
     <>
-      <div className={(expanded ? "widget-expandable expanded" : "widget-expandable") + cl2}>
-        <header onClick={(e)=>{props._expandSingle(id)}}>{get_route_title(id)}</header>
+      <div className={(expanded ? "widget-expandable expanded" : "widget-expandable") + cl2} data-expandable-level={expandableLevel} data-expanded={expanded}>
+        <header onClick={(e) => { props._expandSingle(id) }}>{get_route_title(id)}</header>
         <div className="expandable">
           <div className="pad">
             {props.children}

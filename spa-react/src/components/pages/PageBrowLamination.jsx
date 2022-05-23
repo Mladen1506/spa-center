@@ -1,7 +1,7 @@
 import Page from "../Page";
 import PageContent from "../PageContent";
 
-const PageBrowLumination = () => {
+const PageBrowLamination = () => {
   return (
     <Page>
       <PageContent>
@@ -10,4 +10,4 @@ const PageBrowLumination = () => {
     </Page>
   );
 };
-export default PageBrowLumination;
+export default PageBrowLamination;

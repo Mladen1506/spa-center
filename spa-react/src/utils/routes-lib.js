@@ -236,10 +236,10 @@ const routes = [
     hasChildren: false,
   },
   {
-    route: 'BROW_LUMINATION',
+    route: 'BROW_LAMINATION',
     breadcrumbs: ['HOME', 'SERVICES', 'BROW_LASH_BAR'],
     level: 3,
-    title: 'Brow Lumination',
+    title: 'Brow Lamination',
     hasChildren: false,
   },
 

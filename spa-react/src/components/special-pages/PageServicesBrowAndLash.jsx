@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
-import PageBrowLumination from "../pages/PageBrowLumination";
+import PageBrowLamination from "../pages/PageBrowLamination";
 import PageLashLift from "../pages/PageLashLift";
 import PageTinting from "../pages/PageTinting";
 import PageWaxingAndThreading from "../pages/PageWaxingAndThreading";
@@ -28,8 +28,8 @@ const PageServicesBrowAndLash = (props) => {
           <PageWaxingAndThreading />
         </WidgetExpandable>
 
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LUMINATION'} expandableLevel={2}>
-          <PageBrowLumination />
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LAMINATION'} expandableLevel={2}>
+          <PageBrowLamination />
         </WidgetExpandable>
 
 

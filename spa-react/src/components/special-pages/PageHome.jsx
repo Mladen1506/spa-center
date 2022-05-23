@@ -44,11 +44,11 @@ const PageHome = (props) => {
                     <div className="teaser-body">
                       <h4>Welcome</h4>
                       <p>At Azure Dream Spa we connect your inner peace with your body, mind, and spirit.</p>
-                      <p>We invite you to visit us at our <a href="https://azuredreamspa.com/About-Us/Contact-Us">location</a> in the heart of Arlington, VA, and indulge yourself at our luxurious yet cozy day spa – enjoy pampering, comfort, and a sense of belonging.</p>
+                      <p>We invite you to visit us at our <a href="/About-Us/Contact-Us">location</a> in the heart of Arlington, VA, and indulge yourself at our luxurious yet cozy day spa – enjoy pampering, comfort, and a sense of belonging.</p>
                       <p>We offer a full range of services for a perfect spa experience.<br />
-                        <em><a href="https://azuredreamspa.com/About-Us">Read more...</a></em></p>
+                        <em><a href="/About-Us">Read more...</a></em></p>
                     </div>
-                    <Btn href="/about" handleClick={(e) => { e.preventDefault(); _handleClickRoute('ABOUT') }}>MORE...</Btn>
+                    <Btn href="/About-Us" handleClick={(e) => { e.preventDefault(); _handleClickRoute('ABOUT') }}>MORE...</Btn>
                   </div>
                 </div>
                 <div className="col-12 col-md-6">
@@ -133,7 +133,7 @@ const PageHome = (props) => {
                     <div className="teaser-body">
                       <h4>Relaxing Escape</h4>
                       <Image left small src={imagesFolderUrl('daisy-150x150.jpeg')} />
-                      Enjoy the feeling of serenity as the stress dissipates from your body and mind. <a href="https://azuredreamspa.com/massage-2/">Massages</a>, <a href="https://azuredreamspa.com/cellulite-body-wrap/">body wraps</a>, and our decadent <a href="https://azuredreamspa.com/spa-combo-packages/">spa packages</a> will leave you relaxed and rejuvenated.
+                      Enjoy the feeling of serenity as the stress dissipates from your body and mind. <a href="/massage-2/">Massages</a>, <a href="/cellulite-body-wrap/">body wraps</a>, and our decadent <a href="/spa-combo-packages/">spa packages</a> will leave you relaxed and rejuvenated.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
                   </div>
@@ -143,7 +143,7 @@ const PageHome = (props) => {
                     <div className="teaser-body">
                       <h4>Hair Removal</h4>
                       <Image left small src={imagesFolderUrl('escape1-150x150.jpeg')} />
-                      The newest technology has made <a href="https://azuredreamspa.com/electrolysis/">electrolysis </a>and <a href="https://azuredreamspa.com/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
+                      The newest technology has made <a href="/electrolysis/">electrolysis </a>and <a href="/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
                   </div>
@@ -158,10 +158,10 @@ const PageHome = (props) => {
           <div className="inner">
             <div className="container">
               <div className="row">
-                <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/maindesk1-237x300.jpg" /></div>
-                <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/maindesk1-237x300.jpg" /></div>
-                <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/maindesk1-237x300.jpg" /></div>
-                <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src="/static/img/maindesk1-237x300.jpg" /></div>
+                <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src={imagesFolderUrl('maindesk1-237x300.jpg')} /></div>
+                <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src={imagesFolderUrl('maindesk1-237x300.jpg')} /></div>
+                <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src={imagesFolderUrl('maindesk1-237x300.jpg')} /></div>
+                <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src={imagesFolderUrl('maindesk1-237x300.jpg')} /></div>
               </div>
               <div className="row">
                 <div className="col-12 col-md-6">
@@ -181,7 +181,7 @@ const PageHome = (props) => {
             </div>
           </div>
         </section>
-{/* 
+        {/* 
 
         <section>
           <Parallax bgImage={parallaxImage3} strength={250}>
