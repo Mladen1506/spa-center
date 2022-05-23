@@ -334,14 +334,7 @@ const routes = [
     route: 'ELECTROLYSIS',
     breadcrumbs: ['HOME', 'SERVICES', 'HAIR_REMOVAL'],
     level: 2,
-    title: 'Electrolysis',
-    hasChildren: false,
-  },
-  {
-    route: 'WAXING',
-    breadcrumbs: ['HOME', 'SERVICES', 'HAIR_REMOVAL'],
-    level: 2,
-    title: 'Waxing',
+    title: 'ELECTROLYSIS',
     hasChildren: false,
   },
 
@@ -412,7 +405,7 @@ const routes = [
     route: 'PACKAGES',
     breadcrumbs: ['HOME', 'SERVICES'],
     level: 2,
-    title: 'Spa Combos',
+    title: 'Packages',
     hasChildren: false,
   },
 

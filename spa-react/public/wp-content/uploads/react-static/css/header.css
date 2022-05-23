@@ -1,6 +1,6 @@
 /* HEADER , MAIN MENU css */
 
-.wrapper > header {
+.wrapper>header {
   height: 100px;
   padding: 0px 2.5rem;
   display: flex;
@@ -10,24 +10,25 @@
   flex-wrap: nowrap;
 }
 
-.wrapper > header .logo .img {
+.wrapper>header .logo .img {
   display: none;
 }
 
-.wrapper > header .logo .logo-bg-img {
+.wrapper>header .logo .logo-bg-img {
   height: 60px;
   width: 180px;
-  background-image: url("/static/img/logo-azure1.png");
+  background-image: url("/wp-content/uploads/react-static/img/logo-azure1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   /* filter: grayscale(1); */
 }
-.wrapper > header .logo .logo-bg-img:hover {
+
+.wrapper>header .logo .logo-bg-img:hover {
   filter: grayscale(0);
 }
 
-.wrapper > header nav {
+.wrapper>header nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -35,8 +36,8 @@
   flex-wrap: wrap;
 }
 
-.wrapper > header nav > .option,
-.wrapper > header nav > a.option {
+.wrapper>header nav>.option,
+.wrapper>header nav>a.option {
   /* prvi red opcija */
   position: relative;
   padding: 0px;
@@ -50,24 +51,24 @@
   cursor: pointer;
 }
 
-.wrapper > header nav > .option .option {
+.wrapper>header nav>.option .option {
   /* druga, treca, cetvrti red opcija */
   position: relative;
   width: 150px;
   text-align: center;
 }
 
-.wrapper > header nav .option.active {
+.wrapper>header nav .option.active {
   /* background-color: rgb(255, 255, 128, 0.7); */
   border: 1px solid #363636;
 }
 
-.wrapper > header nav .option:hover {
+.wrapper>header nav .option:hover {
   /* text-decoration: underline; */
   border: 1px solid #363636;
 }
 
-.wrapper > header nav > .option .submenu {
+.wrapper>header nav>.option .submenu {
   /* podmeni ispod prvog nivoa opcija */
   display: none;
   position: absolute;
@@ -76,11 +77,11 @@
   outline: 1px solid red;
 }
 
-.wrapper > header nav > .option:hover > .submenu {
+.wrapper>header nav>.option:hover>.submenu {
   display: block;
 }
 
-.wrapper > header nav .option .submenu .option .submenu {
+.wrapper>header nav .option .submenu .option .submenu {
   /* drugi,treci,cetvrti, podmenu itd */
   display: none;
   position: absolute;
@@ -90,7 +91,7 @@
   outline: 1px solid red;
 }
 
-.wrapper > header nav .option .submenu .option:hover .submenu {
+.wrapper>header nav .option .submenu .option:hover .submenu {
   display: block;
 }
 
@@ -101,7 +102,7 @@
   border: 1px solid gray;
 }
 
-.wrapper > header .hamburger {
+.wrapper>header .hamburger {
   display: none;
   font-size: 1.4rem;
   padding-left: 1rem;
@@ -117,16 +118,19 @@ header .fix-drawer-push.opened {
 */
 
 @media screen and (max-width: 768px) {
-  .wrapper > header .logo {
+  .wrapper>header .logo {
     /* display: none; */
   }
-  .wrapper > header nav {
+
+  .wrapper>header nav {
     display: none;
   }
-  .wrapper > header .hamburger {
+
+  .wrapper>header .hamburger {
     display: block;
   }
-  .wrapper > header .fix-drawer-push.opened {
+
+  .wrapper>header .fix-drawer-push.opened {
     /* width: 70%; */
   }
 }
@@ -184,7 +188,7 @@ header .fix-drawer-push.opened {
   transform: rotate(-90deg);
 }
 
-.drawer .option.expanded > * > i {
+.drawer .option.expanded>*>i {
   transform: rotate(0deg);
 }
 
@@ -192,7 +196,7 @@ header .fix-drawer-push.opened {
   display: none;
 }
 
-.drawer .option.expanded > .submenu {
+.drawer .option.expanded>.submenu {
   display: block;
 }
 

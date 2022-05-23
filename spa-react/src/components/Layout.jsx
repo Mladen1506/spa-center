@@ -59,15 +59,19 @@ const Layout = (props) => {
       </div>
 
       <div className="mobile-info-bar">
-        <div className="item">
-          <i className="fa fa-phone" aria-hidden="true"></i>
-          <span>CALL</span>
-        </div>
-        <div className="item">
-          <i className="fa fa-map-marker" aria-hidden="true"></i>
-          <span>LOCATION</span>
-        </div>
-        <div className="item">
+        <a href="tel:7032434343">
+          <div className="item">
+            <i className="fa fa-phone" aria-hidden="true"></i>
+            <span>CALL</span>
+          </div>
+        </a>
+        <a href="/about-us/contact-us/">
+          <div className="item" >
+            <i className="fa fa-map-marker" aria-hidden="true"></i>
+            <span>LOCATION</span>
+          </div>
+        </a>
+        <div className="item" onclick="window.react_scroll_to_bottom()">
           <i className="fa fa-clock-o" aria-hidden="true"></i>
           <span>HOURS</span>
         </div>
@@ -87,7 +91,7 @@ const Layout = (props) => {
               901 North Quincy Street<br />
               Arlington, VA 22203<br />
               Phone: 703-243-4343</div>
-            <div className="column column-last">
+            <div className="column">
               <h6>Hours</h6>
               Monday	8am - 7pm<br />
               Tuesday	8am - 7pm<br />

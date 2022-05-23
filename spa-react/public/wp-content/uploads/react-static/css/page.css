@@ -97,10 +97,6 @@
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-.page-content figure.image-left img,
-.page-content figure.image-right img {
-  max-width: 200px;
-}
 
 .page-content figure.image-wide {
   float: none;

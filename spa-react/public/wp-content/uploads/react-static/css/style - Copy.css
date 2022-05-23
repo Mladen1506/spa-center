@@ -132,10 +132,7 @@ footer .columns {
 }
 footer .columns .column {
   padding-bottom: 3rem;
-  margin-right: 10rem;
-}
-footer .columns .column.column-last {
-  margin-right: 0px;
+  margin-right: 3rem;
 }
 footer .columns .column h6 {
   margin-top: 0px;
@@ -198,10 +195,6 @@ footer a:link {
 .page-body {
   flex: 1;
   /* background: rgb(184, 184, 196); */
-  background-image: url("/static/img/pink-bg.jpeg");
-}
-.page-body .page-body{
-  background-image: unset;
 }
 
 .page-body section {

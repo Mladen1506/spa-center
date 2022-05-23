@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
-import PageBrowLamination from "../pages/PageBrowLumination";
+import PageBrowLamination from "../pages/PageBrowLamination";
 import PageLashLift from "../pages/PageLashLift";
 import PageTinting from "../pages/PageTinting";
 import PageWaxingAndThreading from "../pages/PageWaxingAndThreading";

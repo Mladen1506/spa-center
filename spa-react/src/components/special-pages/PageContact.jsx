@@ -23,7 +23,7 @@ const PageContact = (props) => {
   // https://www.google.com/maps/dir/?api=1&destination=38.881,-77.1074
   const googleMapsDirectionsUrl = "https://www.google.com/maps/dir/?api=1&destination=" + 38.8810 + ',' + -77.1074;
 
-  const parallaxImage1 = imagesFolderUrl('spa1.jpg');
+  const parallaxImage1 = imagesFolderUrl('background_2.jpeg');
 
   return (
     <>
