@@ -11,7 +11,7 @@ import PageContent from "../PageContent";
 
 const PageGiftCertificates = (props) => {
 
-  const parallaxImage1 = imagesFolderUrl('spa-big4.jpg');
+  const parallaxImage1 = imagesFolderUrl('bg2.jpeg');
 
   return (
     <>

@@ -34,6 +34,8 @@ const WidgetExpandable = (props) => {
     cl2 = " expandable-second-level";
   } else if (expandableLevel === 3) {
     cl2 = " expandable-third-level";
+  } else if (expandableLevel === 4) {
+    cl2 = " expandable-4th-level";
   }
 
   return (
