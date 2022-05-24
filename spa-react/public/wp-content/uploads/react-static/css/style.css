@@ -453,6 +453,7 @@ footer a:link {
 .page-body {
   flex: 1;
   /* background: rgb(184, 184, 196); */
+  background-image: url(/wp-content/uploads/react-static/img/pink-bg.jpeg);
 }
 
 .page-body section {
@@ -810,7 +811,8 @@ a.btn:hover {
 }
 
 .widget-expandable.expandable-second-level header,
-.widget-expandable.expandable-third-level header {
+.widget-expandable.expandable-third-level heade,
+.widget-expandable.expandable-4th-level header {
   position: relative;
   height: 3rem;
   line-height: 3rem;

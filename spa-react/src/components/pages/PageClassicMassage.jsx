@@ -1,3 +1,5 @@
+import { imagesFolderUrl } from "../../utils/url-lib";
+import Image from "../Image";
 import Page from "../Page";
 import PageContent from "../PageContent";
 
@@ -11,6 +13,7 @@ const PageClassicMassage = () => {
           <h6>Swedish</h6>
           <p>The most well known of all types of body work, Swedish massage is ideal for anyone who is new to massages, and is unsure what treatment to select. Based on Western concepts of anatomy and physiology, this form of massage uses long, smooth, and flowing strokes, in the direction of blood returning to the heart. It is designed to relax the entire body, increase circulation, and promote health.</p>
           <h6>Foot Reflexology</h6>
+          <Image right small src={imagesFolderUrl('pages/foot_refl.jpeg')}/>
           <p>An ancient Chinese healing art, this treatment acts to detoxify the body, release tension, and increase circulation and energy. Practitioners explain that the foot has more than 7,000 nerve endings, called reflexes, that correspond to every organ and system within the body. Foot reflexology is an applied-pressure therapy that stimulates reflex points and produces therapeutic benefits.</p>
           <h3>Swedish and Foot Reflexology Massage Pricing</h3>
           <table className="table table-bordered">

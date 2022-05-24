@@ -18,14 +18,14 @@ const routes = [
   contact
   about us
   */
- 
- {
-   route: 'SERVICES',
-   breadcrumbs: ['HOME'],
-   level: 1,
-   title: 'Services',
-   hasChildren: false,
-   slug: '/services',
+
+  {
+    route: 'SERVICES',
+    breadcrumbs: ['HOME'],
+    level: 1,
+    title: 'Services',
+    hasChildren: false,
+    slug: '/services',
   },
   {
     route: 'ARTISTS',
@@ -140,7 +140,6 @@ const routes = [
     title: 'Skinceutical',
     hasChildren: false,
   },
-
 
   // sekgment massage
   {
@@ -425,6 +424,41 @@ const routes = [
     title: 'Facial Packages',
     hasChildren: false,
   },
+
+  /*
+  {
+    route: 'HYDRAFACIAL_MENU',
+    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'FACIAL_PACKAGES'],
+    level: 3,
+    title: 'Hydrafacial',
+    hasChildren: false,
+  },
+  */
+
+  {
+    route: 'HYDRAFACIAL_MEMBERSHIP',
+    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'FACIAL_PACKAGES', 'HYDRAFACIAL_MENU'],
+    level: 4,
+    title: 'Hydrafacial Membership',
+    hasChildren: false,
+  },
+  {
+    route: 'HYDRAFACIAL_TAKE_HOME',
+    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'FACIAL_PACKAGES', 'HYDRAFACIAL_MENU'],
+    level: 4,
+    title: 'Hydrafacial Take Home Guidelines',
+    hasChildren: false,
+  },
+  {
+    route: 'HYDRAFACIAL',
+    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'FACIAL_PACKAGES', 'HYDRAFACIAL_MENU'],
+    level: 4,
+    title: 'Hydrafacial',
+    hasChildren: false,
+  },
+
+
+
   {
     route: 'MASSAGE_PACKAGES',
     breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES'],
