@@ -15,7 +15,7 @@ import PageServicesMediSpaTreatment from "./PageServicesMediSpaTreatment";
 import PageServicesPackages from "./PageServicesPackages";
 import PageServicesPermanentMakeup from "./PageServicesPermanentMakeup";
 
-const parallaxImage2 = imagesFolderUrl("bg2.jpeg");
+const parallaxImage2 = imagesFolderUrl("massage9.png");
 const PageServices = (props) => {
   const { expandedId, _expandSingle } = useExpandSingle();
 
