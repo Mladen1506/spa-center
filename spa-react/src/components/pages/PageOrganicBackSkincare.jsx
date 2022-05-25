@@ -15,17 +15,17 @@ const PageOrganicBackSkincare = () => {
                 <tbody>
                   <tr>
                     <td>60 minute Organic "back facial" with back massage</td>
-                    <td>185</td>
+                    <td>$185</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
-          <p>ADD-ONS:</p>
-            <p>Scalp massage $30
-              Organic hand exfoliation $20</p>
-                <p>Organic feet exfoliation $20</p>
-            </div>
+          <h6>ADD-ONS:</h6>
+          <p>Scalp massage: $30 <br />
+            Organic hand exfoliation: $20<br />
+            Organic feet exfoliation: $20</p>
+        </div>
       </PageContent>
     </Page>
   );

@@ -28,39 +28,39 @@ const PageClassicMassage = () => {
               </tr>
               <tr>
                 <td>Minutes</td>
-                <td>Price</td>
-                <td>Package</td>
-                <td>Price</td>
+                <td>&nbsp; &nbsp; Price</td>
+                <td>&nbsp; &nbsp; Package</td>
+                <td>&nbsp; Savings</td>
               </tr>
               <tr>
-                <td>30</td>
-                <td>75</td>
-                <td>Package of 6 (savings of 30)</td>
-                <td><em>420</em></td>
+                <td>30 Min</td>
+                <td>&nbsp; &nbsp; $75</td>
+                <td>&nbsp; &nbsp; $420 Pkg of 6</td>
+                <td>&nbsp; &nbsp; $30</td>
               </tr>
               <tr>
-                <td>45</td>
-                <td>90</td>
-                <td>Package of 6 (savings of 48)</td>
-                <td><em>492</em></td>
+                <td>45 Min</td>
+                <td>&nbsp; &nbsp; $90</td>
+                <td>&nbsp; &nbsp; $492 Pkg of 6</td>
+                <td>&nbsp; &nbsp; $48</td>
               </tr>
               <tr>
-                <td>60</td>
-                <td>105</td>
-                <td>Package of 6 (savings of 60)</td>
-                <td><em>570</em></td>
+                <td>60 Min</td>
+                <td>&nbsp; &nbsp; $105</td>
+                <td>&nbsp; &nbsp; $570 Pkg of 6</td>
+                <td>&nbsp; &nbsp; $60</td>
               </tr>
               <tr>
-                <td>75</td>
-                <td>130</td>
-                <td>Package of 6 (savings of 90)</td>
-                <td><em>690</em></td>
+                <td>75 Min</td>
+                <td>&nbsp; &nbsp; $130</td>
+                <td>&nbsp; &nbsp; $690 Pkg of 6</td>
+                <td>&nbsp; &nbsp; $90</td>
               </tr>
               <tr>
-                <td>90</td>
-                <td>155</td>
-                <td>Package of 6 (savings of 120)</td>
-                <td><em>810</em></td>
+                <td>90 Min</td>
+                <td>&nbsp; &nbsp; $155</td>
+                <td>&nbsp; &nbsp; $810 Pkg of 6</td>
+                <td>&nbsp; &nbsp; $120</td>
               </tr>
             </tbody>
           </table>

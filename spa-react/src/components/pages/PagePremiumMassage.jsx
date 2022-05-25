@@ -43,44 +43,44 @@ const PagePremiumMassage = () => {
                   <h6>Single Session</h6>
                 </td>
                 <td colspan="2">
-                  <h6>Packages</h6>
+                  <h6>&nbsp; &nbsp; &nbsp; &nbsp; Packages</h6>
                 </td>
               </tr>
               <tr>
                 <td>Minutes</td>
                 <td>Price</td>
-                <td>Package</td>
-                <td>Price</td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; Package</td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; Savings</td>
               </tr>
               <tr>
                 <td>30</td>
-                <td>85</td>
-                <td>Package of 6 (savings of 30)</td>
-                <td><em>480</em></td>
+                <td>$85</td>
+                <td>&nbsp; &nbsp; $480 Pkg of 6</td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; $30</td>
               </tr>
               <tr>
                 <td>45</td>
-                <td>105</td>
-                <td>Package of 6 (savings of 42)</td>
-                <td><em>588</em></td>
+                <td>$105</td>
+                <td>&nbsp; &nbsp; $588 Pkg of 6</td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; $42</td>
               </tr>
               <tr>
                 <td>60</td>
-                <td>120</td>
-                <td>Package of 6 (savings of 60)</td>
-                <td><em>660</em></td>
+                <td>$120</td>
+                <td>&nbsp; &nbsp;  $660 Pkg of 6</td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; $60</td>
               </tr>
               <tr>
                 <td>75</td>
-                <td>145</td>
-                <td>Package of 6 (savings of 90)</td>
-                <td><em>780</em></td>
+                <td>$145</td>
+                <td>&nbsp; &nbsp; $780 Pkg of 6</td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; $90</td>
               </tr>
               <tr>
                 <td>90</td>
-                <td>170</td>
-                <td>Package of 6 (savings of 120)</td>
-                <td><em>900</em></td>
+                <td>$170</td>
+                <td>&nbsp; &nbsp; $900 Pkg of 6</td>
+                <td>&nbsp; &nbsp; &nbsp; &nbsp; $120</td>
               </tr>
             </tbody>
           </table>

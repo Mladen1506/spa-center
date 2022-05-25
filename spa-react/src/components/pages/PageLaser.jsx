@@ -38,39 +38,39 @@ const PageLaserWomen = () => {
                   Neck (Front or Back),<br />
                   Nostrils,&nbsp;Unibrow,<br />
                   Ears</td>
-                <td>&nbsp;250</td>
-                <td>&nbsp;75</td>
-                <td>&nbsp;95</td>
+                <td>&nbsp;$250</td>
+                <td>&nbsp;$75</td>
+                <td>&nbsp;$95</td>
               </tr>
               <tr>
                 <td>Ab Line,<br />
                   Hands &amp; Fingers,<br />
                   Feet &amp; Toes,<br />
                   Areolas</td>
-                <td>&nbsp;250</td>
-                <td>&nbsp;75</td>
-                <td>&nbsp;95</td>
+                <td>&nbsp;$250</td>
+                <td>&nbsp;$75</td>
+                <td>&nbsp;$95</td>
               </tr>
               <tr>
                 <td>Under Arms,<br />
                   Bikini Line</td>
-                <td>&nbsp;350</td>
-                <td>&nbsp;85</td>
-                <td>&nbsp;125</td>
+                <td>&nbsp;$350</td>
+                <td>&nbsp;$85</td>
+                <td>&nbsp;$125</td>
               </tr>
               <tr>
                 <td>AC</td>
-                <td>&nbsp;450</td>
-                <td>&nbsp;135</td>
-                <td>&nbsp;185</td>
+                <td>&nbsp;$450</td>
+                <td>&nbsp;$135</td>
+                <td>&nbsp;$185</td>
               </tr>
               <tr>
                 <td>Forearm &amp; Hands,<br />
                   Chest,<br />
                   Half brazilian,</td>
-                <td>&nbsp;680</td>
-                <td>&nbsp;155</td>
-                <td>&nbsp;195</td>
+                <td>&nbsp;$680</td>
+                <td>&nbsp;$155</td>
+                <td>&nbsp;$195</td>
               </tr>
               <tr>
                 <td>Full face,<br />
@@ -80,23 +80,23 @@ const PageLaserWomen = () => {
                   Half of Back,<br />
                   Lower Half Leg &amp; Knees,<br />
                   Full arm &amp; hand</td>
-                <td>&nbsp;790</td>
-                <td>&nbsp;185</td>
-                <td>&nbsp;235</td>
+                <td>&nbsp;$790</td>
+                <td>&nbsp;$185</td>
+                <td>&nbsp;$235</td>
               </tr>
               <tr>
                 <td>Upper Legs<br />
                   Full Legs<br />
                   Full Legs &amp; Toes</td>
-                <td>1000<br />
-                  1450<br />
-                  1599</td>
-                <td>230<br />
-                  290<br />
-                  310</td>
-                <td>275<br />
-                  380<br />
-                  400</td>
+                <td>$1000<br />
+                  $1450<br />
+                  $1599</td>
+                <td>$230<br />
+                  $290<br />
+                  $310</td>
+                <td>$275<br />
+                  $380<br />
+                  $400</td>
               </tr>
               <tr>
                 <td colspan="3">
@@ -112,40 +112,40 @@ const PageLaserWomen = () => {
               </tr>
               <tr>
                 <td>Full Leg</td>
-                <td>&nbsp;1550</td>
-                <td>&nbsp;375</td>
-                <td>&nbsp;420</td>
+                <td>&nbsp;$1550</td>
+                <td>&nbsp;$375</td>
+                <td>&nbsp;$420</td>
               </tr>
               <tr>
                 <td>Back &amp; Shoulder<br />
                   -OR- Chest &amp; Shoulder<br />
                   -OR- Guyzilian<br />
                   -OR- Buttocks (No AC)</td>
-                <td>&nbsp;1390</td>
-                <td>&nbsp;295</td>
-                <td>&nbsp;380</td>
+                <td>&nbsp;$1390</td>
+                <td>&nbsp;$295</td>
+                <td>&nbsp;$380</td>
               </tr>
               <tr>
                 <td>Full Face with Neck<br />
                   -OR- Full Back<br />
                   -OR- Full Chest &amp; Stomach<br />
                   -OR- Full Arms</td>
-                <td>&nbsp;1250</td>
-                <td>&nbsp;275</td>
-                <td>325</td>
+                <td>&nbsp;$1250</td>
+                <td>&nbsp;$275</td>
+                <td>$325</td>
               </tr>
               <tr>
                 <td>AC -OR- Underarms</td>
-                <td>&nbsp;450</td>
-                <td>&nbsp;135</td>
-                <td>&nbsp;185</td>
+                <td>&nbsp;$450</td>
+                <td>&nbsp;$135</td>
+                <td>&nbsp;$185</td>
               </tr>
               <tr>
                 <td>Neck (Front or Back)<br />
                   -OR- Feet</td>
-                <td>&nbsp;250</td>
-                <td>&nbsp;85</td>
-                <td>&nbsp;125</td>
+                <td>&nbsp;$250</td>
+                <td>&nbsp;$85</td>
+                <td>&nbsp;$125</td>
               </tr>
             </tbody>
           </table>

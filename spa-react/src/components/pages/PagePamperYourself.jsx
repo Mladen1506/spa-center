@@ -33,29 +33,32 @@ const PagePamperYourself = () => {
                 <td>Minutes</td>
                 <td>Price</td>
                 <td>Package</td>
-                <td>Price</td>
+                <td>Pkg Price</td>
+                <td>Savings</td>
+
               </tr>
               <tr>
-                <td>30</td>
-                <td>145</td>
+                <td>$30</td>
+                <td>$145</td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>45</td>
-                <td>165</td>
+                <td>$45</td>
+                <td>$165</td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>60</td>
-                <td>185</td>
-                <td>Package of 6 (savings of 150)</td>
-                <td><em>960</em></td>
+                <td>$60</td>
+                <td>$185</td>
+                <td>6Sessions</td>
+                <td>$900</td>
+                <td>$150</td>
               </tr>
               <tr>
-                <td>75</td>
-                <td>205</td>
+                <td>$75</td>
+                <td>$205</td>
                 <td></td>
                 <td></td>
               </tr>
@@ -65,13 +68,13 @@ const PagePamperYourself = () => {
           <h6>Azure Dream Deluxe Facial</h6>
           <p>Spoil yourself (or someone special!) with our most complete skin care service: the Azure Dream Deluxe Facial. During your facial, you’ll be treated to a facial massage and extractions, tailored specifically to your needs. Depending on your skin, our aesthetician will select the Éminence Organic Peel that is suitable to your skins needs -- every Éminence peel is full of delicious goodness that will gently but effectively begin the exfoliation process, enabling the ingredients to penetrate deeper into skin to deliver their nourishing effects. The detoxifying, refining, and clarifying benefits of the peel will be augmented by a micro-dermabrasion treatment to remove old, dead skin cells. You’ll be amazed at how this potent and effective facial acts to reveal your freshest and most luminous skin.</p>
           <p>Azure Dream Deluxe Facial (75 minutes)&nbsp; &nbsp;$265</p>
-          <p>Package of 6 (<em>savings of 180 </em>)&nbsp; &nbsp;$1410</p>
+          <p>Package of 6&nbsp;$1410 (<em>savings of $180 </em>)</p>
           <h3>Combine any one of our facials with an add-on:</h3>
-          <p>Scalp massage 30</p>
-          <p>Organic hand exfoliation 20</p>
-          <p>Organic feet exfoliation 20</p>
-          <p>Organic eye treatment 35</p>
-          <p>Organic peel (blueberry, alpha hydroxy, or paprika) 45</p>
+          <p>Scalp massage $30</p>
+          <p>Organic hand exfoliation $20</p>
+          <p>Organic feet exfoliation $20</p>
+          <p>Organic eye treatment $35</p>
+          <p>Organic peel (blueberry, alpha hydroxy, or paprika) $45</p>
         </div>
       </PageContent>
     </Page>

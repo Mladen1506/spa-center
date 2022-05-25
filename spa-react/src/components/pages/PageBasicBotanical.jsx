@@ -20,33 +20,33 @@ const PageBasicBotanical = (props) => {
             <tbody>
               <tr>
                 <th></th>
-                <th>30-min</th>
-                <th>45-min</th>
-                <th>60-min</th>
-                <th>75-min</th>
+                <th>30-min </th>
+                <th>45-min </th>
+                <th>60-min </th>
+                <th>75-min </th>
               </tr>
               <tr>
                 <td>Eminence Botanical Facial</td>
-                <td>95</td>
-                <td>120</td>
-                <td>135</td>
-                <td>160</td>
+                <td>$95</td>
+                <td>$120</td>
+                <td>$135</td>
+                <td>$160</td>
               </tr>
               <tr>
-                <td>Package of 6 (savings of 90)</td>
+                <td>Pkg of 6</td>
                 <td>-</td>
-                <td>720</td>
+                <td>$720 (Save $90)</td>
                 <td></td>
                 <td>-</td>
               </tr>
             </tbody>
           </table>
           <h3>Combine any one of our facials with an add-on:</h3>
-          <p>Scalp massage 30</p>
-          <p>Organic hand exfoliation 20</p>
-          <p>Organic feet exfoliation 20</p>
-          <p>Organic eye treatment 35</p>
-          <p>Organic peel (blueberry, arctic berry, alpha hydroxy, or paprika) 45</p>
+          <p>Scalp massage $30</p>
+          <p>Organic hand exfoliation $20</p>
+          <p>Organic feet exfoliation $20</p>
+          <p>Organic eye treatment $35</p>
+          <p>Organic peel (blueberry, arctic berry, alpha hydroxy, or paprika) $45</p>
         </div>
       </PageContent>
     </Page>
