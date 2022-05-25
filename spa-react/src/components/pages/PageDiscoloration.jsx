@@ -17,31 +17,31 @@ const PageDiscoloration = () => {
             <tbody>
               <tr>
                 <td>Face</td>
-                <td>350</td>
+                <td>&nbsp; &nbsp; $350</td>
               </tr>
               <tr>
                 <td>Neck</td>
-                <td>250</td>
+                <td>&nbsp; &nbsp; $250</td>
               </tr>
               <tr>
                 <td>Chest</td>
-                <td>400</td>
+                <td>&nbsp; &nbsp; $400</td>
               </tr>
               <tr>
                 <td>Area of 2" x 2"</td>
-                <td>200</td>
+                <td>&nbsp; &nbsp; $200</td>
               </tr>
               <tr>
                 <td>Spot Treatment</td>
-                <td>120</td>
+                <td>&nbsp; &nbsp; $120</td>
               </tr>
               <tr>
                 <td>Top of forearms and hands</td>
-                <td>750</td>
+                <td>&nbsp; &nbsp; $750</td>
               </tr>
               <tr>
                 <td>Hands</td>
-                <td>300</td>
+                <td>&nbsp; &nbsp; $300</td>
               </tr>
             </tbody>
           </table>

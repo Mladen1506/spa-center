@@ -24,15 +24,16 @@ const PageMicroDermabrasion = () => {
             <tbody>
               <tr>
                 <td>Individual treatment</td>
-                <td>140</td>
+                <td>$140</td>
               </tr>
               <tr>
-                <td>Package of 6 (savings of 120)</td>
-                <td><em>720</em></td>
+                <td>Package of 6</td>
+                <td> $720</td>
+                <td>(Save $120)</td>
               </tr>
               <tr>
                 <td>One-hour facial &amp; micro-dermabrasion</td>
-                <td>185</td>
+                <td>$185</td>
               </tr>
             </tbody>
           </table>
@@ -41,15 +42,15 @@ const PageMicroDermabrasion = () => {
             <tbody>
               <tr>
                 <td>Neck</td>
-                <td>30</td>
+                <td>$30</td>
               </tr>
               <tr>
                 <td>Décolletage</td>
-                <td>45</td>
+                <td>$45</td>
               </tr>
               <tr>
                 <td>Neck &amp; Décolletage</td>
-                <td>65</td>
+                <td>$65</td>
               </tr>
             </tbody>
           </table>

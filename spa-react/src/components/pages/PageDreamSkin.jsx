@@ -32,26 +32,26 @@ const PageDreamSkin = (props) => {
               <tr>
                 <td>Minutes</td>
                 <td>Price</td>
-                <td>Package</td>
-                <td>Price</td>
+                <td>Pkg of 6</td>
+                <td>Savings</td>
               </tr>
               <tr>
-                <td>30</td>
-                <td>125</td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>45</td>
-                <td>145</td>
+                <td>$30</td>
+                <td>$125</td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>60</td>
-                <td>165</td>
-                <td>Package of 6 (savings of 150)</td>
-                <td><em>900</em></td>
+                <td>$45</td>
+                <td>$145</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$60</td>
+                <td>$165</td>
+                <td>$900</td>
+                <td>$150</td>
               </tr>
               <tr>
                 <td>75</td>
@@ -63,11 +63,11 @@ const PageDreamSkin = (props) => {
           </table>
           <p>&nbsp;</p>
           <h3>Combine any one of our facials with an add-on:</h3>
-          <p>Scalp massage 30</p>
-          <p>Organic hand exfoliation 20</p>
-          <p>Organic feet exfoliation 20</p>
-          <p>Organic eye treatment 35</p>
-          <p>Organic peel (blueberry, arctic berry, alpha hydroxy, or paprika) 45</p>
+          <p>Scalp massage $30</p>
+          <p>Organic hand exfoliation $20</p>
+          <p>Organic feet exfoliation $20</p>
+          <p>Organic eye treatment $35</p>
+          <p>Organic peel (blueberry, arctic berry, alpha hydroxy, or paprika) $45</p>
         </div>
       </PageContent>
     </Page>

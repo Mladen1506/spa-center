@@ -25,33 +25,31 @@ const PageElectrolysis = () => {
             <tbody>
               <tr>
                 <td>10 minutes</td>
-                <td>39</td>
+                <td>$39</td>
               </tr>
               <tr>
                 <td>15 minutes</td>
-                <td>49</td>
+                <td>$49</td>
               </tr>
               <tr>
                 <td>20 minutes</td>
-                <td>59</td>
+                <td>$59</td>
               </tr>
               <tr>
                 <td>30 minutes</td>
-                <td>79</td>
+                <td>$79</td>
               </tr>
               <tr>
                 <td>45 minutes</td>
-                <td>99</td>
+                <td>$99</td>
               </tr>
               <tr>
                 <td>60 minutes</td>
-                <td>119</td>
-              </tr>
-              <tr>
-                <td>For Brazilian electrolysis, add 50% to regular rate.</td>
-              </tr>
+                <td>$119</td>
+              </tr>      
             </tbody>
           </table>
+          <p>For Brazilian electrolysis, add 50% to regular rate.</p>
         </div>
       </PageContent>
     </Page>

@@ -17,32 +17,32 @@ const PageWaxingAndThreading = () => {
               <tr>
                 <td>Chin or lip or under chin<p></p>
                   <p>Side Burns</p></td>
-                <td>15<p></p>
-                  <p>25-30</p></td>
+                <td>$15<p></p>
+                  <p>$25-30</p></td>
               </tr>
               <tr>
                 <td>Brows</td>
-                <td>25-30</td>
+                <td>$25-30</td>
               </tr>
               <tr>
                 <td>Full face</td>
-                <td>55-65</td>
+                <td>$55-65</td>
               </tr>
               <tr>
                 <td>Underarm</td>
-                <td>30</td>
+                <td>$30</td>
               </tr>
               <tr>
                 <td>Lower arm</td>
-                <td>35-45</td>
+                <td>$35-45</td>
               </tr>
               <tr>
                 <td>Full arm</td>
-                <td>50-60</td>
+                <td>$50-60</td>
               </tr>
               <tr>
                 <td>Lower leg</td>
-                <td>40-50</td>
+                <td>$40-50</td>
               </tr>
               <tr>
                 <td>Upper leg</td>
@@ -50,15 +50,15 @@ const PageWaxingAndThreading = () => {
               </tr>
               <tr>
                 <td>Full leg</td>
-                <td>75-90</td>
+                <td>$75-90</td>
               </tr>
               <tr>
                 <td>Bikini</td>
-                <td>35-45</td>
+                <td>$35-45</td>
               </tr>
               <tr>
                 <td>Brazilian Rio Style</td>
-                <td>65-85</td>
+                <td>$65-85</td>
               </tr>
             </tbody>
           </table>
@@ -67,27 +67,27 @@ const PageWaxingAndThreading = () => {
             <tbody>
               <tr>
                 <td>Full arm</td>
-                <td>60-70</td>
+                <td>$60-70</td>
               </tr>
               <tr>
                 <td>Full leg</td>
-                <td>85-95</td>
+                <td>$85-95</td>
               </tr>
               <tr>
                 <td>Full leg and bikini</td>
-                <td>95-110</td>
+                <td>$95-110</td>
               </tr>
               <tr>
                 <td>“Guy-zilian”</td>
-                <td>95-110</td>
+                <td>$95-110</td>
               </tr>
               <tr>
                 <td>Back and shoulder</td>
-                <td>65-85</td>
+                <td>$65-85</td>
               </tr>
               <tr>
                 <td>Chest and shoulder</td>
-                <td>55-75</td>
+                <td>$55-75</td>
               </tr>
             </tbody>
           </table>

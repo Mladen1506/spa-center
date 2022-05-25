@@ -1097,7 +1097,7 @@ a.btn:hover {
   font-size: 1.5em;
   font-weight: 400;
   text-transform: uppercase;
-  border-bottom: 1px solid gray;
+  /* border-bottom: 1px solid gray; */
   padding-bottom: 0.5em;
 }
 
@@ -1186,10 +1186,13 @@ a.btn:hover {
 
 .page-content table tbody tr {
   border-bottom: 1px solid #363636;
+  /* border-right: 1px solid #363636;
+  border-left: 1px solid #363636; */
 }
 
 .page-content table tbody tr:last-child {
   border-bottom: 2px solid #363636;
+  
 }
 
 .page-content table tr th,
@@ -1197,6 +1200,8 @@ a.btn:hover {
   padding-right: 0.3rem;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
+  width: 150px;
+  height: 40px;
 }
 
 .page-content table tr th {

@@ -31,13 +31,13 @@ const PageOrganicBodySpa = () => {
                         <tbody>
                           <tr>
                             <td>45 minutes</td>
-                            <td>60 minutes</td>
-                            <td>90 minutes</td>
+                            <td>&nbsp; &nbsp; 60 minutes</td>
+                            <td>&nbsp; &nbsp; 90 minutes</td>
                           </tr>
                           <tr>
-                            <td>125</td>
-                            <td>150</td>
-                            <td>195</td>
+                            <td>$125</td>
+                            <td>&nbsp; &nbsp; $150</td>
+                            <td>&nbsp; &nbsp; $195</td>
                           </tr>
                         </tbody>
                       </table>

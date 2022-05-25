@@ -11,10 +11,9 @@ const PageLashLift = () => {
           <p>Touted as the gentle alternative to lash extensions, a lash lift essentially takes the natural eyelash hairs you do have and gives them a dramatic curl, giving you a fresh and natural look that opens up the eye in the most beautiful way. By comparison, they’re pretty low-maintenance, and you can put mascara on an hour after the treatment if you really wanted to, provided you steer clear of any oil-based makeup removers.</p>
           <p>If eyelash extensions aren’t for you, consider giving a Lash Lift service a try! We know you will love the results. This service can give your lashes a lush look without the side effects some lash extension services can leave you with.</p>
           <p>The Lash Lift can last 6-8 weeks but can vary person to person.</p>
-          
-                Lash Lift
-                $125
-            
+
+          <p>Lash Lift: &nbsp; $125</p>
+
           <p>&nbsp;</p>
         </div>
       </PageContent>

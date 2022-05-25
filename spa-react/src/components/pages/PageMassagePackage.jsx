@@ -28,44 +28,50 @@ const PageMassagePackage = () => {
                                 <h6>Single Session</h6>
                               </td>
                               <td colspan="2">
-                                <h6>Packages</h6>
+                                <h6>&nbsp; &nbsp; Packages</h6>
                               </td>
                             </tr>
                             <tr>
-                              <td>Minutes</td>
-                              <td>Price</td>
-                              <td>Package</td>
-                              <td>Price</td>
+                              <td><b>Minutes</b></td>
+                              <td><b>Price</b></td>
+                              <td>&nbsp; &nbsp;<b>Package</b></td>
+                              <td>&nbsp; &nbsp;<b>Price</b></td>
+                              <td><b>Save</b></td>
                             </tr>
                             <tr>
                               <td>30</td>
-                              <td>75</td>
-                              <td>Package of 6 (savings of 30)</td>
-                              <td><em>420</em></td>
+                              <td>$75</td>
+                              <td>Pkg of 6</td>
+                              <td>&nbsp; &nbsp;<em>$420</em></td>
+                              <td>$30</td>
                             </tr>
                             <tr>
                               <td>45</td>
-                              <td>90</td>
-                              <td>Package of 6 (savings of 48)</td>
-                              <td><em>492</em></td>
+                              <td>$90</td>
+                              <td>Pkg of 6</td>
+                              <td>&nbsp; &nbsp;<em>$492</em></td>
+                              <td>$48</td>
                             </tr>
                             <tr>
                               <td>60</td>
-                              <td>105</td>
-                              <td>Package of 6 (savings of 60)</td>
-                              <td><em>570</em></td>
+                              <td>$105</td>
+                              <td>Pkg of 6</td>
+                              <td>&nbsp; &nbsp;<em>$570</em></td>
+                              <td>$60</td>
                             </tr>
                             <tr>
                               <td>75</td>
-                              <td>130</td>
-                              <td>Package of 6 (savings of 90)</td>
-                              <td><em>690</em></td>
+                              <td>$130</td>
+                              <td>Pkg of 6</td>
+                              <td>&nbsp; &nbsp;<em>$690</em></td>
+                              <td>$90</td>
                             </tr>
                             <tr>
                               <td>90</td>
-                              <td>155</td>
-                              <td>Package of 6 (savings of 120)</td>
-                              <td><em>810</em></td>
+                              <td>$155</td>
+                              <td>Pkg of 6</td>
+                              <td>&nbsp; &nbsp;<em>$810</em></td>
+                              <td>$120</td>
                             </tr>
                           </tbody>
                         </table>
@@ -81,40 +87,46 @@ const PageMassagePackage = () => {
                               </td>
                             </tr>
                             <tr>
-                              <td>Minutes</td>
-                              <td>Price</td>
-                              <td>Package</td>
-                              <td>Price</td>
+                              <td><b>Minutes</b></td>
+                              <td><b>Price</b></td>
+                              <td><b>Package</b></td>
+                              <td><b>Price</b></td>
+                              <td><b>Save</b></td>
                             </tr>
                             <tr>
                               <td>30</td>
-                              <td>85</td>
-                              <td>Package of 6 (savings of 30)</td>
-                              <td><em>480</em></td>
+                              <td>$85</td>
+                              <td>Pkg of 6</td>
+                              <td><em>$480</em></td>
+                              <td>$30</td>
                             </tr>
                             <tr>
                               <td>45</td>
-                              <td>105</td>
-                              <td>Package of 6 (savings of 42)</td>
-                              <td><em>588</em></td>
+                              <td>$105</td>
+                              <td>Pkg of 6</td>
+                              <td><em>$588</em></td>
+                              <td>$42</td>
                             </tr>
                             <tr>
                               <td>60</td>
-                              <td>120</td>
-                              <td>Package of 6 (savings of 60)</td>
-                              <td><em>660</em></td>
+                              <td>$120</td>
+                              <td>Pkg of 6</td>
+                              <td><em>$660</em></td>
+                              <td>$60</td>
                             </tr>
                             <tr>
                               <td>75</td>
-                              <td>145</td>
-                              <td>Package of 6 (savings of 90)</td>
-                              <td><em>780</em></td>
+                              <td>$145</td>
+                              <td>Pkg of 6</td>
+                              <td><em>$780</em></td>
+                              <td>$90</td>
                             </tr>
                             <tr>
                               <td>90</td>
-                              <td>170</td>
-                              <td>Package of 6 (savings of 120)</td>
-                              <td><em>900</em></td>
+                              <td>$170</td>
+                              <td>Pkg of 6</td>
+                              <td><em>$900</em></td>
+                              <td>$120</td>
                             </tr>
                           </tbody>
                         </table>

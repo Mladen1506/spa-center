@@ -33,11 +33,12 @@ const PageCelluliteBody = () => {
                         <tbody>
                           <tr>
                             <td>Individual treatment (45-minutes)</td>
-                            <td>130</td>
+                            <td>$130</td>
                           </tr>
                           <tr>
-                            <td>Package of 6 (savings of 120 )</td>
-                            <td><em>660</em></td>
+                            <td>Package of 6</td>
+                            <td><em>$660</em></td>
+                            <td>(Save $120)</td>
                           </tr>
                         </tbody>
                       </table>
