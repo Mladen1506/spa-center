@@ -5,19 +5,19 @@ const PageLaserWomen = () => {
   return (
     <Page>
       <PageContent>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           <h3>Women's Laser Hair Removal</h3>
           <p>If you are considering laser hair removal, please see the discounts and special packages in our downloadable brochure.</p>
           <p>If you are beginning treatment on an area for the first time, we recommend five sessions of laser treatments on the same body area in order to see the best results. As a convenience for our clients, we offer economical hair removal packages. When you purchase a women’s laser hair removal package for any area of the body, you receive five sessions for the price of four. After five sessions, we offer maintenance pricing each time you come in for a “touch-up.”</p>
         </div>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           <h3>Men's Laser Hair Removal</h3>
           <p>If you are considering laser hair removal, please see the discounts and special packages in our downloadable brochure.</p>
           <p>If you are beginning treatment on an area for the first time, we recommend five sessions of laser treatments on the same body area in order to see the best results. As a convenience for our clients, we offer economical laser hair removal packages. When you purchase a men’s laser hair removal package for any area of the body, you receive five sessions for the price of four. After five sessions, we offer maintenance pricing, each time you come in for a “touch-up.”</p>
         </div>
-        <div class="fl-rich-text">
+        <div className="fl-rich-text">
           <p>&nbsp;</p>
-          <table class="table table-bordered">
+          <table className="table table-bordered">
             <tbody>
               <tr>
                 <td colspan="4">

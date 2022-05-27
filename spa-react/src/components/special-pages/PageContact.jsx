@@ -27,9 +27,9 @@ const PageContact = (props) => {
 
   return (
     <>
-      <section className="image-large">
+      {/* <section className="image-large">
         <ImageCover2 src={parallaxImage1} />
-      </section>
+      </section> */}
       {/* <ImageCover src={imagesFolderUrl("cover1.png")} alt="Spa services" /> */}
       <Page>
         <PageContent>
