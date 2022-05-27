@@ -13,7 +13,7 @@ const PageTinting = () => {
           <p>Brow: $30</p>
           <p>Lash &amp; Brow $60</p> */}
 
-          <table class="table table-bordered">
+          <table className="table table-bordered">
             <tbody>
               <tr>
                 <td>Lashes</td>

@@ -13,7 +13,7 @@ const PageHome = (props) => {
   const image4 =
     "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
 
-  const parallaxImage1 = imagesFolderUrl('massage8.jpeg');
+  const parallaxImage1 = imagesFolderUrl('orchid-bg3.jpeg');
   const parallaxImage2 = imagesFolderUrl("massage6.jpeg");
   const parallaxImage3 = imagesFolderUrl("spa-test1.jpeg");
 
@@ -39,26 +39,19 @@ const PageHome = (props) => {
           <div className="inner">
             <div className="container">
               <div className="row">
-                <div className="col-12 col-md-6">
-                  <div className="teaser">
+                <div className="col-12">
+                  <div className="teaser teaser-welcome">
                     <div className="teaser-body">
                       <h4>Welcome</h4>
                       <p>At Azure Dream Spa we connect your inner peace with your body, mind, and spirit.</p>
                       <p>We invite you to visit us at our <a href="/About-Us/Contact-Us">location</a> in the heart of Arlington, VA, and indulge yourself at our luxurious yet cozy day spa – enjoy pampering, comfort, and a sense of belonging.</p>
-                      <p>We offer a full range of services for a perfect spa experience.<br />
-                        <em><a href="/About-Us">Read more...</a></em></p>
+                      <p>We offer a full range of services for a perfect spa experience.</p>
+
+                      <p>Welcome to Azure Dream, where we connect your inner peace with your body, mind, and spirit. We invite you to visit us and indulge yourself at our luxurious yet cozy day spa – enjoy pampering, comfort, and a sense of belonging.</p>
+                      <p>Our professional team is dedicated to each and every one of our clients. We are committed to providing excellent service and a superlative customer experience. Our technicians are highly-trained professionals who offer the best in all med spa services, injectables, laser hair removal, electrolysis, skin care, massage and body treatments, waxing, threading, and lash and brow treatments. Our equipment is new, state-of-the-art technology, delivering results that will satisfy the most discerning clients.</p>
+                      <p>Azure Dream is now located in our brand new luxurious building, located in Northern Arlington, VA, within walking distance from the Ballston Metro.</p>
+                      
                     </div>
-                    <Btn href="/About-Us" handleClick={(e) => { e.preventDefault(); _handleClickRoute('ABOUT') }}>MORE...</Btn>
-                  </div>
-                </div>
-                <div className="col-12 col-md-6">
-                  <div className="teaser">
-                    <div className="teaser-body">
-                      <h4>Visit Azure Dream Day Spa</h4>
-                      <Image left small src={imagesFolderUrl('maindesk1-237x300.jpg')} />
-                      Located on Wilson Blvd., in the heart of Arlington, VA. Our convenient NOVA location is a just minutes from DC and Alexandria -- and less than five minutes walking distance from Courthouse Metro.
-                    </div>
-                    <Btn newTab href={googleMapsDirectionsUrl}>Directions</Btn>
                   </div>
                 </div>
               </div>
@@ -164,16 +157,6 @@ const PageHome = (props) => {
                 <div className="col-12 col-sm-3 col-md-4 col-lg-3"><img className="grid-img" src={imagesFolderUrl('maindesk1-237x300.jpg')} /></div>
               </div>
               <div className="row">
-                <div className="col-12 col-md-6">
-                  <h2>Creative excellence and unparalleled hospitality are the driving forces behind the Muse experience.</h2>
-                </div>
-                <div className="col-12 col-sm-6">
-                  <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-
-                  </div>
-                </div>
-              </div>
-              <div className="row">
                 <div className="col">
                   <Btn href="/gallery" handleClick={(e) => { e.preventDefault(); _handleClickRoute('GALLERY') }}>View more photos</Btn>
                 </div>
@@ -181,23 +164,6 @@ const PageHome = (props) => {
             </div>
           </div>
         </section>
-        {/* 
-
-        <section>
-          <Parallax bgImage={parallaxImage3} strength={250}>
-            <div style={{ height: 700 }}>
-              <div>HTML inside the parallax</div>
-            </div>
-          </Parallax>
-        </section> */}
-
-        {/* <section>
-          <div className="inner">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          </div>
-        </section> */}
-
-
       </div>
     </>
   );
