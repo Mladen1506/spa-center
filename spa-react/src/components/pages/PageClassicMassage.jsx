@@ -28,39 +28,33 @@ const PageClassicMassage = () => {
               </tr>
               <tr>
                 <td>Minutes</td>
-                <td>&nbsp; &nbsp; Price</td>
-                <td>&nbsp; &nbsp; Package</td>
-                <td>&nbsp; Savings</td>
+                <td>Price</td>
+                <td>Pkg Of 6</td>
               </tr>
               <tr>
                 <td>30 Min</td>
-                <td>&nbsp; &nbsp; $75</td>
-                <td>&nbsp; &nbsp; $420 Pkg of 6</td>
-                <td>&nbsp; &nbsp; $30</td>
+                <td>$75</td>
+                <td> $420</td>
               </tr>
               <tr>
                 <td>45 Min</td>
-                <td>&nbsp; &nbsp; $90</td>
-                <td>&nbsp; &nbsp; $492 Pkg of 6</td>
-                <td>&nbsp; &nbsp; $48</td>
+                <td>$90</td>
+                <td>$492</td>
               </tr>
               <tr>
                 <td>60 Min</td>
-                <td>&nbsp; &nbsp; $105</td>
-                <td>&nbsp; &nbsp; $570 Pkg of 6</td>
-                <td>&nbsp; &nbsp; $60</td>
+                <td>$105</td>
+                <td>$570</td>
               </tr>
               <tr>
                 <td>75 Min</td>
-                <td>&nbsp; &nbsp; $130</td>
-                <td>&nbsp; &nbsp; $690 Pkg of 6</td>
-                <td>&nbsp; &nbsp; $90</td>
+                <td>$130</td>
+                <td>$690</td>
               </tr>
               <tr>
                 <td>90 Min</td>
-                <td>&nbsp; &nbsp; $155</td>
-                <td>&nbsp; &nbsp; $810 Pkg of 6</td>
-                <td>&nbsp; &nbsp; $120</td>
+                <td>$155</td>
+                <td>$810</td>
               </tr>
             </tbody>
           </table>

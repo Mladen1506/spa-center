@@ -29,7 +29,6 @@ const PageMicroDermabrasion = () => {
               <tr>
                 <td>Package of 6</td>
                 <td> $720</td>
-                <td>(Save $120)</td>
               </tr>
               <tr>
                 <td>One-hour facial &amp; micro-dermabrasion</td>

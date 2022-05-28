@@ -33,11 +33,11 @@ const PageBasicBotanical = (props) => {
                 <td>$160</td>
               </tr>
               <tr>
-                <td>Pkg of 6</td>
-                <td>-</td>
-                <td>$720 (Save $90)</td>
+                <td>Package Of 6</td>
                 <td></td>
-                <td>-</td>
+                <td>$720</td>
+                <td></td>
+                <td></td>
               </tr>
             </tbody>
           </table>

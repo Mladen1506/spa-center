@@ -439,14 +439,14 @@ const routes = [
     route: 'HYDRAFACIAL_MEMBERSHIP',
     breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'FACIAL_PACKAGES', 'HYDRAFACIAL_MENU'],
     level: 4,
-    title: 'Hydrafacial Membership',
+    title: 'Hydrafacial Packages And Pricing',
     hasChildren: false,
   },
   {
     route: 'HYDRAFACIAL_TAKE_HOME',
     breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'FACIAL_PACKAGES', 'HYDRAFACIAL_MENU'],
     level: 4,
-    title: 'Hydrafacial Take Home Guidelines',
+    title: 'Signature Hydrafacial Packages',
     hasChildren: false,
   },
   {

@@ -65,10 +65,10 @@ const PagePamperYourself = () => {
             </tbody>
           </table>
           <p>&nbsp;</p>
-          <h6>Azure Dream Deluxe Facial</h6>
+          <h6><b>Azure Dream Deluxe Facial</b></h6>
           <p>Spoil yourself (or someone special!) with our most complete skin care service: the Azure Dream Deluxe Facial. During your facial, you’ll be treated to a facial massage and extractions, tailored specifically to your needs. Depending on your skin, our aesthetician will select the Éminence Organic Peel that is suitable to your skins needs -- every Éminence peel is full of delicious goodness that will gently but effectively begin the exfoliation process, enabling the ingredients to penetrate deeper into skin to deliver their nourishing effects. The detoxifying, refining, and clarifying benefits of the peel will be augmented by a micro-dermabrasion treatment to remove old, dead skin cells. You’ll be amazed at how this potent and effective facial acts to reveal your freshest and most luminous skin.</p>
-          <p>Azure Dream Deluxe Facial (75 minutes)&nbsp; &nbsp;$265</p>
-          <p>Package of 6&nbsp;$1410 (<em>savings of $180 </em>)</p>
+          <p>Azure Dream Deluxe Facial (75 minutes):&nbsp; &nbsp;$265</p>
+          <p>Package of 6:&nbsp;$1410</p>
           <h3>Combine any one of our facials with an add-on:</h3>
           <p>Scalp massage $30</p>
           <p>Organic hand exfoliation $20</p>
