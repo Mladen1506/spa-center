@@ -29,13 +29,13 @@ const PageMagicFix = () => {
               </tr>
               <tr>
                 <td>Package of 4*</td>
-                <td>$600(Save $60)</td>
-                <td>$720(Save $60)</td>
+                <td>$600</td>
+                <td>$720</td>
               </tr>
               <tr>
                 <td>Package of 8*</td>
-                <td><em>$1120 (Save $200)</em></td>
-                <td><em>$1360 (Save $200)</em></td>
+                <td><em>$1120</em></td>
+                <td><em>$1360</em></td>
               </tr>
             </tbody>
           </table>

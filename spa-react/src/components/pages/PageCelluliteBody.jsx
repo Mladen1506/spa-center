@@ -19,35 +19,10 @@ const PageCelluliteBody = () => {
               </div>
             </div>
           </div>
-          <div className="DnnModule DnnModule-DNN_HTML DnnModule-547">
-            <div className="LightSeaGreen01_style">
-              <div className="LightSeaGreen01_top_bg">
-                <h3 className="c_icon">Pricing</h3>
-                <div className="clear_float"></div>
-              </div>
-              <div className="c_content_style">
-                <div id="dnn_ctr547_ContentPane" className="LightSeaGreen01_content">
-                  <div id="dnn_ctr547_ModuleContent" className="DNNModuleContent ModDNNHTMLC">
-                    <div id="dnn_ctr547_HtmlModule_lblContent" className="Normal">
-                      <table className="table table-bordered">
-                        <tbody>
-                          <tr>
-                            <td>Individual treatment (45-minutes)</td>
-                            <td>$130</td>
-                          </tr>
-                          <tr>
-                            <td>Package of 6</td>
-                            <td><em>$660</em></td>
-                            <td>(Save $120)</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+              <h6>Individual treatment (45-minutes):$130</h6>
+
+          <h6>Package of 6: $660</h6>
+
         </div>
       </PageContent>
     </Page>

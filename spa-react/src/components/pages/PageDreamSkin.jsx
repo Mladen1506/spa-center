@@ -33,29 +33,27 @@ const PageDreamSkin = (props) => {
                 <td>Minutes</td>
                 <td>Price</td>
                 <td>Pkg of 6</td>
-                <td>Savings</td>
               </tr>
               <tr>
-                <td>$30</td>
+                <td>30 Min</td>
                 <td>$125</td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>$45</td>
+                <td>45 Min</td>
                 <td>$145</td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>$60</td>
+                <td>60 Min</td>
                 <td>$165</td>
                 <td>$900</td>
-                <td>$150</td>
               </tr>
               <tr>
-                <td>75</td>
-                <td>185</td>
+                <td>75 Min</td>
+                <td>$185</td>
                 <td></td>
                 <td></td>
               </tr>

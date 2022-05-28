@@ -8,32 +8,63 @@ const PageHydrafacialTakeHome = (props) => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h3>Take-Home Guidelines</h3>
+          <h3><b>Signature HydraFacial Body Treatments</b></h3>
+          <p>Extend the benefits of the HydraFacial treatment to other parts of the body to deeply cleanse, exfoliate, extract, and
+            hydrate the skin. Additional savings are available when adding on to a Signature HydraFacial treatment.</p>
+          <p><b>Neck and Décolleté</b> (10 min.)</p>
+          <p>Stand-alone price $129<br />
+            Add-on price with Signature HydraFacial $95</p>
 
-          <p>HydraFacialTM is the only hydradermabrasion procedure that combines cleansing, extraction and hydration simultaneously, resulting in clearer, more beautiful skin with little-to-no downtime.</p>
-          <p>The treatment is soothing, moisturizing, non-invasive and generally non-irritating. As with most procedures, visible results from HydraFacial will vary from person to person.</p>
-          <h6><b>What to Expect During and Immediately After Treatment</b></h6>
-          <p>Your skin may experience temporary irritation, tightness, or redness. These are all normal reactions that typically resolve within 72 hours depending on skin sensitivity.</p>
-          <p>You may experience tingling and stinging during the treatment area. These sensations generally subside within three hours of treatment.</p>
-          <p>Client experiences may vary. Some people may experience a delayed onset of the previously mentioned symptoms. Contact us immediately if any unusual side effects occur or if symptoms worsen over time.</p>
-          <h6><b>Next Steps</b></h6>
-          <p>You will likely see results immediately after treatment and your skin will feel smooth and hydrated for one to four weeks. For improved, longer lasting results, consider take-home products and monthly HydraFacial treatments.</p>
-          <p>The treatment area is more susceptible to sunburn, sun damage and hyperpigmentation. Avoid direct sun exposure and use a minimum of SPF 40 sunscreen.</p>
-          <p>Aggressive exfoliation, waxing and products containing acids should be avoided in the treatment area for a minimum of two weeks pre- and post-treatment. Avoid the use of Retin-A type products pre- and post-treatment.</p>
-          <p>Avoid the use of Retin-A type products pre- and post-treatment.</p>
-          <h6><b>Good Skincare Through a Healthy Lifestyle</b></h6>
-          <p>Maintain your skin health by following the below recommendations.</p>
-          <p>• Drink plenty of water <br />
-          • Eat a balanced diet <br />
-          • Take a daily vitamin <br />
-          • Exercise regularly <br />
-          • Get plenty of sleep <br />
-          • Avoid smoking <br />
-          • Avoid tanning beds <br />
-          • Minimize alcohol consumption <br />
-          • Manage daily stress</p>
+          <p><b>Hands</b> (no extractions, no Beta-HD) (15 min.)</p>
+          <p>Stand-alone price $59<br />
+            Add-on price with Signature HydraFacial: $40</p>
 
-          <p>Contact us at (800) 603-4996 if your symptoms appear to worsen or if you have any questions about your treatment.</p>
+          <p><b>Arms</b> (no extractions, no Beta-HD) (15 min.)</p>
+          <p>Stand-alone price $199<br />
+            Add-on price with Signature HydraFacial $125</p>
+
+          <p><b>Back Signature</b> (30 min.)</p>
+          <p>Stand-alone price $250 <br />
+            Add-on price with Signature HydraFacial $215</p>
+
+          <p><b>Back Clarifying</b> (60 min.)</p>
+          <p>Stand-alone price $295 <br />
+            Add-on price with Signature HydraFacial $260</p>
+
+          <h3><b>HydraFacial Lymphatic Therapy</b></h3>
+          <p>Optimize skin health by encouraging detoxification through mechanical lymphatic therapy. Skin will feel
+            healthy and radiant from the inside-out.</p>
+
+          <p><b>Facial Lymphatic</b></p>
+          <p>Stand-alone price $120<br />
+            Add-on price with Signature HydraFacial $75</p>
+
+          <p><b>Arm</b></p>
+          <p>Stand-alone price $65<br />
+            Add-on price with Signature HydraFacial $40</p>
+
+          <p><b>Abdomen</b></p>
+          <p>Stand-alone price $75<br />
+            Add-on price with Signature HydraFacial $50</p>
+
+          <p><b>Leg</b></p>
+          <p>Stand-alone price $65<br />
+            Add-on price with Signature HydraFacial $40</p>
+
+          <p><b>Back</b></p>
+          <p>Stand-alone price $75<br />
+            Add-on price with Signature HydraFacial $50</p>
+
+          <h3><b>HydraFacial LED Light Therapy</b></h3>
+          <p>Use LED Red and Blue lights to enhance your HydraFacial treatment. Blue lights target and kill p. acnes bacteria to help congested and oily skin.</p>
+
+          <p><b>Face (Red and Blue LED at the same time)</b></p>
+          <p>Stand-alone price $75 <br />
+            Add-on price with Signature HydraFacial $50</p>
+
+          <p><b>Back (Blue LED)</b></p>
+          <p>Stand-alone price $80 <br />
+            Add-on price with Signature HydraFacial $45</p>
         </div>
       </PageContent>
     </Page>
