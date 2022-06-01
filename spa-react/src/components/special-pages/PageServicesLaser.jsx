@@ -2,10 +2,7 @@ import { useState } from "react";
 import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
-import PageAquaGold from "../pages/PageAquaGold";
-import PageIPL from "../pages/PageIPL";
 import PageLaserMan from "../pages/PageLaserMan";
-import PageVenusViva from "../pages/PageVenusViva";
 import PageWomenLaser from "../pages/PageWomenLaser";
 import WidgetExpandable from "../WidgetExpandable";
 

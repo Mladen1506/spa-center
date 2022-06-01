@@ -3,7 +3,6 @@ import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
 import PageElectrolysis from "../pages/PageElectrolysis";
-import PageLaserWomen from "../pages/PageLaser";
 import WidgetExpandable from "../WidgetExpandable";
 import PageServicesLaser from "./PageServicesLaser";
 
