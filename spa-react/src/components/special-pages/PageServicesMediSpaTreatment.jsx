@@ -4,9 +4,16 @@ import Page from "../Page";
 import PageContent from "../PageContent";
 import PageAquaGold from "../pages/PageAquaGold";
 import PageCapillaryRepair from "../pages/PageCapillaryRepair";
+import PageCo2 from "../pages/PageCo2";
 import PageDiscoloration from "../pages/PageDiscoloration";
+import PageErbium from "../pages/PageErbium";
+import PageForma from "../pages/PageForma";
+import PageHighFrequency from "../pages/PageHighFrequency";
 import PageLaserSkinTightening from "../pages/PageLaserSkinTightening";
 import PageMicroNeedling from "../pages/PageMicroNeedling";
+import PageMorpheus from "../pages/PageMorpheus";
+import PageVaginal from "../pages/PageVaginal";
+import PageVascular from "../pages/PageVascular";
 import WidgetExpandable from "../WidgetExpandable";
 import PageServicesMediSpaTreatmentVenusConcept from "./PageServicesMediSpaTreatmentVenusConcept";
 
@@ -42,6 +49,34 @@ const PageServicesMediSpaTreatment = (props) => {
         
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MICRO_NEEDLING'} expandableLevel={2}>
           <PageMicroNeedling />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MORPHEUS_8'} expandableLevel={2}>
+          <PageMorpheus />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'ERBIUM'} expandableLevel={2}>
+          <PageErbium />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'VASCULAR'} expandableLevel={2}>
+          <PageVascular />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'VAGINAL_REJUVENATION'} expandableLevel={2}>
+          <PageVaginal />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'FORMA'} expandableLevel={2}>
+          <PageForma />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'CO_2'} expandableLevel={2}>
+          <PageCo2 />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HIGH_FREQUENCY_FACIAL'} expandableLevel={2}>
+          <PageHighFrequency />
         </WidgetExpandable>
 
 

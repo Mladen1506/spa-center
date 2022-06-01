@@ -5,6 +5,7 @@ import PageContent from "../PageContent";
 import PageElectrolysis from "../pages/PageElectrolysis";
 import PageLaserWomen from "../pages/PageLaser";
 import WidgetExpandable from "../WidgetExpandable";
+import PageServicesLaser from "./PageServicesLaser";
 
 
 const PageServicesHairRemoval = (props) => {
@@ -17,7 +18,7 @@ const PageServicesHairRemoval = (props) => {
         {/* <h3>Massage</h3> */}
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASER'} expandableLevel={2} >
-          <PageLaserWomen />
+          <PageServicesLaser />
         </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'ELECTROLYSIS'} expandableLevel={2} >

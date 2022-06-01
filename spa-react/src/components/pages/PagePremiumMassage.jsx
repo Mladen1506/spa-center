@@ -51,27 +51,27 @@ const PagePremiumMassage = () => {
                 <td>Package Of 6</td>
               </tr>
               <tr>
-                <td>30</td>
+                <td>30 Min</td>
                 <td>$85</td>
                 <td>$480</td>
               </tr>
               <tr>
-                <td>45</td>
+                <td>45 Min</td>
                 <td>$105</td>
                 <td>$588</td>
               </tr>
               <tr>
-                <td>60</td>
+                <td>60 Min</td>
                 <td>$120</td>
                 <td>$660</td>
               </tr>
               <tr>
-                <td>75</td>
+                <td>75 Min</td>
                 <td>$145</td>
                 <td>$780</td>
               </tr>
               <tr>
-                <td>90</td>
+                <td>90 Min</td>
                 <td>$170</td>
                 <td>$900</td>
               </tr>

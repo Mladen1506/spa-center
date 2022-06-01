@@ -49,7 +49,7 @@ const PageHome = (props) => {
 
                       <p>Welcome to Azure Dream, where we connect your inner peace with your body, mind, and spirit. We invite you to visit us and indulge yourself at our luxurious yet cozy day spa – enjoy pampering, comfort, and a sense of belonging.</p>
                       <p>Our professional team is dedicated to each and every one of our clients. We are committed to providing excellent service and a superlative customer experience. Our technicians are highly-trained professionals who offer the best in all med spa services, injectables, laser hair removal, electrolysis, skin care, massage and body treatments, waxing, threading, and lash and brow treatments. Our equipment is new, state-of-the-art technology, delivering results that will satisfy the most discerning clients.</p>
-                      <p>Azure Dream is now located in our brand new luxurious building, located in Northern Arlington, VA, within walking distance from the Ballston Metro.</p>
+                      <p>Azure Dream is now located in our brand new luxurious building, in Northern Arlington, VA, within walking distance from the Ballston Metro.</p>
                       
                     </div>
                   </div>
