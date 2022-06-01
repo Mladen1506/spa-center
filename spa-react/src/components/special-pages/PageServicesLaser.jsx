@@ -23,7 +23,7 @@ const PageServicesLaser = (props) => {
           <PageWomenLaser />
         </WidgetExpandable>
 
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MAN'} expandableLevel={3} >
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEN'} expandableLevel={3} >
           <PageLaserMan />
         </WidgetExpandable>
 
