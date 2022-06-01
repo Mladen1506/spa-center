@@ -24,27 +24,27 @@ const PageElectrolysis = () => {
           <table>
             <tbody>
               <tr>
-                <td>10 minutes</td>
+                <td>10 Min</td>
                 <td>$39</td>
               </tr>
               <tr>
-                <td>15 minutes</td>
+                <td>15 Min</td>
                 <td>$49</td>
               </tr>
               <tr>
-                <td>20 minutes</td>
+                <td>20 Min</td>
                 <td>$59</td>
               </tr>
               <tr>
-                <td>30 minutes</td>
+                <td>30 Min</td>
                 <td>$79</td>
               </tr>
               <tr>
-                <td>45 minutes</td>
+                <td>45 Min</td>
                 <td>$99</td>
               </tr>
               <tr>
-                <td>60 minutes</td>
+                <td>60 Min</td>
                 <td>$119</td>
               </tr>      
             </tbody>

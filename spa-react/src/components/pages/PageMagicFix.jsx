@@ -18,24 +18,27 @@ const PageMagicFix = () => {
           <table className="table table-bordered">
             <tbody>
               <tr>
+                <th>Individual Session*</th>
                 <td></td>
-                <td>45 min</td>
-                <td>60 min</td>
+                <th>Packages</th>
               </tr>
               <tr>
-                <td>Individual treatment*</td>
+                <td>Single Treatment*</td>
+                <td>Price</td>
+                <td>Pkg(4)*</td>
+                <td>Pkg(8)*</td>
+              </tr>
+              <tr>
+                <td>45 Min</td>
                 <td>$165</td>
-                <td>$195</td>
-              </tr>
-              <tr>
-                <td>Package of 4*</td>
                 <td>$600</td>
-                <td>$720</td>
+                <td>$1120</td>
               </tr>
               <tr>
-                <td>Package of 8*</td>
-                <td><em>$1120</em></td>
-                <td><em>$1360</em></td>
+                <td>60 Min</td>
+                <td>$195</td>
+                <td>$720</td>
+                <td>$1360</td>
               </tr>
             </tbody>
           </table>

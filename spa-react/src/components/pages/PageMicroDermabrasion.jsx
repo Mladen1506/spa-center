@@ -36,23 +36,6 @@ const PageMicroDermabrasion = () => {
               </tr>
             </tbody>
           </table>
-          <h6>Add-ons:</h6>
-          <table className="table table-bordered">
-            <tbody>
-              <tr>
-                <td>Neck</td>
-                <td>$30</td>
-              </tr>
-              <tr>
-                <td>Décolletage</td>
-                <td>$45</td>
-              </tr>
-              <tr>
-                <td>Neck &amp; Décolletage</td>
-                <td>$65</td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </PageContent>
     </Page>

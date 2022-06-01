@@ -137,7 +137,14 @@ const routes = [
     route: 'SKINCEUTICAL',
     breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
     level: 3,
-    title: 'Skinceutical',
+    title: 'Skinceutical Chemical Peels',
+    hasChildren: false,
+  },
+  {
+    route: 'ADD_ON',
+    breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+    level: 3,
+    title: 'Add On',
     hasChildren: false,
   },
 
@@ -309,6 +316,55 @@ const routes = [
     title: 'Micro Needling',
     hasChildren: false,
   },
+  {
+    route: 'MORPHEUS_8',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Morpheus 8',
+    hasChildren: false,
+  },
+  {
+    route: 'ERBIUM',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Erbium Yag Resurfacing',
+    hasChildren: false,
+  },
+  {
+    route: 'VASCULAR',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Vascular Treatment',
+    hasChildren: false,
+  },
+  {
+    route: 'VAGINAL_REJUVENATION',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Vaginal Rejuvenation',
+    hasChildren: false,
+  },
+  {
+    route: 'FORMA',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Forma',
+    hasChildren: false,
+  },
+  {
+    route: 'CO_2',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'CO-2',
+    hasChildren: false,
+  },
+  {
+    route: 'HIGH_FREQUENCY_FACIAL',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'High Frequency Facial',
+    hasChildren: false,
+  },
 
   // segment hair removal
 
@@ -327,6 +383,20 @@ const routes = [
     breadcrumbs: ['HOME', 'SERVICES', 'HAIR_REMOVAL'],
     level: 2,
     title: 'Laser',
+    hasChildren: false,
+  },
+  { 
+    route: 'WOMEN',
+    breadcrumbs: ['HOME', 'SERVICES', 'HAIR_REMOVAL', 'LASER'],
+    level: 3,
+    title: 'Women',
+    hasChildren: false,
+  },
+  {
+    route: 'MAN',
+    breadcrumbs: ['HOME', 'SERVICES', 'HAIR_REMOVAL', 'LASER'],
+    level: 3,
+    title: 'Man',
     hasChildren: false,
   },
   {

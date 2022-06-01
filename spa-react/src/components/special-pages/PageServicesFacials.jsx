@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
+import PageAddOn from "../pages/PageAddOn";
 import PageBasicBotanical from "../pages/PageBasicBotanical";
 import PageDreamSkin from "../pages/PageDreamSkin";
 import PageMagicFix from "../pages/PageMagicFix";
@@ -42,6 +43,10 @@ const PageServicesFacials = (props) => {
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'SKINCEUTICAL'} expandableLevel={2}>
           <PageSkinceuticals />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'ADD_ON'} expandableLevel={2}>
+          <PageAddOn />
         </WidgetExpandable>
 
 
