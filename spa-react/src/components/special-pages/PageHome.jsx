@@ -32,6 +32,9 @@ const PageHome = (props) => {
       <div className="page-home">
         <section className="image-large">
           <ImageCover2 src={parallaxImage1} />
+          <div className="logo-big">
+            <div className="logo-bg-img"></div>
+          </div>
         </section>
 
 

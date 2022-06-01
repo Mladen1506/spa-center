@@ -393,10 +393,10 @@ const routes = [
     hasChildren: false,
   },
   {
-    route: 'MAN',
+    route: 'MEN',
     breadcrumbs: ['HOME', 'SERVICES', 'HAIR_REMOVAL', 'LASER'],
     level: 3,
-    title: 'Man',
+    title: 'Men',
     hasChildren: false,
   },
   {

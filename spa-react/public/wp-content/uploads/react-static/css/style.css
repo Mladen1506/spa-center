@@ -453,8 +453,39 @@ footer a:link {
 }
 
 .page-body section {
+  position: relative;
   overflow: hidden;
   margin-bottom: 2.5rem;
+}
+.page-body section.image-large .logo-big {
+  display: none;
+}
+.page-is-home .page-body section.image-large .logo-big {
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  bottom: 40%;
+  left: 50%;
+}
+.page-is-home .page-body section.image-large .logo-big .logo-bg-img {
+  height: 200px;
+  width: 360px;
+  background-image: url("/wp-content/uploads/react-static/img/logo-azure1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* filter: grayscale(1); */
+  border-radius: 100%;
+}
+@media screen and (max-width: 768px) {
+  .page-is-home .page-body section.image-large .logo-big {
+    bottom: 10%;
+    right: 10%;
+  }
+  .page-is-home .page-body section.image-large .logo-big .logo-bg-img {
+    height: 100px;
+    width: 180px;
+  }
 }
 
 .page-inner {
@@ -482,16 +513,15 @@ footer a:link {
   .page-inner {
     padding: 1rem;
   }
-  
+
   .expandable .page-inner {
     padding: 0px;
   }
-  
+
   .page-inner .page-content {
     max-width: unset;
   }
 }
-
 
 /* ---------FILE002 header.css */
 
@@ -506,7 +536,7 @@ footer a:link {
   flex-wrap: nowrap;
 }
 
-.wrapper > header .logo .img {
+.wrapper > header .logo img {
   display: none;
 }
 
@@ -518,6 +548,9 @@ footer a:link {
   background-size: cover;
   background-repeat: no-repeat;
   /* filter: grayscale(1); */
+}
+.page-is-home .wrapper > header .logo .logo-bg-img {
+  display: none;
 }
 
 .wrapper > header .logo .logo-bg-img:hover {
@@ -779,7 +812,6 @@ a.btn:hover {
 .expandable .breadcrumbs {
   display: none;
 }
-
 
 .services-bg {
   background-image: url(/wp-content/uploads/react-static/img/white-orchid-bg.jpg);

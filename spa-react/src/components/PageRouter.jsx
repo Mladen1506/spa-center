@@ -11,12 +11,21 @@ import PageTerms from "./special-pages/PageTerms";
 import PagePrivacyPolicy from "./special-pages/PagePrivacyPolicy";
 import PageAbout from "./special-pages/PageAbout";
 import PageGiftCertificates from "./special-pages/PageGiftCertificates";
+import { useEffect } from "react";
 
 
 const PageRouter = (props) => {
 
   // const route = 'HOME';
   const route = useSelector(state => state.route);
+
+  useEffect(()=>{
+    if (route === 'HOME') {
+      document.body.classList.add("page-is-home"); // js
+    } else {
+      document.body.classList.remove("page-is-home"); // js
+    }
+  }, [route]);
 
   let jsx = null;
   jsx = (
