@@ -13,46 +13,47 @@ const PageWomenLaser = () => {
 
         <div className="fl-rich-text">
           <p>&nbsp;</p>
-          <table className="table table-bordered">
+          <table class="table table-bordered">
             <tbody>
               <tr>
                 <td colspan="4">
-                  <h3>WOMEN PRICING</h3>
+                  <h3>FOR WOMEN</h3>
                 </td>
               </tr>
               <tr>
                 <td>Area: One of the areas listed*</td>
                 <td>Package Price of 5</td>
-                <td>Single Touch up with us after using package</td>
+                <td>Single Touch Up With Us After Using Package</td>
                 <td>Single Treatment</td>
               </tr>
               <tr>
-                <td>Lip &amp; lower lip,<br />
-                  Chin &amp; under chin,<br />
-                  Lip/Chin,<br />
+                <td>Lip &amp; Chin,<br />
+                  Chin &amp; Under Chin,<br />
                   Side Burns,<br />
-                  Neck (Front or Back),<br />
-                  Nostrils,&nbsp;Unibrow,<br />
+                  Nostrils,<br />
+                  Unibrow,<br />
                   Ears</td>
-                <td>&nbsp;$250</td>
-                <td>&nbsp;$75</td>
+                <td>&nbsp;$295</td>
                 <td>&nbsp;$95</td>
+                <td>&nbsp;$135</td>
               </tr>
               <tr>
                 <td>Ab Line,<br />
                   Hands &amp; Fingers,<br />
                   Feet &amp; Toes,<br />
                   Areolas</td>
-                <td>&nbsp;$250</td>
-                <td>&nbsp;$75</td>
+                <td>&nbsp;$295</td>
                 <td>&nbsp;$95</td>
+                <td>&nbsp;$135</td>
               </tr>
               <tr>
-                <td>Under Arms,<br />
-                  Bikini Line</td>
-                <td>&nbsp;$350</td>
-                <td>&nbsp;$85</td>
+                <td>Underarms,<br />
+                  Bikini Line,<br />
+                  Front of Neck,<br />
+                  Back of Neck</td>
+                <td>&nbsp;$395</td>
                 <td>&nbsp;$125</td>
+                <td>&nbsp;$145</td>
               </tr>
               <tr>
                 <td>AC</td>
@@ -63,36 +64,32 @@ const PageWomenLaser = () => {
               <tr>
                 <td>Forearm &amp; Hands,<br />
                   Chest,<br />
-                  Half brazilian,</td>
-                <td>&nbsp;$680</td>
-                <td>&nbsp;$155</td>
+                  Half Brazilian</td>
+                <td>&nbsp;$750</td>
                 <td>&nbsp;$195</td>
+                <td>&nbsp;$245</td>
               </tr>
               <tr>
                 <td>Full face,<br />
                   Full Brazilian,<br />
                   Buttocks,<br />
                   Abdomen,<br />
-                  Half of Back,<br />
-                  Lower Half Leg &amp; Knees,<br />
-                  Full arm &amp; hand</td>
-                <td>&nbsp;$790</td>
-                <td>&nbsp;$185</td>
+                  Lower Back,<br />
+                  Lower Half Legs,<br />
+                  Full arms</td>
+                <td>&nbsp;$950</td>
                 <td>&nbsp;$235</td>
+                <td>&nbsp;$295</td>
               </tr>
               <tr>
-                <td>Upper Legs<br />
-                  Full Legs<br />
-                  Full Legs &amp; Toes</td>
-                <td>$1000<br />
-                  $1450<br />
-                  $1599</td>
-                <td>$230<br />
-                  $290<br />
-                  $310</td>
-                <td>$275<br />
-                  $380<br />
-                  $400</td>
+                <td>Upper Legs,<br />
+                  Full Legs</td>
+                <td>&nbsp;$1250<br />
+                  &nbsp;$1550</td>
+                <td>&nbsp;$275<br />
+                  &nbsp;$375</td>
+                <td>&nbsp;$375<br />
+                  &nbsp;$450</td>
               </tr>
             </tbody>
           </table>

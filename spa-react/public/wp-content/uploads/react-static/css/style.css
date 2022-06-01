@@ -1272,6 +1272,7 @@ a.btn:hover {
 
 .page-content table tr th,
 .page-content table tr td {
+  border: 1px solid black;
   padding-right: 0.3rem;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
