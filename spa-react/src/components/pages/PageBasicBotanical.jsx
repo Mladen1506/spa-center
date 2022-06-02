@@ -7,21 +7,21 @@ const PageBasicBotanical = (props) => {
     <Page>
       <PageContent>
         <div className="c_title">
-          <h3>Eminence Botanical Facial</h3>
+          <h5>Eminence Botanical Facial</h5>
           <p>Featuring our most advanced skin care products from the organic and skin-friendly Éminence collection, our Botanical Facial includes skin analysis, pore stimulation with a steamed towel, cleansing, extractions, exfoliation, massage, and a finishing masque. This treatment is designed to target and improve specific skin conditions, such as dryness, clogged pores, and loss of elastin and collagen.</p>
-          <h6>Results:</h6>
+          <h5>Results:</h5>
           <ul>
             <li>Firmer, brighter, and replenished skin</li>
             <li>Reduced sun damage, discoloration, acne, and blemishes</li>
             <li>Cell turnover and promotion of collagen and elastin growth</li>
           </ul>
-          <h3>Pricing</h3>
+          <h5>Botanical Facial Pricing:</h5>
           <table className="table table-bordered">
             <tbody>
               <tr>
                 <td>Minutes</td>
-                <td>Botanical Facial</td>
-                <td>Package(6)</td>
+                <td>Price</td>
+                <td>Package Of 6</td>
               </tr>
               <tr>
                 <td>30 Min</td>

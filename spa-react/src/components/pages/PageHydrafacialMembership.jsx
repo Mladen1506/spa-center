@@ -8,7 +8,7 @@ const PageHydrafacialMembership = (props) => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h3><b>SIGNATURE HYDRAFACIAL</b></h3>
+          <h5>SIGNATURE HYDRAFACIAL</h5>
           <p>Deeply cleanse, extract, and hydrate the skin through our super serums filled with antioxidants, peptides, and hyaluronic acid.</p>
 
           <table className="table table-bordered">
@@ -48,9 +48,9 @@ const PageHydrafacialMembership = (props) => {
           </table>
 
 
-          <h3><b>DELUXE HYDRAFACIAL</b></h3>
+          <h5>DELUXE HYDRAFACIAL</h5>
           <p>These invigorating treatments include all of the essentials of the Signature HydraFacial while addressing specific skin concerns through HydraFacial’s boosters and protocols.</p>
-          <p><b>Restorative</b></p>
+          <h5>Restorative</h5>
           <p>Add CTGF™ to improve the appearance of skin tone, texture, and elasticity.</p>
 
           <table className="table table-bordered">
@@ -89,7 +89,7 @@ const PageHydrafacialMembership = (props) => {
             </tbody>
           </table><br></br>
 
-          <p><b>Age-Refinement</b></p>
+          <h5>Age-Refinement</h5>
           <p>Add a DermaBuilder™ boost to reduce the appearance of fine lines and wrinkles.</p>
           <table className="table table-bordered">
             <tbody>
@@ -127,7 +127,7 @@ const PageHydrafacialMembership = (props) => {
             </tbody>
           </table><br></br>
 
-          <p><b>Radiance</b></p>
+          <h5>Radiance</h5>
           <p>Add a Britenol® Boost to minimize the appearance of dark spots.</p>
           <table className="table table-bordered">
             <tbody>
@@ -165,7 +165,7 @@ const PageHydrafacialMembership = (props) => {
             </tbody>
           </table><br></br>
 
-          <p><b>Clarifying</b></p>
+          <h5>Clarifying</h5>
           <p>Extended Extractions and add Blue LED Light Therapy to remove congestion.</p>
           <table className="table table-bordered">
             <tbody>
@@ -203,7 +203,7 @@ const PageHydrafacialMembership = (props) => {
             </tbody>
           </table><br></br>
 
-          <h3><b>60-MIN. PLATINUM HYDRAFACIAL</b></h3>
+          <h5><b>60-MIN. PLATINUM HYDRAFACIAL</b></h5>
           <p>The ultimate HydraFacial experience. Begin the detoxification process with Lymphatic Drainage. Follow with the Signature HydraFacial to deeply cleanse, extract and hydrate the skin. Address specific skin concerns with a booster of your choice. This treatment concludes with LED Light Therapy to further reduce the visible signs of aging.</p>
 
           <table className="table table-bordered">

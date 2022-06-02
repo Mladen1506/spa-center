@@ -45,10 +45,6 @@ const PageHome = (props) => {
                 <div className="col-12">
                   <div className="teaser teaser-welcome">
                     <div className="teaser-body">
-                      <h4>Welcome</h4>
-                      <p>At Azure Dream Spa we connect your inner peace with your body, mind, and spirit.</p>
-                      <p>We invite you to visit us at our <a href="/About-Us/Contact-Us">location</a> in the heart of Arlington, VA, and indulge yourself at our luxurious yet cozy day spa – enjoy pampering, comfort, and a sense of belonging.</p>
-                      <p>We offer a full range of services for a perfect spa experience.</p>
 
                       <p>Welcome to Azure Dream, where we connect your inner peace with your body, mind, and spirit. We invite you to visit us and indulge yourself at our luxurious yet cozy day spa – enjoy pampering, comfort, and a sense of belonging.</p>
                       <p>Our professional team is dedicated to each and every one of our clients. We are committed to providing excellent service and a superlative customer experience. Our technicians are highly-trained professionals who offer the best in all med spa services, injectables, laser hair removal, electrolysis, skin care, massage and body treatments, waxing, threading, and lash and brow treatments. Our equipment is new, state-of-the-art technology, delivering results that will satisfy the most discerning clients.</p>

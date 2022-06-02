@@ -6,9 +6,9 @@ const PageMicroOmbreTouchUps = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h3>Microblading or Ombre Shading Touch-ups</h3>
+          <h5>Microblading or Ombre Shading Touch-ups</h5>
           <p>Since microblading is a multi-step process, it is recommended to return for a touch-up enhancement to perfect the color, shape, and density of the brows, for the very best results. In addition to your initial session, it is recommended that you receive annual touch-ups to retain your ideal brow shape and pigmentation.</p>
-          <p><strong>Touch-up Pricing for Microblading and Permanent Makeup&nbsp;</strong></p>
+          <h5>Touch-up Pricing for Microblading and Permanent Makeup</h5>
           <ul>
             <li>Up to 3 months after previous procedure - $150</li>
             <li>Up to 6 months after previous procedure - $200-250</li>
