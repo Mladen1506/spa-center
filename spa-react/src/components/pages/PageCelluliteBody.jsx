@@ -10,9 +10,9 @@ const PageCelluliteBody = () => {
             <div className="LightSeaGreen01_style">
               <div className="LightSeaGreen01_top_bg">
                 <div className="c_title">
-                  <h3 className="c_titles"><span id="dnn_ctr468_dnnTITLE_titleLabel" className="c_title_LightSeaGreen">Cellulite Body Wrap</span></h3>
+                  <h5 className="c_titles"><span id="dnn_ctr468_dnnTITLE_titleLabel" className="c_title_LightSeaGreen">Cellulite Body Wrap</span></h5>
                 </div>
-                <div className="clear_float">Cocoon yourself in our luxurious body wrap. &nbsp;Enjoy softer, firmer, silkier skin -- along with the added benefit of cellulite reduction.</div>
+                <div className="clear_float">Cocoon yourself in our luxurious body wrap. &nbsp;Enjoy softer, firmer, silkier skin - along with the added benefit of cellulite reduction.</div>
               </div>
               <div className="c_footer">
                 <div className="c_footer_l"></div>

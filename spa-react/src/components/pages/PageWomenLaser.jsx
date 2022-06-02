@@ -6,9 +6,13 @@ const PageWomenLaser = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h3>Women's Laser Hair Removal</h3>
-          <p>If you are considering laser hair removal, please see the discounts and special packages in our downloadable brochure.</p>
-          <p>If you are beginning treatment on an area for the first time, we recommend five sessions of laser treatments on the same body area in order to see the best results. As a convenience for our clients, we offer economical hair removal packages. When you purchase a women’s laser hair removal package for any area of the body, you receive five sessions for the price of four. After five sessions, we offer maintenance pricing each time you come in for a “touch-up.”</p>
+          <h5>Women's Laser Hair Removal</h5>
+          <p>Azure Dream offers safe and affordable laser hair removal for men and women – of all skin tones. If you have been considering laser treatments, we invite you to come in for a complimentary consultation. We use only the latest technology, the Candela Gentle Max Pro and the Rohrer Aesthetics laser, which allows us to treat all skin tones, from pale to dark.</p>
+
+          <h5>The Process Of Laser Hair Removal</h5>
+          <p>A focused beam of light emitted by laser is absorbed only through pigments located in the hair follicle. The light is pulsed for a fraction of a second – long enough to disable the hair follicle, but no so long that excess heat is transferred to the skin surrounding the hair.</p>
+
+
         </div>
 
         <div className="fl-rich-text">
@@ -17,7 +21,7 @@ const PageWomenLaser = () => {
             <tbody>
               <tr>
                 <td colspan="4">
-                  <h3>FOR WOMEN</h3>
+                  <h6>LASER PRICES FOR WOMEN</h6>
                 </td>
               </tr>
               <tr>
@@ -76,7 +80,7 @@ const PageWomenLaser = () => {
                   Abdomen,<br />
                   Lower Back,<br />
                   Lower Half Legs,<br />
-                  Full arms</td>
+                  Full Arms</td>
                 <td>&nbsp;$950</td>
                 <td>&nbsp;$235</td>
                 <td>&nbsp;$295</td>
@@ -93,6 +97,22 @@ const PageWomenLaser = () => {
               </tr>
             </tbody>
           </table>
+          <h5>Restrictions</h5>
+
+          <p>As with any process, laser hair removal is not perfectly suited to everyone. Below are some points you may wish to consider and speak about during your consultation:</p>
+
+          <ul>
+            <li>Immediately after treatment, skin may be red. Pain is generally mild and transient. Side effects are uncommon and temporary.</li>
+            <li>Laser is effective on dark hair only. Blond, gray, red, and peach fuzz will be unaffected by laser treatments.</li>
+            <li>The number of treatments and frequency of visits may vary among individual</li>
+            <li>For best results, always shave the day of treatment. If you are coming in for a consultation, please avoid shaving, so our technician can accurately evaluate your needs and establish your treatment plan.</li>
+            <li>Again, results are individual. Some candidates respond better than others. On average, a 70-80% reduction in hair can be expected after five treatments.</li>
+          </ul>
+          <ol>
+            <li>On the day of your treatment, it is important to shave the area to be lasered before your appointment. Failure to shave may result in an extra charge.</li>
+            <li>Packages are a cost-effective choice for clients who wish to commit to repeated treatments. However, if you later decide not to complete the total number of treatments in the package, each session will be charged at the individual rate, rather than the package rate.</li>
+            <li>Cancellation or rescheduled appointments with less than 24 hours’ notice may incur a fee.</li>
+          </ol>
         </div>
       </PageContent>
     </Page>

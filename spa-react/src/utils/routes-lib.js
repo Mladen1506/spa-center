@@ -407,6 +407,17 @@ const routes = [
     hasChildren: false,
   },
 
+  // segment nails
+
+  {
+    route: 'NAILS',
+    breadcrumbs: ['HOME', 'SERVICES'],
+    level: 2,
+    title: 'Nails',
+    hasChildren: false,
+  },
+
+
   // segment permanent makeup
 
   {

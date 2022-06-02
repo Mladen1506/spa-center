@@ -8,63 +8,94 @@ const PageHydrafacialTakeHome = (props) => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h3><b>Signature HydraFacial Body Treatments</b></h3>
+          <h5>Signature HydraFacial Body Treatments</h5>
           <p>Extend the benefits of the HydraFacial treatment to other parts of the body to deeply cleanse, exfoliate, extract, and
             hydrate the skin. Additional savings are available when adding on to a Signature HydraFacial treatment.</p>
-          <p><b>Neck and Décolleté</b> (10 min.)</p>
-          <p>Stand-alone price $129<br />
-            Add-on price with Signature HydraFacial $95</p>
+          <h5>Neck and Décolleté (10 min.)</h5>
 
-          <p><b>Hands</b> (no extractions, no Beta-HD) (15 min.)</p>
-          <p>Stand-alone price $59<br />
-            Add-on price with Signature HydraFacial: $40</p>
 
-          <p><b>Arms</b> (no extractions, no Beta-HD) (15 min.)</p>
-          <p>Stand-alone price $199<br />
-            Add-on price with Signature HydraFacial $125</p>
+          <ul>
+            <li>Stand-alone price $129</li>
+            <li>Add-on price with Signature HydraFacial $95</li>
+          </ul>
 
-          <p><b>Back Signature</b> (30 min.)</p>
-          <p>Stand-alone price $250 <br />
-            Add-on price with Signature HydraFacial $215</p>
+          {/* <ul>
+            <li></li>
+            <li></li>
+          </ul> */}
 
-          <p><b>Back Clarifying</b> (60 min.)</p>
-          <p>Stand-alone price $295 <br />
-            Add-on price with Signature HydraFacial $260</p>
+          <h5>Hands(No extractions, No Beta-HD) (15 min.)</h5> 
+          <ul>
+            <li>Stand-alone price $59</li>
+            <li>Add-on price with Signature HydraFacial: $40</li>
+          </ul>
 
-          <h3><b>HydraFacial Lymphatic Therapy</b></h3>
+          <h5>Arms (no extractions, no Beta-HD) (15 min.)</h5>
+          <ul>
+            <li>Stand-alone price $199</li>
+            <li>Add-on price with Signature HydraFacial $125</li>
+          </ul>
+
+          <h5>Back Signature (30 min.)</h5>
+          <ul>
+            <li>Stand-alone price $250</li>
+            <li>Add-on price with Signature HydraFacial $215</li>
+          </ul>
+
+          <h5>Back Clarifying (60 min.)</h5>
+          <ul>
+            <li>Stand-alone price $295</li>
+            <li>Add-on price with Signature HydraFacial $260</li>
+          </ul>
+
+          <h5>HydraFacial Lymphatic Therapy</h5>
           <p>Optimize skin health by encouraging detoxification through mechanical lymphatic therapy. Skin will feel
             healthy and radiant from the inside-out.</p>
 
-          <p><b>Facial Lymphatic</b></p>
-          <p>Stand-alone price $120<br />
-            Add-on price with Signature HydraFacial $75</p>
+          <h5>Facial Lymphatic</h5>
+          <ul>
+            <li>Stand-alone price $120</li>
+            <li>Add-on price with Signature HydraFacial $75</li>
+          </ul>
 
-          <p><b>Arm</b></p>
-          <p>Stand-alone price $65<br />
-            Add-on price with Signature HydraFacial $40</p>
+          <h5>Arm</h5>
+          <ul>
+            <li>Stand-alone price $65</li>
+            <li>Add-on price with Signature HydraFacial $40</li>
+          </ul>
 
-          <p><b>Abdomen</b></p>
-          <p>Stand-alone price $75<br />
-            Add-on price with Signature HydraFacial $50</p>
+          <h5>Abdomen</h5>
+          <ul>
+            <li>Stand-alone price $75</li>
+            <li>Add-on price with Signature HydraFacial $50</li>
+          </ul>
 
-          <p><b>Leg</b></p>
-          <p>Stand-alone price $65<br />
-            Add-on price with Signature HydraFacial $40</p>
+          <h5>Leg</h5>
+          <ul>
+            <li>Stand-alone price $65</li>
+            <li>Add-on price with Signature HydraFacial $40</li>
+          </ul>
 
-          <p><b>Back</b></p>
-          <p>Stand-alone price $75<br />
-            Add-on price with Signature HydraFacial $50</p>
+          <h5>Back</h5>
+          <ul>
+            <li>Stand-alone price $75</li>
+            <li>Add-on price with Signature HydraFacial $50</li>
+          </ul>
 
-          <h3><b>HydraFacial LED Light Therapy</b></h3>
+          <h5>HydraFacial LED Light Therapy</h5>
           <p>Use LED Red and Blue lights to enhance your HydraFacial treatment. Blue lights target and kill p. acnes bacteria to help congested and oily skin.</p>
 
-          <p><b>Face (Red and Blue LED at the same time)</b></p>
-          <p>Stand-alone price $75 <br />
-            Add-on price with Signature HydraFacial $50</p>
+          <h5>Face (Red and Blue LED at the same time)</h5>
+          <ul>
+            <li>Stand-alone price $75</li>
+            <li>Add-on price with Signature HydraFacial $50</li>
+          </ul>
 
-          <p><b>Back (Blue LED)</b></p>
-          <p>Stand-alone price $80 <br />
-            Add-on price with Signature HydraFacial $45</p>
+          <h5>Back (Blue LED)</h5>
+          <ul>
+            <li>Stand-alone price $80</li>
+            <li>Add-on price with Signature HydraFacial $45</li>
+          </ul>
         </div>
       </PageContent>
     </Page>

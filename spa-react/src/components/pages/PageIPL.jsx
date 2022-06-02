@@ -8,9 +8,8 @@ const PageIPL = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h3>IPL Photo-Facial</h3>
-          <h1>INTENSE PULSED LIGHT (IPL) WITH SMARTPULSE™</h1>
-          <div className="subtitle">Photorejuvenation/photofacial, acne treatment</div>
+          <h5>INTENSE PULSED LIGHT (IPL) WITH SMARTPULSE™</h5>
+          <div className="subtitle"><h5>Photorejuvenation/photofacial, acne treatment</h5></div>
           <Image right small src={imagesFolderUrl("pages/smartpulse_device1.jpeg")} alt="smart pulse device" />
           <p>Venus Versa uses Intense Pulsed Light (IPL) technology to deliver direct but gentle bursts of energy to skin. Venus Versa IPL treatments are proven to significantly improve the appearance of fine lines, wrinkles, pore size, textural irregularities, and vascular and pigmentation blemishes in over 80% of cases.</p>
           <p>Venus Versa IPL treatments direct IPL energy that passes through the outer surface of the skin called epidermis and penatrates into the lower layer called dermis, where it stimulates a cell called a fibroblast to produce new collagen. Over several treatments this new collagen softens and smoothes the appearance of wrinkes, outsized pores, and textural irregularities.</p>

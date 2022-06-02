@@ -5,6 +5,7 @@ import { imagesFolderUrl } from "../../utils/url-lib";
 import ImageCover2 from "../ImageCover2";
 import Page from "../Page";
 import PageContent from "../PageContent";
+import PageNails from "../pages/PageNails";
 import WidgetExpandable from "../WidgetExpandable";
 import PageServicesBrowAndLash from "./PageServicesBrowAndLash";
 import PageServicesFacials from "./PageServicesFacials";
@@ -55,6 +56,10 @@ const PageServices = (props) => {
 
             <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} >
               <PageServicesHairRemoval />
+            </WidgetExpandable>
+
+            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'NAILS'} >
+              <PageNails />
             </WidgetExpandable>
 
             <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PERMANENT_MAKEUP'} >

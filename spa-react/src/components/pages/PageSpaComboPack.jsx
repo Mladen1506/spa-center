@@ -9,7 +9,7 @@ const PageSpaComboPack = () => {
           <div className="fl-module fl-module-rich-text fl-node-5e1b6baadafcf" data-node="5e1b6baadafcf">
             <div className="fl-module-content fl-node-content">
               <div className="fl-rich-text">
-                <h3>Spa Combination Packages</h3>
+                <h5>Spa Combination Packages</h5>
                 <p>How do you pamper yourself and save money? Book a spa package. With several to choose from, select the perfect combination of beauty, relaxation, and luxury.</p>
               </div>
             </div>
@@ -27,7 +27,7 @@ const PageSpaComboPack = () => {
                 <p><img loading="lazy" className="size-full wp-image-71 alignleft" src="https://azuredreamspa.com/wp-content/uploads/2020/01/packages_deep_blue.jpg" alt="" width="215" height="143" /></p>
                 <p>Escape to azure waters and cerulean skies.</p>
                 <p>When you book a 60-minute lifting facial with blueberry peel, along with a 60-minute Deep Tissue massage, receive a complimentary organic eye treatment.</p>
-                <p><strong>Package price $295</strong> (savings of $35)</p>
+                <p>Package price $295 (savings of $35)</p>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ const PageSpaComboPack = () => {
                 <p><img loading="lazy" className="size-full wp-image-72 alignleft" src="https://azuredreamspa.com/wp-content/uploads/2020/01/packages_forest.jpg" alt="" width="215" height="161" /></p>
                 <p>Lose yourself in the verdant aromas of a forest dream.</p>
                 <p>Enjoy a 60-minute Aroma Touch facial and a 60-minute Aromatherapy massage, and receive a complimentary Aromatherapy scalp massage.</p>
-                <p><strong>Package price $275</strong>(savings of $30)</p>
+                <p>Package price $275 (savings of $30)</p>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const PageSpaComboPack = () => {
                 <p><img loading="lazy" className="size-full wp-image-74 alignleft" src="https://azuredreamspa.com/wp-content/uploads/2020/01/packages_nature_land.jpg" alt="" width="215" height="143" /></p>
                 <p>Let yourself be enveloped in natural beauty.</p>
                 <p>Combine a 45-minute Customizable Dream Facial with a 60-minute Stress Relief massage, and receive a complimentary Aromatherapy scalp massage.</p>
-                <p><strong>Package price $255</strong>(savings of $30)</p>
+                <p>Package price $255(savings of $30)</p>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ const PageSpaComboPack = () => {
                 <p><img loading="lazy" className="size-full wp-image-73 alignleft" src="https://azuredreamspa.com/wp-content/uploads/2020/01/packages_mystic_path.jpg" alt="" width="216" height="161" /></p>
                 <p>Step lightly and leave the day’s cares behind.</p>
                 <p>Enjoy our 60-minute Signature Magic Fix Facial and your choice of either a 60-minute foot reflexology session or Swedish massage, and receive a complimentary aromatherapy scalp massage.</p>
-                <p><strong>Package price $300</strong>(savings of $30)</p>
+                <p>Package price $300 (savings of $30)</p>
               </div>
             </div>
           </div>

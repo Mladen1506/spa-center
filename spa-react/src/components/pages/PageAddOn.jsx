@@ -15,13 +15,13 @@ const PageAddOn = () => {
           <p>Microdermabrasion $65</p>
 
           <h5>Medi Spa Addons</h5>
-          <p>BT $50</p>
+          <p>BT Peel $50</p>
           <p>Chemical Peel $80</p>
           <p>TCA Peel $150</p>
-          <p>LED $50</p>
+          <p>LED Light $50</p>
           <p>Lymphatic Drainage $100</p>
           <p>High Frequency Firming $100</p>
-          <p>Acne $50</p>
+          <p>High Frequency Acne $50</p>
 
           <h5>Hydra Facial Addons</h5>
           <p>Lip $80</p>
