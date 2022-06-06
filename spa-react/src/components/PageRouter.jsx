@@ -12,6 +12,7 @@ import PagePrivacyPolicy from "./special-pages/PagePrivacyPolicy";
 import PageAbout from "./special-pages/PageAbout";
 import PageGiftCertificates from "./special-pages/PageGiftCertificates";
 import { useEffect } from "react";
+import PageOurTeam from "./pages/PageOurTeam";
 
 
 const PageRouter = (props) => {
@@ -47,6 +48,10 @@ const PageRouter = (props) => {
   } else if (route === 'SERVICES') {
     jsx = (
       <PageServices />
+    );
+  } else if (route === 'ARTISTS') {
+    jsx = (
+      <PageOurTeam />
     );
   } else if (route === 'GIFTCARDS') {
     jsx = (

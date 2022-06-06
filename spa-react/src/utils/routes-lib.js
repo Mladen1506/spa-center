@@ -31,7 +31,7 @@ const routes = [
     route: 'ARTISTS',
     breadcrumbs: ['HOME'],
     level: 1,
-    title: 'Artists',
+    title: 'Our Team',
     hasChildren: false,
     slug: '/artists',
   },
@@ -413,7 +413,7 @@ const routes = [
     route: 'NAILS',
     breadcrumbs: ['HOME', 'SERVICES'],
     level: 2,
-    title: 'Nails',
+    title: 'Nail Bar',
     hasChildren: false,
   },
 
@@ -485,7 +485,7 @@ const routes = [
     route: 'PACKAGES',
     breadcrumbs: ['HOME', 'SERVICES'],
     level: 2,
-    title: 'Packages',
+    title: 'Combo Treats',
     hasChildren: false,
   },
 
@@ -554,6 +554,17 @@ const routes = [
     title: 'Laser Packages',
     hasChildren: false,
   },
+
+  // segment occasional offers
+  {
+    route: 'OCCASIONAL',
+    breadcrumbs: ['HOME', 'SERVICES'],
+    level: 2,
+    title: 'Occasional Offers',
+    hasChildren: false,
+  },
+
+
 
 ];
 

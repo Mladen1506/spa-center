@@ -6,6 +6,7 @@ import ImageCover2 from "../ImageCover2";
 import Page from "../Page";
 import PageContent from "../PageContent";
 import PageNails from "../pages/PageNails";
+import PageOccasional from "../pages/PageOccasional";
 import WidgetExpandable from "../WidgetExpandable";
 import PageServicesBrowAndLash from "./PageServicesBrowAndLash";
 import PageServicesFacials from "./PageServicesFacials";
@@ -68,6 +69,10 @@ const PageServices = (props) => {
 
             <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PACKAGES'} >
               <PageServicesPackages />
+            </WidgetExpandable>
+
+            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'OCCASIONAL'} >
+              <PageOccasional />
             </WidgetExpandable>
 
           </div>
