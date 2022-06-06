@@ -31,14 +31,14 @@ const PageMagicFix = () => {
               <tr>
                 <td>45 Min</td>
                 <td>$165</td>
-                <td>$600</td>
-                <td>$1120</td>
+                <td>$620</td>
+                <td>$1160</td>
               </tr>
               <tr>
                 <td>60 Min</td>
                 <td>$195</td>
-                <td>$720</td>
-                <td>$1360</td>
+                <td>$740</td>
+                <td>$1400</td>
               </tr>
             </tbody>
           </table>
