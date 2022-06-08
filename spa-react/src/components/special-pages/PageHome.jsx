@@ -70,6 +70,7 @@ const PageHome = (props) => {
                       <a href="http://mailchi.mp/azuredreamspa/website-special-sy2m9gh2et-363949" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow"><p>Referral Rewards</p></a>
                     </div>
                     <div className="card-body">
+                      <Image left small src={imagesFolderUrl('referal.jpg')} />
                       Refer a friend & earn 10% of their first visit to use as credit toward your own future services.
                     </div>
                   </div>
@@ -80,6 +81,7 @@ const PageHome = (props) => {
                       <a href="https://azuredream.boomtime.com/lgift" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow"><p>Gift Certificates</p></a>
                     </div>
                     <div className="card-body">
+                      <Image left small src={imagesFolderUrl('gift-cards.jpg')} />
                       Give the perfect gift for that special someone!
                     </div>
                   </div>

@@ -496,6 +496,19 @@ footer a:link {
   margin: 0px auto;
 }
 
+.page-inner.page-inner-special {
+  padding: unset;
+  max-width: unset;
+  margin: unset;
+}
+@media screen and (max-width: 768px) {
+  .page-inner.page-inner-special {
+    padding: 1rem;
+    max-width: 960px;
+    margin: 0px auto;
+  }
+}
+
 .page-inner .page-inner {
   float: none;
   padding: 0px;
@@ -816,28 +829,58 @@ a.btn:hover {
 }
 
 .services-bg {
-  background-image: url(/wp-content/uploads/react-static/img/white-orchid-bg.jpg);
+  background-image: url(/wp-content/uploads/react-static/img/spa-wallpapers6.jpg);
   background-position: center top;
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-top: 3rem;
 }
+.services-bg.artists-bg {
+  background-image: url(/wp-content/uploads/react-static/img/spa-wallpapers-our-team.jpg);
+}
 .image-large.image-large-services {
   display: none;
 }
+
+.services-3-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.services-3-columns .left-flex {
+  flex: 1;
+}
+.services-3-columns .right-flex {
+  flex: 15;
+}
+@media screen and (max-width: 768px) {
+  .services-3-columns {
+    display: block;
+  }
+}
+
 .services-widgets-wrapper {
   max-width: 600px;
   padding: 1rem 2rem;
+  padding: 0px 2rem;
   max-width: calc(600px + 2rem);
   background-color: white;
   margin: 0px auto;
+  margin: 0px;
+}
+.page-content-wrapper {
+  background-color: white;
+    padding: 1rem 2rem;
 }
 @media (max-width: 768px) {
   .image-large.image-large-services {
     display: block;
   }
-  .services-bg {
+  .services-bg,
+  .services-bg.artists-bg {
     background-image: none;
     padding-top: 0px;
   }
@@ -847,6 +890,9 @@ a.btn:hover {
     background-color: white;
     margin: 0px auto;
   }
+  .page-content-wrapper {
+    padding: 1rem;
+}
 }
 
 /* WIDGET EXPANDABLE */
@@ -866,12 +912,19 @@ a.btn:hover {
   font-weight: 300;
   text-transform: uppercase;
   padding: 0rem 0.7em;
+  margin: 0px -2rem;
   cursor: pointer;
 }
 
 .widget-expandable header:hover {
   background-color: #e0e0e0;
   opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .widget-expandable header {
+    margin: 0px;
+  }
 }
 
 .widget-expandable.expandable-second-level header,
@@ -1040,6 +1093,7 @@ a.btn:hover {
   border-radius: 4px;
   min-height: 240px;
   margin-bottom: 1.5rem;
+  height: 100%;
 }
 
 .card .card-header {
@@ -1053,8 +1107,24 @@ a.btn:hover {
   border-top: 1px solid #363636;
   background-color: rgb(240, 240, 240);
   padding: 0.8rem 1.1rem;
+  padding-bottom: 0px;
   font-size: 1rem;
   font-weight: 400;
+}
+
+.card .card-body figure {
+  float: left;
+  float: none;
+  margin: 0px;
+  /* margin-right: 1em; */
+  margin-bottom: 0.5em;
+  width: 100%;
+  height: auto;
+}
+
+.card .card-body figure img {
+  width: 100%;
+  height: auto;
 }
 
 /* TEASER */
@@ -1305,6 +1375,5 @@ a.btn:hover {
   font-size: 1.1em;
   margin: 0px;
 }
-
 
 /* --------END-------- */

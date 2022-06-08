@@ -18,7 +18,8 @@ import PageServicesPackages from "./PageServicesPackages";
 import PageServicesPermanentMakeup from "./PageServicesPermanentMakeup";
 
 // const parallaxImage2 = imagesFolderUrl("massage9.png");
-const parallaxImage2 = imagesFolderUrl("white-orchid-bg.jpg");
+// const parallaxImage2 = imagesFolderUrl("pink-orchid-bg.jpg");
+const parallaxImage2 = imagesFolderUrl("spa-wallpapers6.jpg");
 const PageServices = (props) => {
   const { expandedId, _expandSingle } = useExpandSingle();
 
@@ -29,52 +30,56 @@ const PageServices = (props) => {
         <ImageCover2 src={parallaxImage2} />
       </section>
       <div className="services-bg">
-        <div className="page-inner">
-          <div className="services-widgets-wrapper">
+        <div className="page-inner page-inner-special">
+          <div className="services-3-columns">
+            <div className="left-flex"></div>
+            <div className="services-widgets-wrapper">
 
-            {/* <h1>Services</h1> */}
+              {/* <h1>Services</h1> */}
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'FACIALS'} >
-              <PageServicesFacials />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'FACIALS'} >
+                <PageServicesFacials />
+              </WidgetExpandable>
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MASSAGE'} >
-              <PageServicesMassage />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MASSAGE'} >
+                <PageServicesMassage />
+              </WidgetExpandable>
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BODY'} >
-              <PageServicesBody />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BODY'} >
+                <PageServicesBody />
+              </WidgetExpandable>
 
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LASH_BAR'} >
-              <PageServicesBrowAndLash />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LASH_BAR'} >
+                <PageServicesBrowAndLash />
+              </WidgetExpandable>
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEDI_SPA'} >
-              <PageServicesMediSpaTreatment />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEDI_SPA'} >
+                <PageServicesMediSpaTreatment />
+              </WidgetExpandable>
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} >
-              <PageServicesHairRemoval />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} >
+                <PageServicesHairRemoval />
+              </WidgetExpandable>
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'NAILS'} >
-              <PageNails />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'NAILS'} >
+                <PageNails />
+              </WidgetExpandable>
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PERMANENT_MAKEUP'} >
-              <PageServicesPermanentMakeup />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PERMANENT_MAKEUP'} >
+                <PageServicesPermanentMakeup />
+              </WidgetExpandable>
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PACKAGES'} >
-              <PageServicesPackages />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PACKAGES'} >
+                <PageServicesPackages />
+              </WidgetExpandable>
 
-            <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'OCCASIONAL'} >
-              <PageOccasional />
-            </WidgetExpandable>
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'OCCASIONAL'} >
+                <PageOccasional />
+              </WidgetExpandable>
 
+            </div>
+            <div className="right-flex"></div>
           </div>
         </div>
       </div>
