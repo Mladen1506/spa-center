@@ -15,9 +15,9 @@ const PageGiftCertificates = (props) => {
 
   return (
     <>
-      <section className="image-large">
+      {/* <section className="image-large">
         <ImageCover2 src={parallaxImage1} />
-      </section>
+      </section> */}
       <Page>
         <PageContent>
 
