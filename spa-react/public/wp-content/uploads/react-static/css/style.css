@@ -247,6 +247,16 @@ body {
   flex: 1;
 }
 
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -839,6 +849,9 @@ a.btn:hover {
 .services-bg.artists-bg {
   background-image: url(/wp-content/uploads/react-static/img/spa-wallpapers-our-team.jpg);
 }
+.services-bg.about-bg {
+  background-image: url(/wp-content/uploads/react-static/img/spa-wallpapers6.jpg);
+}
 .image-large.image-large-services {
   display: none;
 }
@@ -873,14 +886,15 @@ a.btn:hover {
 }
 .page-content-wrapper {
   background-color: white;
-    padding: 1rem 2rem;
+  padding: 1rem 2rem;
 }
 @media (max-width: 768px) {
   .image-large.image-large-services {
     display: block;
   }
   .services-bg,
-  .services-bg.artists-bg {
+  .services-bg.artists-bg,
+  .services-bg.about-bg {
     background-image: none;
     padding-top: 0px;
   }
@@ -892,7 +906,7 @@ a.btn:hover {
   }
   .page-content-wrapper {
     padding: 1rem;
-}
+  }
 }
 
 /* WIDGET EXPANDABLE */
