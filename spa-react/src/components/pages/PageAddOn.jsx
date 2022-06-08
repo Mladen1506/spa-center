@@ -8,8 +8,8 @@ const PageAddOn = () => {
         <div className="fl-rich-text">
           <h5>Addons</h5>
           <p>Scalp massage $30</p>
-          <p>Organic hand exfoliation $20</p>
-          <p>Organic feet exfoliation $20</p>
+          <p>Organic hand exfoliation $25</p>
+          <p>Organic feet exfoliation $30</p>
           <p>Organic eye treatment $35</p>
           <p>Dermaplaning $45</p>
           <p>Microdermabrasion $65</p>
@@ -33,7 +33,7 @@ const PageAddOn = () => {
           <h5>Micro Dermabrassion Addons</h5>
           <p>Neck $30</p>
           <p>Décolletage $45</p>
-          <p>Neck & Décolletage $65</p>
+          <p>Neck & Décolletage $70</p>
         </div>
       </PageContent>
     </Page>
