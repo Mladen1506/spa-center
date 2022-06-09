@@ -17,21 +17,13 @@ const PageClassicMassage = () => {
           <h5>Foot Reflexology</h5>
           <Image right small src={imagesFolderUrl('pages/foot_refl.jpeg')}/>
           <p>An applied-pressure therapy that stimulates reflex points in the feet that correspond to every organ and system within the body. This detoxifies the body, releases tension, and increases circulation and energy.</p>
-          <h5>Swedish and Foot Reflexology Massage Pricing</h5>
+          <h5>Azure Premium Massages</h5>
           <table className="table table-bordered">
             <tbody>
               <tr>
-                <td colspan="2">
-                  <h6>Single Session</h6>
-                </td>
-                <td colspan="2">
-                  <h6>Package Of 6</h6>
-                </td>
-              </tr>
-              <tr>
                 <td>Minutes</td>
                 <td>Price</td>
-                <td>Price</td>
+                <td>Pkg x 6</td>
               </tr>
               <tr>
                 <td>30 Min</td>

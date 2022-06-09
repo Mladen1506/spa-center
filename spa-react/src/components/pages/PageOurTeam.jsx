@@ -20,7 +20,7 @@ const PageOurTeam = () => {
               <PageContent>
                 <h5>Meet Our Staff</h5>
 
-                <h6>LEILA ESPARI</h6>
+                <h5>LEILA ESPARI</h5>
                 <p><b>Founder & Owner, Azure Dream Day Spa</b></p>
                 <Image left small src={imagesFolderUrl('team-leila.jpeg')} />
                 <p>With a long and successful career in skin care and esthetics, Leila was confident that she could offer her clients the ultimate spa experience if she launched her own business. With this vision as her guide, she began the journey, choosing a convenient location in the heart of Arlington, installing state-of-the-art equipment, and assembling a team of skilled and caring professionals.</p>

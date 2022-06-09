@@ -5,7 +5,9 @@ const PageCoupleMassage = () => {
   return (
     <Page>
       <PageContent>
-        <div>Comming Soon...</div>
+        <div>
+          <h5>Buy a PKG and share or pay regular rate on each type you choose</h5>
+        </div>
       </PageContent>
     </Page>
   );

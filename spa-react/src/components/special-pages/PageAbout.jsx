@@ -5,7 +5,7 @@ import PageContent from "../PageContent";
 
 
 const PageAbout = (props) => {
-  const parallaxImage2 = imagesFolderUrl("spa-wallpapers6.jpg");
+  const parallaxImage2 = imagesFolderUrl("spa-wallpapers-contact.jpg");
   return (
     <>
       <section className="image-large image-large-services">

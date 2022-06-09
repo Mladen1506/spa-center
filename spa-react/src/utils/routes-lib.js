@@ -256,7 +256,7 @@ const routes = [
     route: 'MEDI_SPA',
     breadcrumbs: ['HOME', 'SERVICES'],
     level: 2,
-    title: 'Medi-Spa Treatmant',
+    title: 'Medi-Spa Treatment',
     hasChildren: false,
   },
   //podopcije
@@ -267,13 +267,13 @@ const routes = [
     title: 'Aqua Gold',
     hasChildren: false,
   },
-  {
-    route: 'VENUS_CONCEPT',
-    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
-    level: 3,
-    title: 'Venus Concept',
-    hasChildren: false,
-  },
+  // {
+  //   route: 'VENUS_CONCEPT',
+  //   breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+  //   level: 3,
+  //   title: 'Venus Concept',
+  //   hasChildren: false,
+  // },
   {
     route: 'VENUS_VIVA',
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA', 'VENUS_CONCEPT'],
@@ -477,6 +477,13 @@ const routes = [
     breadcrumbs: ['HOME', 'SERVICES', 'PERMANENT_MAKEUP'],
     level: 2,
     title: 'Lip Liner',
+    hasChildren: false,
+  },
+  {
+    route: 'MAKEUP_TOUCH_UPS',
+    breadcrumbs: ['HOME', 'SERVICES', 'PERMANENT_MAKEUP'],
+    level: 2,
+    title: 'Touch-Ups',
     hasChildren: false,
   },
 

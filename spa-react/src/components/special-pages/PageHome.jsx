@@ -126,7 +126,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Relaxing Escape</h4>
-                      <Image left small src={imagesFolderUrl('daisy-150x150.jpeg')} />
+                      <Image left small src={imagesFolderUrl('spa-wallpapers-relaxing.jpg')} />
                       Enjoy the feeling of serenity as the stress dissipates from your body and mind. <a href="/massage-2/">Massages</a>, <a href="/cellulite-body-wrap/">body wraps</a>, and our decadent <a href="/spa-combo-packages/">spa packages</a> will leave you relaxed and rejuvenated.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>

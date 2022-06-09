@@ -17,21 +17,13 @@ const PageDreamSkin = (props) => {
           <h5>Soothing Field of Arnica</h5>
           <p>Arnica, a botanical belonging to the sunflower, is touted for its anti-inflammatory properties and is often used to reduce swelling, redness and bruising. Arnica is the ingredient that gives this facial its calming effect.</p>
           <h3></h3>
-          <h6>Pricing</h6>
+          <h5>Pricing</h5>
           <table className="table table-bordered">
             <tbody>
               <tr>
-                <td colspan="2">
-                  <h6>Single Session</h6>
-                </td>
-                <td colspan="2">
-                  <h6>Package Of 6</h6>
-                </td>
-              </tr>
-              <tr>
                 <td>Minutes</td>
                 <td>Price</td>
-                <td>Price</td>
+                <td>Pkg x 6</td>
               </tr>
               <tr>
                 <td>30 Min</td>

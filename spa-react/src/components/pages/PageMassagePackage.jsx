@@ -23,17 +23,9 @@ const PageMassagePackage = () => {
                         <table className="table table-bordered">
                           <tbody>
                             <tr>
-                              <td colspan="2">
-                                <h6>Single Session</h6>
-                              </td>
-                              <td colspan="2">
-                                <h6>Package Of 6</h6>
-                              </td>
-                            </tr>
-                            <tr>
                               <td><b>Minutes</b></td>
                               <td><b>Price</b></td>
-                              <td><b>Price</b></td>
+                              <td><b>Pkg x 6</b></td>
                             </tr>
                             <tr>
                               <td>30 Min</td>
@@ -66,17 +58,9 @@ const PageMassagePackage = () => {
                         <table className="table table-bordered">
                           <tbody>
                             <tr>
-                              <td colspan="2">
-                                <h6>Single Session</h6>
-                              </td>
-                              <td colspan="2">
-                                <h6>Package Of 6</h6>
-                              </td>
-                            </tr>
-                            <tr>
                               <td><b>Minutes</b></td>
                               <td><b>Price</b></td>
-                              <td><b>Price</b></td>
+                              <td><b>Pkg x 6</b></td>
                             </tr>
                             <tr>
                               <td>30 Min</td>
