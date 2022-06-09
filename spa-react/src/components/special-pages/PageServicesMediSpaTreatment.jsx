@@ -31,9 +31,9 @@ const PageServicesMediSpaTreatment = (props) => {
           <PageAquaGold />
         </WidgetExpandable>
 
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'VENUS_CONCEPT'} expandableLevel={2} >
+        {/* <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'VENUS_CONCEPT'} expandableLevel={2} >
           <PageServicesMediSpaTreatmentVenusConcept />
-        </WidgetExpandable>
+        </WidgetExpandable> */}
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASER_SKIN_TIGHTENING'} expandableLevel={2}>
           <PageLaserSkinTightening />

@@ -22,11 +22,8 @@ const PageLaserMan = () => {
                 </td>
               </tr>
               <tr>
-                <td></td>
-              </tr>
-              <tr>
                 <td>Area</td>
-                <td>&nbsp;Package Price of 5</td>
+                <td>&nbsp;Pkg x 5</td>
                 <td>&nbsp;Single Touch Up With Us After Using Package</td>
                 <td>&nbsp;Single Treatment</td>
               </tr>

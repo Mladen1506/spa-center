@@ -20,7 +20,7 @@ const PageOrganicBodySpa = () => {
             <div className="LightSeaGreen01_style">
               <div className="LightSeaGreen01_top_bg">
                 <div className="c_title">
-                  <h6 className="c_titles"><span id="dnn_ctr506_dnnTITLE_titleLabel" className="c_title_LightSeaGreen">Pricing</span></h6>
+                  <h5 className="c_titles"><span id="dnn_ctr506_dnnTITLE_titleLabel" className="c_title_LightSeaGreen">Pricing</span></h5>
                 </div>
               </div>
               <div className="c_content_style">
@@ -30,14 +30,16 @@ const PageOrganicBodySpa = () => {
                       <table className="table table-bordered">
                         <tbody>
                           <tr>
-                            <td>45 minutes</td>
-                            <td>&nbsp; &nbsp; 60 minutes</td>
-                            <td>&nbsp; &nbsp; 90 minutes</td>
+                            <td>45 Min</td>
+                            <td>$125</td>
                           </tr>
                           <tr>
-                            <td>$125</td>
-                            <td>&nbsp; &nbsp; $150</td>
-                            <td>&nbsp; &nbsp; $195</td>
+                            <td>60 Min</td>
+                            <td>$150</td>
+                          </tr>
+                          <tr>
+                            <td>90 Min</td>
+                            <td>$195</td>
                           </tr>
                         </tbody>
                       </table>

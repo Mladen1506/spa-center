@@ -19,7 +19,7 @@ const PageMicroDermabrasion = () => {
             <li>Acne and blackheads</li>
           </ul>
           <p>Although results are felt and seen after a single treatment, a series of treatments is recommended for optimum results.</p>
-          <h6>Pricing</h6>
+          <h5>Pricing</h5>
           <table className="table table-bordered">
             <tbody>
               <tr>

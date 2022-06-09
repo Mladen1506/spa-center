@@ -24,21 +24,13 @@ const PagePamperYourself = () => {
 
           <p>So nourishing and pampering, we call it a "facial" for your back. Back Facial  Treatment provides cleansing and exfoliation and extraction, followed by a relaxing massage, and finishes with a masque.</p>
           <p>&nbsp;</p>
-          <h6>Pricing</h6>
+          <h5>Pricing</h5>
           <table className="table table-bordered">
             <tbody>
               <tr>
-                <td colspan="2">
-                  <h6>Single Session</h6>
-                </td>
-                <td colspan="2">
-                  <h6>Package Of 6</h6>
-                </td>
-              </tr>
-              <tr>
                 <td>Minutes</td>
                 <td>Price</td>
-                <td>Price</td>
+                <td>Pkg x 6</td>
 
               </tr>
               <tr>

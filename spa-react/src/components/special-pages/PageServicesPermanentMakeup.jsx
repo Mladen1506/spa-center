@@ -6,6 +6,7 @@ import PageClassicMassage from "../pages/PageClassicMassage";
 import PageCoupleMassage from "../pages/PageCoupleMassage";
 import PageLashEnhancement from "../pages/PageLashEnhancement";
 import PageLipLiner from "../pages/PageLipLiner";
+import PageMakeupTouchUps from "../pages/PageMakeupTouchUps";
 import PageMicroblading from "../pages/PageMicroblading";
 import PageMicrobladingOmbreCombo from "../pages/PageMicrobladingOmbreCombo";
 import PageMicroOmbreTouchUps from "../pages/PageMicroOmbreTouchUps";
@@ -49,6 +50,10 @@ const PageServicesPermanentMakeup = (props) => {
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LIP_LINER'} expandableLevel={2}>
           <PageLipLiner />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MAKEUP_TOUCH_UPS'} expandableLevel={2}>
+          <PageMakeupTouchUps />
         </WidgetExpandable>
 
 

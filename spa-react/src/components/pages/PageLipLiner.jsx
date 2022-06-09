@@ -7,9 +7,9 @@ const PageLipLiner = () => {
       <PageContent>
         <div className="fl-rich-text">
           <h5>Lip Liner</h5>
-          <p>A natural appearing permanent cosmetic lip liner can be applied to give more definition and correct uneven lips, which will result in a fuller appearance. The procedure also helps prevent lipstick from bleeding and can minimize the appearance of wrinkles. Permanent lip liner helps lips look fuller, more symmetrical, better defined, and slightly more pigmented. You can expect it to last for about three years with gradual fading over the course of that time.</p>
+          <p>Create better defined, fuller, and more symmetrical lips with this treatment, which also prevents lipstick from bleeding and can minimize the appearance of wrinkles. You can expect it to last for about three years with gradual fading over the course of that time.</p>
           <p>$350</p>
-          <p>&nbsp;</p>
+          <p>*Includes one touch up only 3 weeks after treatment</p>
         </div>
       </PageContent>
     </Page>

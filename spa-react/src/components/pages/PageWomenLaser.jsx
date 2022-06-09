@@ -21,12 +21,12 @@ const PageWomenLaser = () => {
             <tbody>
               <tr>
                 <td colspan="4">
-                  <h6>LASER PRICES FOR WOMEN</h6>
+                  <h5>LASER PRICES FOR WOMEN</h5>
                 </td>
               </tr>
               <tr>
                 <td>Area: One of the areas listed*</td>
-                <td>Package Price of 5</td>
+                <td>Pkg x 5</td>
                 <td>Single Touch Up With Us After Using Package</td>
                 <td>Single Treatment</td>
               </tr>
