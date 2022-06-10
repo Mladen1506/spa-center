@@ -92,6 +92,7 @@ const PageHome = (props) => {
                       <a href="https://mailchi.mp/azuredreamspa/spring-special" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
                     </div>
                     <div className="card-body">
+                      <Image left small src={imagesFolderUrl('special.png')} />
                       Treat yourself or your loved ones to some of our wonderful services!
                     </div>
                   </div>
@@ -126,7 +127,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Relaxing Escape</h4>
-                      <Image left small src={imagesFolderUrl('spa-wallpapers-relaxing.jpg')} />
+                      <Image left small src={imagesFolderUrl('hair-removal-small.jpg')} />
                       Enjoy the feeling of serenity as the stress dissipates from your body and mind. <a href="/massage-2/">Massages</a>, <a href="/cellulite-body-wrap/">body wraps</a>, and our decadent <a href="/spa-combo-packages/">spa packages</a> will leave you relaxed and rejuvenated.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
@@ -136,7 +137,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Hair Removal</h4>
-                      <Image left small src={imagesFolderUrl('escape1-150x150.jpeg')} />
+                      <Image left small src={imagesFolderUrl('spa-wallpapers-relaxing.jpg')} />
                       The newest technology has made <a href="/electrolysis/">electrolysis </a>and <a href="/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>

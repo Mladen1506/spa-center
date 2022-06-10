@@ -19,9 +19,9 @@ const PageCelluliteBody = () => {
               </div>
             </div>
           </div>
-              <h6>Individual treatment (45-minutes):$130</h6>
+              <h6>Single treatment:$130</h6>
 
-          <h6>Package of 6: $660</h6>
+          <h6>Package of 6x: $720</h6>
 
         </div>
       </PageContent>

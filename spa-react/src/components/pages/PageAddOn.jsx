@@ -16,8 +16,6 @@ const PageAddOn = () => {
 
           <h5>Medi Spa Addons</h5>
           <p>BT Peel $50</p>
-          <p>Chemical Peel $80</p>
-          <p>TCA Peel $150</p>
           <p>LED Light $50</p>
           <p>Lymphatic Drainage $100</p>
           <p>High Frequency Firming $100</p>

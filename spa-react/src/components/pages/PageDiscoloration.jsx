@@ -10,10 +10,10 @@ const PageDiscoloration = () => {
         <div className="fl-rich-text">
           <h5>Laser Discoloration Removal</h5>
           <p>Skin discoloration can occur naturally as we age, or can be triggered by over exposure to the sun or toxins. This treatment is designed to reduce skin pigmentation – such as sunspots, age spots, and freckles – leaving your skin looking clearer and more even-toned. This service is good for lighter skin tones only. Please call to inquire about our special offers.</p>
-          <Image wide src={imagesFolderUrl("pages/discoloration1-300x135.jpeg")} alt="Laser Discoloration Removal<" />
+          {/* <Image wide src={imagesFolderUrl("pages/discoloration1-300x135.jpeg")} alt="Laser Discoloration Removal<" /> */}
           <p>*Your personal results may vary with this treatment.</p>
-          <h5>Pricing</h5>
-          <table className="table table-bordered">
+          {/* <h5>Pricing</h5> */}
+          {/* <table className="table table-bordered">
             <tbody>
               <tr>
                 <td>Face</td>
@@ -44,7 +44,7 @@ const PageDiscoloration = () => {
                 <td>&nbsp; &nbsp; $300</td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
         </div>
       </PageContent>
     </Page>

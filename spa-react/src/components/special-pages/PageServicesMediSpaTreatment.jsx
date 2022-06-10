@@ -9,6 +9,7 @@ import PageDiscoloration from "../pages/PageDiscoloration";
 import PageErbium from "../pages/PageErbium";
 import PageForma from "../pages/PageForma";
 import PageHighFrequency from "../pages/PageHighFrequency";
+import PageIPL from "../pages/PageIPL";
 import PageLaserSkinTightening from "../pages/PageLaserSkinTightening";
 import PageMicroNeedling from "../pages/PageMicroNeedling";
 import PageMorpheus from "../pages/PageMorpheus";
@@ -31,9 +32,9 @@ const PageServicesMediSpaTreatment = (props) => {
           <PageAquaGold />
         </WidgetExpandable>
 
-        {/* <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'VENUS_CONCEPT'} expandableLevel={2} >
-          <PageServicesMediSpaTreatmentVenusConcept />
-        </WidgetExpandable> */}
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'IPL'} expandableLevel={2} >
+          <PageIPL />
+        </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASER_SKIN_TIGHTENING'} expandableLevel={2}>
           <PageLaserSkinTightening />

@@ -42,13 +42,13 @@ const PagePremiumMassage = () => {
           <h5>Travel Relief</h5>
           <p>For those who need to relieve aches and pains caused by tension from air travel or long car trips, this massage relieves tension by using a combination of hot packs, stretching, and deep-tissue work on legs, back, shoulders, and neck.</p>
 
-          <h5>Azure Premium Massages</h5>
+          <h5>Azure Premium Massage</h5>
           <table className="table table-bordered">
             <tbody>
               <tr>
                 <td>Minutes</td>
                 <td>Price</td>
-                <td>Pkg x 6</td>
+                <td>Pkg 6x</td>
               </tr>
               <tr>
                 <td>30 Min</td>

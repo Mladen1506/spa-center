@@ -21,7 +21,7 @@ const PageBasicBotanical = (props) => {
               <tr>
                 <td>Minutes</td>
                 <td>Price</td>
-                <td>Pkg x 6</td>
+                <td>Pkg 6x</td>
               </tr>
               <tr>
                 <td>30 Min</td>
@@ -30,11 +30,11 @@ const PageBasicBotanical = (props) => {
               <tr>
                 <td>45 Min</td>
                 <td>$120</td>
-                <td>&nbsp; &nbsp; $720</td>
               </tr>
               <tr>
                 <td>60 Min</td>
                 <td>$135</td>
+                <td>&nbsp; &nbsp; $720</td>
               </tr>
               <tr>
                 <td>75 Min</td>
