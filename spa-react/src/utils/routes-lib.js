@@ -267,6 +267,13 @@ const routes = [
     title: 'Aqua Gold',
     hasChildren: false,
   },
+  {
+    route: 'IPL',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'IPL',
+    hasChildren: false,
+  },
   // {
   //   route: 'VENUS_CONCEPT',
   //   breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],

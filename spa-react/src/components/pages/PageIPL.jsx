@@ -20,6 +20,21 @@ const PageIPL = () => {
 
           <p className="pricing-text">Single Session: $650</p>
           <p>&nbsp;</p>
+          <table className="table table-bordered">
+            <tbody>
+              <tr>
+                <td>IPL</td>
+                <td>Single<br />
+                  $550</td>
+                <td>Pkg Of 4x<br />
+                  $1800
+                </td>
+                <td>Pkg Of 6x<br />
+                  $2400
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </PageContent>
     </Page>
