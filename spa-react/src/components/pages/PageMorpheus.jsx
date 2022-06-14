@@ -33,7 +33,7 @@ const PageMorpheus = () => {
             <td>$3900</td>
           </tr>
           <tr>
-            <td><b>Combination Of Morpeus 8 + CO2/Erbium</b></td>
+            <td>Combination Of Morpeus 8 + CO2/Erbium</td>
             <td>$1700</td>
             <td>$4800</td>
           </tr>

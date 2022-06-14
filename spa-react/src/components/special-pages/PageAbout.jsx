@@ -33,7 +33,7 @@ const PageAbout = (props) => {
 
                   <p className="text-right">--- Diane Schmidt*</p>
 
-                  <p>I want express my appreciation for your professional and enjoyable services. My favorite service of yours is your massages. Over the last 4 years, I have averaged a massage every 2 weeks. I keep a list of excellent massage therapists for places I live and travel to across the United States. I have Melissa McCutcheon at the top of my list for Northern Virginia massage therapist. Thank you for your quality and consistency.</p>
+                  <p>I want express my appreciation for your professional and enjoyable services. My favorite service of yours is your massages. Over the last 4 years, I have averaged a massage every 2 weeks. I keep a list of excellent massage therapists for places I live and travel to across the United States. I have Azure Dream at the top of my list for Northern Virginia massage therapist. Thank you for your quality and consistency.</p>
                   <p className="text-right">--- Mark*</p>
                 </div>
               </PageContent>

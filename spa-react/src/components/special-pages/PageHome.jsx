@@ -13,7 +13,7 @@ const PageHome = (props) => {
   const image4 =
     "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
 
-  const parallaxImage1 = imagesFolderUrl('orchid-bg3.jpeg');
+  const parallaxImage1 = imagesFolderUrl('spa-wallpapers-contact.jpg');
   const parallaxImage2 = imagesFolderUrl("pink-orchid1.jpg");
   const parallaxImage3 = imagesFolderUrl("spa-test1.jpeg");
 
@@ -117,7 +117,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Dream Skin</h4>
-                      <Image left small src={imagesFolderUrl('face.jpeg')} />
+                      <Image left small src={imagesFolderUrl('spa-wallpapers-dream-skin.jpg')} />
                       Sample our delicious menu of organic <a href="/facials/">facials</a> and skin care treatments to reveal your sumptuous skin. And, for specific skin care goals, we offer a range of medi-skin care treatments.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
@@ -137,7 +137,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Hair Removal</h4>
-                      <Image left small src={imagesFolderUrl('spa-wallpapers-relaxing.jpg')} />
+                      <Image left small src={imagesFolderUrl('hair-removal.jpeg')} />
                       The newest technology has made <a href="/electrolysis/">electrolysis </a>and <a href="/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
@@ -149,7 +149,7 @@ const PageHome = (props) => {
         </section>
 
 
-        <section className="section-grid-gallery">
+        {/* <section className="section-grid-gallery">
           <div className="inner">
             <div className="container">
               <div className="row">
@@ -165,7 +165,7 @@ const PageHome = (props) => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );

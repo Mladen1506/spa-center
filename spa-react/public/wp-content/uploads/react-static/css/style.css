@@ -473,26 +473,31 @@ footer a:link {
   display: block;
   position: absolute;
   z-index: 9999;
+  top: 5%;
+  left: 5%;
   /* logo pozicija za veliki ekran */
-  bottom: 8%;
-  right: 10%;
+  /* bottom: 8%;
+  right: 10%; */
 }
 .page-is-home .page-body section.image-large .logo-big .logo-bg-img {
   height: 200px;
-  width: 360px;
+  width: 400px;
   /* background-image: url("/wp-content/uploads/react-static/img/logo-azure1.png"); */
-  background-image: url("/wp-content/uploads/react-static/img/logo-azure1-faded.png");
+  /* background-image: url("/wp-content/uploads/react-static/img/logo-azure1-faded.png"); */
+  background-image: url("/wp-content/uploads/react-static/img/logo-providni.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   /* filter: grayscale(1); */
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 @media screen and (max-width: 768px) {
   .page-is-home .page-body section.image-large .logo-big {
+    top: 5%;
+    left: 3%;
     /* logo za mali ekran pozicija */
-    bottom: 8%;
-    right: 3%;
+    /* bottom: 8%;
+    right: 3%; */
   }
   .page-is-home .page-body section.image-large .logo-big .logo-bg-img {
     height: 100px;
