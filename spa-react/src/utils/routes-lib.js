@@ -120,6 +120,13 @@ const routes = [
     hasChildren: false,
   },
   {
+    route: 'AZURE_DREAM',
+    breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+    level: 3,
+    title: 'Azure Dream Deluxe Facial',
+    hasChildren: false,
+  },
+  {
     route: 'MICRO_DERMABRASION',
     breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
     level: 3,
@@ -133,6 +140,54 @@ const routes = [
     title: 'Magic Fix',
     hasChildren: false,
   },
+  {
+    route: 'DERMAPLANING',
+    breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+    level: 3,
+    title: 'Dermaplaning',
+    hasChildren: false,
+  },
+  {
+    route: 'HYDRAFACIALS',
+    breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
+    level: 3,
+    title: 'Hydrafacials',
+    hasChildren: false,
+  },
+
+  // Hydrafacial podopcije
+
+  {
+    route: 'HYDRAFACIAL_MEMBERSHIP',
+    breadcrumbs: ['HOME', 'SERVICES', 'FACIALS', 'HYDRAFACIALS',],
+    level: 4,
+    title: 'Hydrafacial Packages And Pricing',
+    hasChildren: false,
+  },
+  {
+    route: 'HYDRAFACIAL_TAKE_HOME',
+    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'HYDRAFACIALS',],
+    level: 4,
+    title: 'Signature Hydrafacial Packages',
+    hasChildren: false,
+  },
+  {
+    route: 'HYDRAFACIAL',
+    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'HYDRAFACIALS',],
+    level: 4,
+    title: 'Hydrafacial',
+    hasChildren: false,
+  },
+
+  // {
+  //   route: 'HYDRAFACIAL',
+  //   breadcrumbs: ['HOME', 'SERVICES', ''],
+  //   level: 2,
+  //   title: 'Facial ',
+  //   hasChildren: false,
+  // },
+
+
   {
     route: 'SKINCEUTICAL',
     breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
@@ -424,6 +479,14 @@ const routes = [
     hasChildren: false,
   },
 
+  {
+    route: 'HAIR',
+    breadcrumbs: ['HOME', 'SERVICES'],
+    level: 2,
+    title: 'Hair Bar',
+    hasChildren: false,
+  },
+
 
   // segment permanent makeup
 
@@ -505,20 +568,13 @@ const routes = [
 
   // podopcije
 
-  {
-    route: 'SPA_COMBO_PACKAGES',
-    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES'],
-    level: 2,
-    title: 'Spa Combo Packages',
-    hasChildren: false,
-  },
-  {
-    route: 'FACIAL_PACKAGES',
-    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES'],
-    level: 2,
-    title: 'Facial Packages',
-    hasChildren: false,
-  },
+  // {
+  //   route: 'SPA_COMBO_PACKAGES',
+  //   breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES'],
+  //   level: 2,
+  //   title: 'Spa Combo Packages',
+  //   hasChildren: false,
+  // },
 
   /*
   {
@@ -529,45 +585,20 @@ const routes = [
     hasChildren: false,
   },
   */
-
-  {
-    route: 'HYDRAFACIAL_MEMBERSHIP',
-    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'FACIAL_PACKAGES', 'HYDRAFACIAL_MENU'],
-    level: 4,
-    title: 'Hydrafacial Packages And Pricing',
-    hasChildren: false,
-  },
-  {
-    route: 'HYDRAFACIAL_TAKE_HOME',
-    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'FACIAL_PACKAGES', 'HYDRAFACIAL_MENU'],
-    level: 4,
-    title: 'Signature Hydrafacial Packages',
-    hasChildren: false,
-  },
-  {
-    route: 'HYDRAFACIAL',
-    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES', 'FACIAL_PACKAGES', 'HYDRAFACIAL_MENU'],
-    level: 4,
-    title: 'Hydrafacial',
-    hasChildren: false,
-  },
-
-
-
-  {
-    route: 'MASSAGE_PACKAGES',
-    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES'],
-    level: 2,
-    title: 'Massage Packages',
-    hasChildren: false,
-  },
-  {
-    route: 'LASER_PACKAGES',
-    breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES'],
-    level: 2,
-    title: 'Laser Packages',
-    hasChildren: false,
-  },
+  // {
+  //   route: 'MASSAGE_PACKAGES',
+  //   breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES'],
+  //   level: 2,
+  //   title: 'Massage Packages',
+  //   hasChildren: false,
+  // },
+  // {
+  //   route: 'LASER_PACKAGES',
+  //   breadcrumbs: ['HOME', 'SERVICES', 'PACKAGES'],
+  //   level: 2,
+  //   title: 'Laser Packages',
+  //   hasChildren: false,
+  // },
 
   // segment occasional offers
   {

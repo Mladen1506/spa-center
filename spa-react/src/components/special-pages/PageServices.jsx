@@ -5,6 +5,8 @@ import { imagesFolderUrl } from "../../utils/url-lib";
 import ImageCover2 from "../ImageCover2";
 import Page from "../Page";
 import PageContent from "../PageContent";
+import PageComboTreats from "../pages/PageComboTreats";
+import PageHairBar from "../pages/PageHairBar";
 import PageNails from "../pages/PageNails";
 import PageOccasional from "../pages/PageOccasional";
 import WidgetExpandable from "../WidgetExpandable";
@@ -41,6 +43,18 @@ const PageServices = (props) => {
                 <PageServicesFacials />
               </WidgetExpandable>
 
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEDI_SPA'} >
+                <PageServicesMediSpaTreatment />
+              </WidgetExpandable>
+
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} >
+                <PageServicesHairRemoval />
+              </WidgetExpandable>
+
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PERMANENT_MAKEUP'} >
+                <PageServicesPermanentMakeup />
+              </WidgetExpandable>
+
               <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MASSAGE'} >
                 <PageServicesMassage />
               </WidgetExpandable>
@@ -54,24 +68,16 @@ const PageServices = (props) => {
                 <PageServicesBrowAndLash />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEDI_SPA'} >
-                <PageServicesMediSpaTreatment />
-              </WidgetExpandable>
-
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} >
-                <PageServicesHairRemoval />
-              </WidgetExpandable>
-
               <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'NAILS'} >
                 <PageNails />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PERMANENT_MAKEUP'} >
-                <PageServicesPermanentMakeup />
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR'} >
+                <PageHairBar />
               </WidgetExpandable>
 
               <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PACKAGES'} >
-                <PageServicesPackages />
+                <PageComboTreats />
               </WidgetExpandable>
 
               <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'OCCASIONAL'} >
