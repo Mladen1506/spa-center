@@ -6,13 +6,9 @@ const PageWaxingAndThreading = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          {/* <h5>Waxing</h5>
-          <p>A semi-permanent method of hair removal, waxing removes the hair from the root. The service is available for men and women. We offer organic soy wax, hard wax, and honey wax. There is an upcharge when using hard wax. For our clients’ safety and comfort, we always use new spatulas, and fresh wax (we never “double-dip”).</p>
-          <h5>Threading</h5>
-          <p>Threading is an ancient method of hair removal, originating in the Indian and Persian cultures. The technician uses a thin thread, which is rolled over skin, plucking hair from the follicle. Threading is gentle on sensitive skin, and is a fine alternative to waxing.</p> */}
-          <h5>Waxing and Threading Pricing</h5>
+          <h6>Waxing and Threading Pricing</h6>
 
-          <h5>Threading Pricing</h5>
+          <p>Threading Pricing</p>
           <table className="table table-bordered">
             <tbody>
               <tr>
@@ -31,8 +27,8 @@ const PageWaxingAndThreading = () => {
                 <td>Full Face</td>
                 <td>$75</td>
               </tr>
-
-              <h5>Waxing Pricing</h5>
+              <br />
+              <p>Waxing Pricing</p>
 
               <tr>
                 <td>Lip</td>
@@ -88,7 +84,8 @@ const PageWaxingAndThreading = () => {
               </tr>
             </tbody>
           </table>
-          <h5>Additional Waxing Options for Men</h5>
+          <br />
+          <p>Additional Waxing Options for Men</p>
           <table className="table table-bordered">
             <tbody>
               <tr>

@@ -14,7 +14,18 @@ const Image = (props) => {
   }
   
   if (props.small === true) {
+    // ako stavimo atribut small dobijam osliku siroku 200px
     cl += " small200";
+  }
+
+  if (props.small100 === true) {
+    // ako stavimo atribut small dobijam osliku siroku 200px
+    cl += " small100";
+  }
+
+  if (props.small150 === true) {
+    // ako stavimo atribut small dobijam osliku siroku 200px
+    cl += " small150";
   }
 
   let jsxCaption = null;

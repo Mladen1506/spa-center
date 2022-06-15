@@ -6,9 +6,9 @@ const PageLaserSkinTightening = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-            <h5>Picoway Laser</h5>
+            <h6>Picoway Laser</h6>
             <p>It’s time to feel confident in your skin again. PicoWay™ is an advanced laser treatment that effectively removes dark spots, wrinkles, acne scars, and unwanted tattoos. This non-surgical procedure improves upon past technology to give you better results with minimal downtime.</p>
-            <h5>How it Works</h5>
+            <h6>How it Works</h6>
             <p>PicoWay™ uses ultra-short, picosecond pulses of energy to target tattoo ink or natural pigmentation below the surface of the skin. These high-powered pulses will break up the pigment into tiny particles that the body can naturally clear away. PicoWay™ is also used to stimulate the production of collagen and elastin in your complexion, which offers you a younger, fresher look.</p>
             <table>
               <tbody>

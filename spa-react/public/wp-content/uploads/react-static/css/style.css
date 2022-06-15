@@ -474,7 +474,7 @@ footer a:link {
   position: absolute;
   z-index: 9999;
   top: 5%;
-  left: 5%;
+  right: 5%;
   /* logo pozicija za veliki ekran */
   /* bottom: 8%;
   right: 10%; */
@@ -493,15 +493,15 @@ footer a:link {
 }
 @media screen and (max-width: 768px) {
   .page-is-home .page-body section.image-large .logo-big {
-    top: 5%;
-    left: 3%;
+    top: 1%;
+    right: 2%;
     /* logo za mali ekran pozicija */
     /* bottom: 8%;
     right: 3%; */
   }
   .page-is-home .page-body section.image-large .logo-big .logo-bg-img {
-    height: 100px;
-    width: 180px;
+    height: 70px;
+    width: 160px;
   }
 }
 
@@ -851,6 +851,13 @@ a.btn:hover {
   background-attachment: fixed;
   padding-top: 3rem;
 }
+.services-bg.products-bg {
+  background-image: url(/wp-content/uploads/react-static/img/product-bg.jpeg);
+  background-attachment: unset;
+  background-position: center bottom;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
 .services-bg.artists-bg {
   background-image: url(/wp-content/uploads/react-static/img/spa-wallpapers-our-team.jpg);
 }
@@ -899,6 +906,7 @@ a.btn:hover {
   }
   .services-bg,
   .services-bg.artists-bg,
+  .services-bg.products-bg,
   .services-bg.about-bg {
     background-image: none;
     padding-top: 0px;
@@ -913,6 +921,13 @@ a.btn:hover {
     padding: 1rem;
   }
 }
+
+.products-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+
 
 /* WIDGET EXPANDABLE */
 
@@ -1250,8 +1265,9 @@ a.btn:hover {
   font-size: 1em;
   font-weight: 400;
   color: #363636;
+  clear: both;
 }
-.page-content h5 {
+.page-content h6 {
   margin-top: 1em;
   margin-bottom: 0.5em;
   font-size: 1em;
@@ -1335,6 +1351,14 @@ a.btn:hover {
 
 .page-content figure.small200 img {
   max-width: 200px;
+}
+.page-content figure.small150 img {
+  max-width: 150px;
+  min-width: 150px;
+}
+.page-content figure.small100 img {
+  max-width: 100px;
+  min-width: 100px;
 }
 
 .page-content .subtitle {

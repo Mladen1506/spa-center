@@ -13,6 +13,7 @@ import PageAbout from "./special-pages/PageAbout";
 import PageGiftCertificates from "./special-pages/PageGiftCertificates";
 import { useEffect } from "react";
 import PageOurTeam from "./pages/PageOurTeam";
+import PageProducts from "./pages/PageProducts";
 
 
 const PageRouter = (props) => {
@@ -52,6 +53,10 @@ const PageRouter = (props) => {
   } else if (route === 'ARTISTS') {
     jsx = (
       <PageOurTeam />
+    );
+  } else if (route === 'PRODUCTS') {
+    jsx = (
+      <PageProducts />
     );
   } else if (route === 'GIFTCARDS') {
     jsx = (

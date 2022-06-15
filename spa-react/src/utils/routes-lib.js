@@ -192,7 +192,7 @@ const routes = [
     route: 'SKINCEUTICAL',
     breadcrumbs: ['HOME', 'SERVICES', 'FACIALS'],
     level: 3,
-    title: 'Skinceutical Chemical Peels',
+    title: 'Chemical Peel',
     hasChildren: false,
   },
   {

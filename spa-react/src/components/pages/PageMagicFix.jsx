@@ -7,18 +7,16 @@ const PageMagicFix = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h5>Magic Fix™</h5>
+          <h6>Magic Fix™</h6>
           <p>A treatment designed for serious skin conditions, Magic Fix™ includes microdermabrasion and a selection of an Eminence organic peel based on your needs.</p>
           <p>We offer four types of Magic Fix™ treatments:</p>
           <ul>
             <li><b>Crystal Clear</b> - Improve appearance of acne and acne scars</li>
             <li><b>Shine Bright</b> - Helps to lighten hyper-pigmentation</li>
             <li><b>Ageless</b> – stimulates collagen production and promotes a “lifting” effect</li>
-            <li><b>Detox</b> – deep cleansing and nourishing
-
-</li>
+            <li><b>Detox</b> – deep cleansing and nourishing</li>
           </ul>
-          <h5>Magic Fix™ Pricing</h5>
+          <p>Magic Fix™ Pricing</p>
           <table className="table table-bordered">
             <tbody>
               {/* <tr>

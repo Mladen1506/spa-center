@@ -10,14 +10,17 @@ import PageContent from "../PageContent";
 
 
 const PageGiftCertificates = (props) => {
+  
+  useEffect(()=>{
+    window.open('https://azuredream.boomtime.com/lgift', '_blank'); // new tab
+    // window.location.href = 'https://azuredream.boomtime.com/lgift'; // same tab
+  });
+
 
   const parallaxImage1 = imagesFolderUrl('bg2.jpeg');
 
   return (
     <>
-      {/* <section className="image-large">
-        <ImageCover2 src={parallaxImage1} />
-      </section> */}
       <Page>
         <PageContent>
 

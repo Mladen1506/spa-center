@@ -9,16 +9,16 @@ const PageComboTreats = () => {
           <div className="fl-module fl-module-rich-text fl-node-5e1b6baadafcf" data-node="5e1b6baadafcf">
             <div className="fl-module-content fl-node-content">
               <div className="fl-rich-text">
-                <h5>Spa Combination Packages</h5>
+                <h6>Spa Combination Packages</h6>
                 <p>How do you pamper yourself and save money? Book a spa package. With several to choose from, select the perfect combination of beauty, relaxation, and luxury.</p>
               </div>
             </div>
           </div>
           <div className="fl-module fl-module-heading fl-node-5e1b6d818d94e SPack" data-node="5e1b6d818d94e">
             <div className="fl-module-content fl-node-content">
-              <h2 className="fl-heading">
+              <h6 className="fl-heading">
                 <span className="fl-heading-text">Deep Blue Getaway</span>
-              </h2>
+              </h6>
             </div>
           </div>
           <div className="fl-module fl-module-rich-text fl-node-5e1b6da0e39ff SPContent" data-node="5e1b6da0e39ff">
@@ -33,9 +33,9 @@ const PageComboTreats = () => {
           </div>
           <div className="fl-module fl-module-heading fl-node-5e1b71dbac5d6 SPack" data-node="5e1b71dbac5d6">
             <div className="fl-module-content fl-node-content">
-              <h2 className="fl-heading">
+              <h6 className="fl-heading">
                 <span className="fl-heading-text">Aroma Forest Dream</span>
-              </h2>
+              </h6>
             </div>
           </div>
           <div className="fl-module fl-module-rich-text fl-node-5e1b71afd808a SPContent" data-node="5e1b71afd808a">
@@ -50,9 +50,9 @@ const PageComboTreats = () => {
           </div>
           <div className="fl-module fl-module-heading fl-node-5e1b71febed58 SPack" data-node="5e1b71febed58">
             <div className="fl-module-content fl-node-content">
-              <h2 className="fl-heading">
+              <h6 className="fl-heading">
                 <span className="fl-heading-text">Nature Land Escape</span>
-              </h2>
+              </h6>
             </div>
           </div>
           <div className="fl-module fl-module-rich-text fl-node-5e1b71dd28576 SPContent" data-node="5e1b71dd28576">
@@ -67,9 +67,9 @@ const PageComboTreats = () => {
           </div>
           <div className="fl-module fl-module-heading fl-node-5e1b71ab02382 SPack" data-node="5e1b71ab02382">
             <div className="fl-module-content fl-node-content">
-              <h2 className="fl-heading">
+              <h6 className="fl-heading">
                 <span className="fl-heading-text">Mystic Path Way</span>
-              </h2>
+              </h6>
             </div>
           </div>
           <div className="fl-module fl-module-rich-text fl-node-5e1b72005dbba SPContent" data-node="5e1b72005dbba">
