@@ -6,9 +6,9 @@ const PageTinting = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h5>Eyebrow and Eyelash Tinting</h5>
+          <h6>Eyebrow and Eyelash Tinting</h6>
           <p>Add emphasis and enhance your eyes. We use the safest products, and provide an exciting variety of colors. The treatment will last for 6 weeks.</p>
-          <h5>Tinting Pricing</h5>
+          <p>Tinting Pricing</p>
           <table className="table table-bordered">
             <tbody>
               <tr>

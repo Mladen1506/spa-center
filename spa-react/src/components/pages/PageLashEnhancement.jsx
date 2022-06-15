@@ -7,7 +7,7 @@ const PageLashEnhancement = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h5>Lash Enhancement (Lash Liner)</h5>
+          <h6>Lash Enhancement (Lash Liner)</h6>
           <p>Improve the appearance of your eyelashes by adding permanent microdots between each layer of your eyelashes to enhance either your upper or lower lash line to create a natural yet luxuriously full lash base.</p>
           <p>$350</p>
           <p>*Includes one touch up only 3 weeks after treatment</p>

@@ -80,9 +80,10 @@ const Layout = (props) => {
       <footer>
         <div className="inner">
           <div className="social">
-            <a target="_blank" rel="noreferrer" href="https://facebook.com"><div><Icon fa="fa fa-facebook" /></div></a>
-            <a target="_blank" rel="noreferrer" href="https://instagram.com"><div><Icon fa="fa fa-instagram" /></div></a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com"><div><Icon fa="fa fa-twitter" /></div></a>
+            <a target="_blank" rel="noreferrer" href="https://facebook.com/Azure-Dream-Day-Spa-180208402020263"><div><Icon fa="fa fa-facebook" /></div></a>
+            <a target="_blank" rel="noreferrer" href="https://instagram.com/azuredreamdayspa"><div><Icon fa="fa fa-instagram" /></div></a>
+            {/*<a target="_blank" rel="noreferrer" href="https://twitter.com"><div><Icon fa="fa fa-twitter" /></div></a>*/}
+            <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/place/Azure+Dream+Day+Spa/@38.8810702,-77.1095565,17z/data=!4m12!1m6!3m5!1s0x89b7b68834cd164f:0x9fa317dc00da3123!2sAzure+Dream+Day+Spa!8m2!3d38.881066!4d-77.1073678!3m4!1s0x89b7b68834cd164f:0x9fa317dc00da3123!8m2!3d38.881066!4d-77.1073678"><div><Icon fa="fa fa-map-marker" /></div></a>
           </div>
           <div className="columns">
             <div className="column">

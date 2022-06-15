@@ -6,7 +6,7 @@ const PageLashLift = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h5>Lash Lift</h5>
+          <h6>Lash Lift</h6>
           <p>The Lash Lift, also known as a Lash Perm, is targeted towards those with natural long lashes, and instantly gives your lashes lift, separation, and extra definition without the maintenance of eyelash extensions. Lasts 6-8 weeks, but can vary person to person.</p>
           <p>Lash Lift: &nbsp; $125</p>
 

@@ -6,7 +6,7 @@ const PageMicroNeedling = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h5>Pen Precision Micro-Needling</h5>
+          <h6>Pen Precision Micro-Needling</h6>
           <ul>
             <li>Hyaluronic treatment for hydration.</li>
             <li>Acne treatment for clear skin.</li>

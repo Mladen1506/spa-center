@@ -8,20 +8,17 @@ const PageElectrolysis = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h5>What is Electrolysis?</h5>
+          <h6>What is Electrolysis?</h6>
           <p>Electrolysis is a safe and permanent hair removal method approved by the FDA, that provides a targeted solution to undesired hair growth, and it delivers immediate results. It is suitable for both men and women, for all colors and textures of hair, including areas that laser cannot treat.</p>
-          <h5>How Does Electrolysis Work?</h5>
+          <h6>How Does Electrolysis Work?</h6>
           <Image right small src={imagesFolderUrl('pages/Approval-Circle-1in-150x150.jpeg')} alt="Electrolysis Approval Circle" />
           <p>During an electrolysis treatment, a small electric current is transmitted by a fine, disposable probe applied directly into the natural opening of the hair follicle, destroying the mechanism that causes hair to grow and regenerate. Unlike waxing or plucking, electrolysis will halt hair regeneration, leaving the area smooth and hair-free.</p>
 
-          {/* <h5>How Does Electrolysis Work?</h5>
-          <p>During an electrolysis treatment, a small electric current is transmitted by a fine, sterile needle directly into the natural opening of the hair follicle, destroying the mechanism that causes hair to grow and regenerate. Unlike waxing or plucking, electrolysis will halt hair regeneration, leaving the area smooth and hair-free. During a treatment, you may feel a slight sensation as the current penetrates the follicle, but the procedure is pain-free.</p> */}
-
-          <h5>The CPE Credential for Electrologists</h5>
+          <h6>The CPE Credential for Electrologists</h6>
           <Image left small src={imagesFolderUrl('pages/aea_gold_logo.jpeg')} alt="AEA" />
           <p>Leila Espari is a board-certified electrologist and member of the American Electrology Association (AEA). Leila holds the Certified Professional Electrologist (CPE) credential which signifies that a practitioner has knowledge and experience that has been tested and measured against a national standard of excellence. It also means that the practitioner engages in regular continuing education and keeps abreast of industry developments.</p><Image right small src={imagesFolderUrl('pages/cpe-300x300.png')} alt="CPE" />
           <p>A devoted practitioner, Leila has been performing electrology since 1993. She was happy to welcome electrologist Desiree Connor to her team in 2011.  They are dedicated to their clients, highly-skilled, and achieve remarkable results.</p>
-          <h5>Electrolysis Pricing</h5>
+          <p>Electrolysis Pricing</p>
           <table>
             <tbody>
               <tr>

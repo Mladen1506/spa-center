@@ -6,11 +6,11 @@ const PageSkinceuticals = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h5>SkinCeuticals Chemical Peels</h5>
+          <h6>SkinCeuticals Chemical Peels</h6>
           <p>Over time, exposure to sun, pollution, stress, and other environmental aggressors can cause signs of premature aging. Chemical peels improve skin texture and appearance by exfoliating skin's outer layers to reveal newer, healthier-looking skin underneath. SkinCeuticals peels target various skin concerns including fine lines and wrinkles, blemishes, rough texture, dullness, and uneven skin tone.</p>
-          <h5>Smart TCA Peel</h5>
+          <h6>Smart TCA Peel</h6>
           <p>Among the safest chemical peels for all skin types, the Skinceuticals TCA (trichloroacetic acid) Peel produces great results after the very first treatment. This peel removes dead layers of skin, stimulating new cell growth and producing younger looking skin.</p>
-          <p><strong>Results:</strong></p>
+          <p>Results:</p>
           <ul>
             <li>brightens skin complexion</li>
             <li>stimulates new cell growth</li>
@@ -24,9 +24,9 @@ const PageSkinceuticals = () => {
           <p>Package of 3: $900</p>
           <p>TCA Peel with Facial: $425</p>
 
-          <h5>Micropeel 30 - Glycolic Peel</h5>
+          <h6>Micropeel 30 - Glycolic Peel</h6>
           <p>The Skinceuticals Micropeel 30 glycolic peel is designed for those who are looking to reduce the appearance of fine lines, wrinkles, hyperpigmentation, laxity, dullness, and skin imperfections. It works to accelerate cell renewal to reduce signs of photo damage and stimulate collagen synthesis.</p>
-          <p><strong>Results:</strong></p>
+          <p>Results:</p>
           <ul>
             <li>reduces fine lines, wrinkles, dullness</li>
             <li>decreases skin imperfections</li>
@@ -38,9 +38,9 @@ const PageSkinceuticals = () => {
           <p>Package of 3: $660</p>
           <p>Micropeel 30 with Facial: $325</p>
 
-          <h5>Micropeel Plus - Salicylic Peel</h5>
+          <h6>Micropeel Plus - Salicylic Peel</h6>
           <p>The Skinceuticals Micropeel Plus 30 salicylic peel uses a combination of salicylic (30%) and glycolic (3%) acid to reduce acne and help correct environmental skin damage. Suitable for more tolerant skin, this peel dissolves the oily skin coating and removes excess skin cells and debris while improving rough texture, blotchiness, and uneven skin.</p>
-          <p><strong>Results:</strong></p>
+          <p>Results:</p>
           <ul>
             <li>helps control breakouts</li>
             <li>reduces sebum production</li>

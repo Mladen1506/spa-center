@@ -5,7 +5,7 @@ const PageMakeupTouchUps = () => {
   return (
     <Page>
       <PageContent>
-        <h5>Touch-Ups</h5>
+        <h6>Touch-Ups</h6>
         <ul>
           <li>Up to 3 months after previous procedure - $150</li>
           <li>Up to 6 months after previous procedure - $250</li>

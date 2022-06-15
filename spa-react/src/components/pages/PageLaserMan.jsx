@@ -6,10 +6,10 @@ const PageLaserMan = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h5>Men's Laser Hair Removal</h5>
+          <h6>Men's Laser Hair Removal</h6>
           <p>Azure Dream offers safe and affordable laser hair removal for men and women – of all skin tones. If you have been considering laser treatments, we invite you to come in for a complimentary consultation. We use only the latest technology, the Candela Gentle Max Pro and the Rohrer Aesthetics laser, which allows us to treat all skin tones, from pale to dark.</p>
 
-          <h5>The Process Of Laser Hair Removal</h5>
+          <h6>The Process Of Laser Hair Removal</h6>
           <p>A focused beam of light emitted by laser is absorbed only through pigments located in the hair follicle. The light is pulsed for a fraction of a second – long enough to disable the hair follicle, but no so long that excess heat is transferred to the skin surrounding the hair.</p>
         </div>
         <div className="fl-rich-text">
@@ -18,12 +18,12 @@ const PageLaserMan = () => {
             <tbody>
               <tr>
                 <td colspan="4">
-                  <h5>LASER PRICING FOR MEN</h5>
+                  <p>LASER PRICING FOR MEN</p>
                 </td>
               </tr>
               <tr>
                 <td>Area</td>
-                <td>&nbsp;Pkg x 5</td>
+                <td>&nbsp;Pkg 5x</td>
                 <td>&nbsp;Single Touch Up With Us After Using Package</td>
                 <td>&nbsp;Single Treatment</td>
               </tr>
@@ -70,7 +70,7 @@ const PageLaserMan = () => {
               </tr>
             </tbody>
           </table>
-          <h5>Restrictions</h5>
+          <h6>Restrictions</h6>
 
           <p>As with any process, laser hair removal is not perfectly suited to everyone. Below are some points you may wish to consider and speak about during your consultation:</p>
           <ul>

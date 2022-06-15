@@ -5,11 +5,11 @@ const PageOccasional = () => {
   return (
     <Page>
       <PageContent>
-        <h5>AZURE IS WHERE YOU COME WHEN YOU NEED TO GET AWAY, DE-STRESS, FIND BALANCE AND FEEL REFRESHED.</h5>
+        <h6>AZURE IS WHERE YOU COME WHEN YOU NEED TO GET AWAY, DE-STRESS, FIND BALANCE AND FEEL REFRESHED.</h6>
 
         <p>Escape into a great moment designed just for you. Select from a wide array of full or partial-day Spa experiences that responds to your request for luxury, efficacy, and well-being.</p>
 
-        <h6><b>Ideal to use for the following occasions:</b></h6>
+        <p><b>Ideal to use for the following occasions:</b></p>
         <p>Birthday, Bachelorette, Bridal shower, Girl’s night, Sweet sixteen, Couple’s date out</p>
         
         <p><b>Cloud Nine 2H 30 Minute ($400)</b></p>
