@@ -31,7 +31,7 @@ const PageServices = (props) => {
       <section className="image-large image-large-services">
         <ImageCover2 src={parallaxImage2} />
       </section>
-      <div className="services-bg">
+      <div className="services-bg services-bg-original">
         <div className="page-inner page-inner-special">
           <div className="services-3-columns">
             <div className="left-flex"></div>

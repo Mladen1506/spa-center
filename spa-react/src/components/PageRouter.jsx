@@ -14,6 +14,10 @@ import PageGiftCertificates from "./special-pages/PageGiftCertificates";
 import { useEffect } from "react";
 import PageOurTeam from "./pages/PageOurTeam";
 import PageProducts from "./pages/PageProducts";
+import PageMorpheus from "./pages/PageMorpheus";
+import PageMagicFix from "./pages/PageMagicFix";
+import PageWomenLaser from "./pages/PageWomenLaser";
+import PageServicesLaser from "./special-pages/PageServicesLaser";
 
 
 const PageRouter = (props) => {
@@ -96,6 +100,18 @@ const PageRouter = (props) => {
   } else if (route === 'MASSAGE_BODY') {
     jsx = (
       <PageMassageBody />
+    );
+  } else if (route === 'MORPHEUS8') {
+    jsx = (
+      <PageMorpheus />
+    );
+  } else if (route === 'HAIR_REMOVAL') {
+    jsx = (
+      <PageServicesLaser />
+    );
+  } else if (route === 'MAGIC_FIX') {
+    jsx = (
+      <PageMagicFix />
     );
   } else {
 
