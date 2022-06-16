@@ -5,7 +5,6 @@ import PageContent from "../PageContent";
 import PageBrowLamination from "../pages/PageBrowLamination";
 import PageLashLift from "../pages/PageLashLift";
 import PageTinting from "../pages/PageTinting";
-import PageWaxingAndThreading from "../pages/PageWaxingAndThreading";
 import WidgetExpandable from "../WidgetExpandable";
 
 
@@ -22,10 +21,6 @@ const PageServicesBrowAndLash = (props) => {
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'TINTING'} expandableLevel={2} >
           <PageTinting />
-        </WidgetExpandable>
-
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'WAXING_AND_THREADING'} expandableLevel={2}>
-          <PageWaxingAndThreading />
         </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LAMINATION'} expandableLevel={2}>

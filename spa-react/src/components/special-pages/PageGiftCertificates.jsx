@@ -10,8 +10,8 @@ import PageContent from "../PageContent";
 
 
 const PageGiftCertificates = (props) => {
-  
-  useEffect(()=>{
+
+  useEffect(() => {
     window.open('https://azuredream.boomtime.com/lgift', '_blank'); // new tab
     // window.location.href = 'https://azuredream.boomtime.com/lgift'; // same tab
   });
@@ -24,9 +24,11 @@ const PageGiftCertificates = (props) => {
       <Page>
         <PageContent>
 
-          <h3>Gift Certificates</h3>
+          {/* <h3>Gift Certificates</h3> */}
 
-          <a target="_blank" rel="noreferrer" href="https://azuredream.boomtime.com/lgift"><img  src={imagesFolderUrl('pages/gift-cert-button.png')} alt="buy gift certificate" /></a>
+          <div className="giftcard-img">
+            <a target="_blank" rel="noreferrer" href="https://azuredream.boomtime.com/lgift"><img src={imagesFolderUrl('pages/gift-card.png')} alt="buy gift certificate" /></a>
+          </div>
 
         </PageContent>
       </Page>

@@ -59,7 +59,108 @@ const PageHome = (props) => {
             </div>
           </div>
         </section>
+        <section className="section-teasers">
+          <div className="inner">
+            <div className="container">
+              <div className="row">
+                <div className="col-12 col-md-3">
+                  <div className="teaser">
+                    <div className="teaser-body">
+                      <h4>Magic Fix</h4>
+                      <Image left small src={imagesFolderUrl('magic-fix.jpeg')} />
+                      Waiting for text :)
+                    </div>
+                    <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MAGIC_FIX') }}>MORE...</Btn>
+                  </div>
+                </div>
+                <div className="col-12 col-md-3">
+                  <div className="teaser">
+                    <div className="teaser-body">
+                      <h4>Relaxing Escape</h4>
+                      <Image left small src={imagesFolderUrl('hair-removal-small.jpg')} />
+                      Enjoy the feeling of serenity as the stress dissipates from your body and mind. Massages, body wraps, and our decadent spa packages will leave you relaxed and rejuvenated.
+                    </div>
+                    <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MASSAGE_BODY') }}>MORE...</Btn>
+                  </div>
+                </div>
+                <div className="col-12 col-md-3">
+                  <div className="teaser">
+                    <div className="teaser-body">
+                      <h4>Hair Removal</h4>
+                      <Image left small src={imagesFolderUrl('laser1.jpeg')} />
+                      The newest technology has made electrolysis and laser hair removal extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
+                    </div>
+                    <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('HAIR_REMOVAL') }}>MORE...</Btn>
+                  </div>
+                </div>
 
+                <div className="col-12 col-md-3">
+                  <div className="teaser">
+                    <div className="teaser-body">
+                      <h4>Morpheus 8</h4>
+                      <Image left small src={imagesFolderUrl('morpheus8.png')} />
+                      <b>Morpheus 8 face</b>
+                      <p>Deep fractional, radiofrequency treatment for skin, tissue and collagen remodeling.</p>
+                      <b>Morpheus 8 body</b>
+                      <p>Improve skin appearance, remodel fat, treat skin irregularities and build collagen.</p>
+                    </div>
+                    <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MORPHEUS8') }}>MORE...</Btn>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* <section className="section-cards">
+          <div className="inner">
+            <div className="container">
+              <div className="row">
+
+                <div className="col-12 col-md-4">
+                  <div className="card">
+                    <div className="card-header">
+                      <a href="http://mailchi.mp/azuredreamspa/website-special-sy2m9gh2et-363949" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow"><p>Referral Rewards</p></a>
+                    </div>
+                    <div className="card-body">
+                      <Image left small src={imagesFolderUrl('referal.jpg')} />
+                      Refer a friend & earn 10% of their first visit to use as credit toward your own future services.
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-4">
+                  <div className="card">
+                    <div className="card-header">
+                      <a href="https://azuredream.boomtime.com/lgift" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow"><p>Gift Certificates</p></a>
+                    </div>
+                    <div className="card-body">
+                      <Image left small src={imagesFolderUrl('gift-cards.jpg')} />
+                      Give the perfect gift for that special someone!
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-4">
+                  <div className="card">
+                    <div className="card-header">
+                      <a href="https://mailchi.mp/azuredreamspa/spring-special" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
+                    </div>
+                    <div className="card-body">
+                      <Image left small src={imagesFolderUrl('special.png')} />
+                      Treat yourself or your loved ones to some of our wonderful services!
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section> */}
+
+
+        <section className="image-large">
+          <ImageCover2 src={parallaxImage2} />
+        </section>
 
         <section className="section-cards">
           <div className="inner">
@@ -106,16 +207,11 @@ const PageHome = (props) => {
         </section>
 
 
-        <section className="image-large">
-          <ImageCover2 src={parallaxImage2} />
-        </section>
-
-
-        <section className="section-teasers">
+        {/* <section className="section-teasers">
           <div className="inner">
             <div className="container">
               <div className="row">
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-3">
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Dream Skin</h4>
@@ -125,7 +221,7 @@ const PageHome = (props) => {
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
                   </div>
                 </div>
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-3">
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Relaxing Escape</h4>
@@ -135,7 +231,18 @@ const PageHome = (props) => {
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
                   </div>
                 </div>
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-3">
+                  <div className="teaser">
+                    <div className="teaser-body">
+                      <h4>Hair Removal</h4>
+                      <Image left small src={imagesFolderUrl('hair-removal-legs.jpeg')} />
+                      The newest technology has made <a href="/electrolysis/">electrolysis </a>and <a href="/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
+                    </div>
+                    <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
+                  </div>
+                </div>
+
+                <div className="col-12 col-md-3">
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Hair Removal</h4>
@@ -148,7 +255,7 @@ const PageHome = (props) => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );

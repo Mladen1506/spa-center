@@ -9,14 +9,14 @@ const PageProducts = () => {
 
   return (
     <>
-      <section className="image-large image-large-services">
+      <section className="image-large image-large-products">
         <ImageCover2 src={parallaxImage2} />
       </section>
       <div className="services-bg products-bg">
         <div className="page-inner page-inner-special">
           <div className="services-3-columns">
             <div className="left-flex"></div>
-            <div className="page-content-wrapper">
+            <div className="page-content-wrapper page-content-wrapper-products">
               <PageContent>
                 <div className="products-wrapper">
                   <p>Eminence</p>
