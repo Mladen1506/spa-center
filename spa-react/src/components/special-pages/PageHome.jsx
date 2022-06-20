@@ -67,8 +67,8 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Magic Fix</h4>
-                      <Image left small src={imagesFolderUrl('magic-fix.jpeg')} />
-                      Waiting for text :)
+                      <Image left src={imagesFolderUrl('magic-fix.jpeg')} />
+                      A treatment designed for serious skin conditions, Magic Fix™ includes microdermabrasion and a selection of an Eminence organic peel based on your needs.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MAGIC_FIX') }}>MORE...</Btn>
                   </div>

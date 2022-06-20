@@ -71,7 +71,7 @@ const routes = [
     route: 'ABOUT',
     breadcrumbs: ['HOME'],
     level: 1,
-    title: 'About Us',
+    title: 'Testimonials',
     hasChildren: false,
     slug: '/about-us',
   },

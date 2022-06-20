@@ -1,3 +1,5 @@
+import { imagesFolderUrl } from "../../utils/url-lib";
+import Image from "../Image";
 import Page from "../Page";
 import PageContent from "../PageContent";
 
@@ -24,7 +26,8 @@ const PageComboTreats = () => {
           <div className="fl-module fl-module-rich-text fl-node-5e1b6da0e39ff SPContent" data-node="5e1b6da0e39ff">
             <div className="fl-module-content fl-node-content">
               <div className="fl-rich-text">
-                <p><img loading="lazy" className="size-full wp-image-71 alignleft" src="https://azuredreamspa.com/wp-content/uploads/2020/01/packages_deep_blue.jpg" alt="" width="215" height="143" /></p>
+                {/* <p><img loading="lazy" className="size-full wp-image-71 alignleft" src="https://azuredreamspa.com/wp-content/uploads/2020/01/packages_deep_blue.jpg" alt="" width="215" height="143" /></p> */}
+                <Image left small src={imagesFolderUrl('pages/blue-getaway.jpeg')} />
                 <p>Escape to azure waters and cerulean skies.</p>
                 <p>When you book a 60-minute lifting facial with blueberry peel, along with a 60-minute Deep Tissue massage, receive a complimentary organic eye treatment.</p>
                 {/* <p>Package price $295 (savings of $35)</p> */}
