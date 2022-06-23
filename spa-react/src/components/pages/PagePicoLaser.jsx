@@ -19,14 +19,14 @@ const PageLaserSkinTightening = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td>Package of 3</td>
+                  <td>Package of 3x</td>
                   <td>
                     <p>$1350</p>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <p>Package of 5</p>
+                    <p>Package of 5x</p>
                   </td>
                   <td>
                     <p>$2000</p>
