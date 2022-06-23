@@ -3,6 +3,7 @@ import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
 import PageAquaGold from "../pages/PageAquaGold";
+import PageCandela from "../pages/PageCandela";
 import PageCapillaryRepair from "../pages/PageCapillaryRepair";
 import PageCo2 from "../pages/PageCo2";
 import PageDiscoloration from "../pages/PageDiscoloration";
@@ -10,7 +11,7 @@ import PageErbium from "../pages/PageErbium";
 import PageForma from "../pages/PageForma";
 import PageHighFrequency from "../pages/PageHighFrequency";
 import PageIPL from "../pages/PageIPL";
-import PageLaserSkinTightening from "../pages/PageLaserSkinTightening";
+import PageLaserSkinTightening from "../pages/PagePicoLaser";
 import PageMicroNeedling from "../pages/PageMicroNeedling";
 import PageMorpheus from "../pages/PageMorpheus";
 import PageVaginal from "../pages/PageVaginal";
@@ -38,6 +39,10 @@ const PageServicesMediSpaTreatment = (props) => {
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASER_SKIN_TIGHTENING'} expandableLevel={2}>
           <PageLaserSkinTightening />
+        </WidgetExpandable>
+
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'CANDELA_SKIN'} expandableLevel={2}>
+          <PageCandela />
         </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASER_DISCOLORATION_REMOVAL'} expandableLevel={2}>

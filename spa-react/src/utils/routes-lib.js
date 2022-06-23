@@ -354,7 +354,14 @@ const routes = [
     route: 'LASER_SKIN_TIGHTENING',
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
     level: 3,
-    title: 'Laser Skin Tightening',
+    title: 'Pico Laser',
+    hasChildren: false,
+  },
+  {
+    route: 'CANDELA_SKIN',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Candela Skin Tightening',
     hasChildren: false,
   },
   {
