@@ -15,7 +15,7 @@ const PageClassicMassage = () => {
           <p>This form of massage uses long, smooth, and flowing strokes, in the direction of blood returning to the heart. It is designed to relax the entire body, increase circulation, and promote health.</p>
 
           <h6>Foot Reflexology</h6>
-          <Image right small src={imagesFolderUrl('pages/foot_refl.jpeg')}/>
+          <Image right small100 src={imagesFolderUrl('pages/foot_refl.jpeg')}/>
           <p>An applied-pressure therapy that stimulates reflex points in the feet that correspond to every organ and system within the body. This detoxifies the body, releases tension, and increases circulation and energy.</p>
           <h6>Azure Classic Massage</h6>
           <table className="table table-bordered">

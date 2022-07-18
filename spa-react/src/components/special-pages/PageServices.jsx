@@ -16,7 +16,6 @@ import PageServicesHairRemoval from "./PageServicesHairRemoval";
 import PageServicesMassage from "./PageServicesMassage";
 import PageServicesBody from "./PageServicesMassageBody";
 import PageServicesMediSpaTreatment from "./PageServicesMediSpaTreatment";
-import PageServicesPackages from "./PageServicesPackages";
 import PageServicesPermanentMakeup from "./PageServicesPermanentMakeup";
 
 // const parallaxImage2 = imagesFolderUrl("massage9.png");

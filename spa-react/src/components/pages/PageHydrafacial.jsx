@@ -8,7 +8,7 @@ const PageHydrafacial = (props) => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h6>SKIN HEALT DOESN'T NEED TO BE COMPLICATED</h6>
+          <h6>SKIN HEALTH DOESN'T NEED TO BE COMPLICATED</h6>
           <p>The HydraFacial treatment can be tailored to safely & effectively address your unique needs.</p>
 
           <p>Only <b>HydraFacial</b> uses patented technology to cleanse, extract, and hydrate. HydraFacial super serums are made with nourishing ingredients that create an instantly gratifying glow.</p>

@@ -27,7 +27,7 @@ const PageMicroDermabrasion = () => {
                 <td>$145</td>
               </tr>
               <tr>
-                <td>Pkg of 4x</td>
+                <td>Pkg x 4</td>
                 <td> $540</td>
               </tr>
               <tr>

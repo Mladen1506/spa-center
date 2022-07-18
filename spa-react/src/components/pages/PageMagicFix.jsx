@@ -16,14 +16,9 @@ const PageMagicFix = () => {
             <li><b>Ageless</b> – stimulates collagen production and promotes a “lifting” effect</li>
             <li><b>Detox</b> – deep cleansing and nourishing</li>
           </ul>
-          <p>Magic Fix™ Pricing</p>
+          <h6>Magic Fix™ Pricing</h6>
           <table className="table table-bordered">
             <tbody>
-              {/* <tr>
-                <td>Individual Session</td>
-                <td></td>
-                <td>Packages</td>
-              </tr> */}
               <tr>
                 <td>Individual Treatment</td>
                 <td>Price</td>

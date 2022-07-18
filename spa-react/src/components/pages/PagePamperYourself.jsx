@@ -37,12 +37,10 @@ const PagePamperYourself = () => {
                 <td>30 Min</td>
                 <td>$145</td>
                 <td></td>
-                <td></td>
               </tr>
               <tr>
                 <td>45 Min</td>
                 <td>$165</td>
-                <td></td>
                 <td></td>
               </tr>
               <tr>
@@ -53,7 +51,6 @@ const PagePamperYourself = () => {
               <tr>
                 <td>75 Min</td>
                 <td>$205</td>
-                <td></td>
                 <td></td>
               </tr>
             </tbody>
