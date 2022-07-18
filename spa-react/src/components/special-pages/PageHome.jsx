@@ -51,7 +51,7 @@ const PageHome = (props) => {
                       <p>Welcome to Azure Dream, where we connect your inner peace with your body, mind, and spirit. We invite you to visit us and indulge yourself at our luxurious yet cozy day spa – enjoy pampering, comfort, and a sense of belonging.</p>
                       <p>Our professional team is dedicated to each and every one of our clients. We are committed to providing excellent service and a superlative customer experience. Our technicians are highly-trained professionals who offer the best in all med spa services, injectables, laser hair removal, electrolysis, skin care, massage and body treatments, waxing, threading, and lash and brow treatments. Our equipment is new, state-of-the-art technology, delivering results that will satisfy the most discerning clients.</p>
                       <p>Azure Dream is now located in our brand new luxurious building, in Northern Arlington, VA, within walking distance from the Ballston Metro.</p>
-                      
+
                     </div>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const PageHome = (props) => {
                       <Image left src={imagesFolderUrl('magic-fix.jpeg')} />
                       A treatment designed for serious skin conditions, Magic Fix™ includes microdermabrasion and a selection of an Eminence organic peel based on your needs.
                     </div>
-                    <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MAGIC_FIX') }}>MORE...</Btn>
+                    <Btn href="/services#magic-fix" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MAGIC_FIX') }}>MORE...</Btn>
                   </div>
                 </div>
                 <div className="col-12 col-md-3">
@@ -80,7 +80,7 @@ const PageHome = (props) => {
                       <Image left small src={imagesFolderUrl('hair-removal-small.jpg')} />
                       Enjoy the feeling of serenity as the stress dissipates from your body and mind. Massages, body wraps, and our decadent spa packages will leave you relaxed and rejuvenated.
                     </div>
-                    <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MASSAGE_BODY') }}>MORE...</Btn>
+                    <Btn href="/services#massage" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MASSAGE_BODY') }}>MORE...</Btn>
                   </div>
                 </div>
                 <div className="col-12 col-md-3">
@@ -90,7 +90,7 @@ const PageHome = (props) => {
                       <Image left small src={imagesFolderUrl('laser1.jpeg')} />
                       The newest technology has made electrolysis and laser hair removal extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
                     </div>
-                    <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('HAIR_REMOVAL') }}>MORE...</Btn>
+                    <Btn href="/services#hair-removal" handleClick={(e) => { e.preventDefault(); _handleClickRoute('HAIR_REMOVAL') }}>MORE...</Btn>
                   </div>
                 </div>
 
@@ -104,7 +104,7 @@ const PageHome = (props) => {
                       <b>Morpheus 8 body</b>
                       <p>Improve skin appearance, remodel fat, treat skin irregularities and build collagen.</p>
                     </div>
-                    <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MORPHEUS8') }}>MORE...</Btn>
+                    <Btn href="/services#morpheus-8" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MORPHEUS8') }}>MORE...</Btn>
                   </div>
                 </div>
               </div>

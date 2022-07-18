@@ -51,6 +51,7 @@ const MenuOption = (props) => {
       className={cl}
       href={item.slug}
       onClick={(e) => { e.preventDefault(); e.stopPropagation(); _handleClickOption(item.route) }}
+      data-menu-route={item.route}
     >{item.title}{jsxTriangle}
 
       {/*
