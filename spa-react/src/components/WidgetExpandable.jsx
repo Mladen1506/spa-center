@@ -38,10 +38,15 @@ const WidgetExpandable = (props) => {
     cl2 = " expandable-4th-level";
   }
 
+  let htmlId = "";
+  if (typeof props.htmlId === 'string' && props.htmlId !== '') {
+    htmlId = props.htmlId;
+  }
+
   return (
     <>
       <div className={(expanded ? "widget-expandable expanded" : "widget-expandable") + cl2} data-expandable-level={expandableLevel} data-expanded={expanded}>
-        <header onClick={(e) => { props._expandSingle(id) }}>{get_route_title(id)}</header>
+        <header onClick={(e) => { props._expandSingle(id) }} id={htmlId}>{get_route_title(id)}</header>
         <div className="expandable">
           <div className="pad">
             {props.children}

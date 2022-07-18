@@ -17,6 +17,7 @@ const PageAbout = (props) => {
             <div className="left-flex"></div>
             <div className="page-content-wrapper">
               <PageContent>
+                <div className="page-detectable detect-page-is-about"></div>
                 <div className="fl-rich-text">
                   <h6>Azure Dream Spa Philosophy</h6>
                   <p>Azure Dream Day Spa was founded by Leila and Arash in 2010, creating a luxurious yet cozy escape to all visiting clients. They carefully hand-picked their staff, ensuring not only the highest professional standards, expertise, and certification, but also warm and caring personalities. Azure offers the latest, state of the art equipment to achieve the best results possible, along with the best skin care products available.</p>

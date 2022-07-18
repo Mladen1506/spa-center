@@ -21,7 +21,7 @@ import PageServicesMediSpaTreatmentVenusConcept from "./PageServicesMediSpaTreat
 
 
 const PageServicesMediSpaTreatment = (props) => {
-  const {expandedId, _expandSingle} = useExpandSingle();
+  const { expandedId, _expandSingle } = useExpandSingle();
 
   return (
     <Page>
@@ -46,18 +46,18 @@ const PageServicesMediSpaTreatment = (props) => {
         </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASER_DISCOLORATION_REMOVAL'} expandableLevel={2}>
-         <PageDiscoloration />
+          <PageDiscoloration />
         </WidgetExpandable>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'CAPILLARY_REPAIR'} expandableLevel={2}>
           <PageCapillaryRepair />
         </WidgetExpandable>
-        
+
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MICRO_NEEDLING'} expandableLevel={2}>
           <PageMicroNeedling />
         </WidgetExpandable>
 
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MORPHEUS_8'} expandableLevel={2}>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MORPHEUS_8'} expandableLevel={2} htmlId="morpheus-8">
           <PageMorpheus />
         </WidgetExpandable>
 

@@ -18,6 +18,7 @@ const PageProducts = () => {
             <div className="left-flex"></div>
             <div className="page-content-wrapper page-content-wrapper-products">
               <PageContent>
+                <div className="page-detectable detect-page-products"></div>
                 <div className="products-wrapper">
                   <p>Eminence</p>
                   <p>Skin Ceuticals</p>

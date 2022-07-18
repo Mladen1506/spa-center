@@ -36,18 +36,19 @@ const PageServices = (props) => {
           <div className="services-3-columns">
             <div className="left-flex"></div>
             <div className="services-widgets-wrapper">
+              <div className="page-detectable detect-page-services"></div>
 
               {/* <h1>Services</h1> */}
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'FACIALS'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'FACIALS'} htmlId="facials" >
                 <PageServicesFacials />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEDI_SPA'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEDI_SPA'} htmlId="medi-spa" >
                 <PageServicesMediSpaTreatment />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} htmlId="hair-removal" >
                 <PageServicesHairRemoval />
               </WidgetExpandable>
 
@@ -55,7 +56,7 @@ const PageServices = (props) => {
                 <PageServicesPermanentMakeup />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MASSAGE'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MASSAGE'} htmlId="massage" >
                 <PageServicesMassage />
               </WidgetExpandable>
 

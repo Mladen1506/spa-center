@@ -36,7 +36,7 @@ const PageServicesFacials = (props) => {
           <PagePamperYourself />
         </WidgetExpandable>
 
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MAGIC_FIX'} expandableLevel={2}>
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MAGIC_FIX'} expandableLevel={2} htmlId="magic-fix">
           <PageMagicFix />
         </WidgetExpandable>
 

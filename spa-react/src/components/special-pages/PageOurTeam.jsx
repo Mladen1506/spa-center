@@ -18,6 +18,7 @@ const PageOurTeam = () => {
             <div className="left-flex"></div>
             <div className="page-content-wrapper">
               <PageContent>
+                <div className="page-detectable detect-page-our-team"></div>
                 <h6>Meet Our Staff</h6>
 
                 <h6>LEILA ESPARI</h6>
