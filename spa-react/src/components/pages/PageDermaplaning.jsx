@@ -6,10 +6,24 @@ const PageDermaplaning = () => {
     <Page>
       <PageContent>
         <div>
-          <p>Dermaplaning is a procedure that exfoliates your skin and get rid of dead layer and vellus hair<br />
-          Dermaplaning promotes collagen production, reduces fine line, prevents breakout and will give immediate glow.</p>
-          <p>60 Min: $250</p>
-          <p>Pkg of 6x: $1380</p>
+          <p>Dermaplaning is a procedure that exfoliates your skin and gets rid of dead layers and vellus hair,
+          Dermaplaning promotes collagen production, reduces fine lines, prevents breakouts, and will give immediate glow.</p>
+
+          <h6>Pricing</h6>
+          <table className="table table-bordered">
+            <tbody>
+              <tr>
+                <td>Individual treatment</td>
+                <td>Price</td>
+                <td>Pkg x 6</td>
+              </tr>
+              <tr>
+                <td>60 Min</td>
+                <td>$250</td>
+                <td>$1380</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </PageContent>
     </Page>

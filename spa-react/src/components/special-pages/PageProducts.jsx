@@ -21,10 +21,10 @@ const PageProducts = () => {
                 <div className="page-detectable detect-page-products"></div>
                 <div className="products-wrapper">
                   <p>Eminence</p>
-                  <p>Skin Ceuticals</p>
+                  <p>Skinceuticals</p>
                   <p>Skin Better Science</p>
                   <p>Latisse</p>
-                  <p>Grande Lash</p>
+                  <p>Aveda</p>
                 </div>
               </PageContent>
             </div>

@@ -212,7 +212,7 @@ const PageHydrafacialMembership = (props) => {
           </table>
 
           <h6>PLATINUM ULTIMATE</h6>
-          <p><b>It is our platinum for those that wish not to miss facial massages</b></p>
+          <p>It is our platinum for those that wish not to miss facial massages</p>
           <table className="table table-bordered">
             <tbody>
               <tr>
