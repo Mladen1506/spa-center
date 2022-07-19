@@ -6,9 +6,9 @@ const PageWaxingAndThreading = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h6>Waxing and Threading Pricing</h6>
+          {/* <h6>Waxing and Threading Pricing</h6> */}
 
-          <p>Threading Pricing</p>
+          <h6>Threading Pricing</h6>
           <table className="table table-bordered">
             <tbody>
               <tr>
@@ -27,20 +27,17 @@ const PageWaxingAndThreading = () => {
                 <td>Full Face</td>
                 <td>$75</td>
               </tr>
-              <br />
-              <p>Waxing Pricing</p>
-
+            </tbody>
+            <br />
+            <h6>Waxing Pricing</h6>
+            <tbody>
               <tr>
                 <td>Lip</td>
-                <td>$15</td>
+                <td>$18</td>
               </tr>
               <tr>
                 <td>Chin</td>
-                <td>$20</td>
-              </tr>
-              <tr>
-                <td>Sideburns</td>
-                <td>$30</td>
+                <td>$25</td>
               </tr>
               <tr>
                 <td>Brows</td>
@@ -48,7 +45,11 @@ const PageWaxingAndThreading = () => {
               </tr>
               <tr>
                 <td>Full Face</td>
-                <td>$65</td>
+                <td>$75</td>
+              </tr>
+              <tr>
+                <td>Sideburns</td>
+                <td>$30</td>
               </tr>
               <tr>
                 <td>Underarms</td>
@@ -85,7 +86,7 @@ const PageWaxingAndThreading = () => {
             </tbody>
           </table>
           <br />
-          <p>Additional Waxing Options for Men</p>
+          <h6>Additional Waxing Options for Men</h6>
           <table className="table table-bordered">
             <tbody>
               <tr>
@@ -116,7 +117,7 @@ const PageWaxingAndThreading = () => {
           </table>
         </div>
       </PageContent>
-    </Page>
+    </Page >
   );
 };
 export default PageWaxingAndThreading;

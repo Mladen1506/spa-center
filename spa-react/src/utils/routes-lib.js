@@ -311,7 +311,7 @@ const routes = [
     route: 'MEDI_SPA',
     breadcrumbs: ['HOME', 'SERVICES'],
     level: 2,
-    title: 'Medi-Spa Treatment',
+    title: 'Medi-Spa',
     hasChildren: false,
   },
   //podopcije
@@ -382,7 +382,7 @@ const routes = [
     route: 'MICRO_NEEDLING',
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
     level: 3,
-    title: 'Micro Needling',
+    title: 'Microneedling',
     hasChildren: false,
   },
   {

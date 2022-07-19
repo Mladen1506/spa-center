@@ -18,13 +18,13 @@ const PageHydrafacialTakeHome = (props) => {
             <li>Add-on price with Signature HydraFacial $95</li>
           </ul>
 
-          <h6>Hands(No extractions, No Beta-HD) (15 min.)</h6> 
+          <h6>Hands (No Extractions, No Beta-HD) (15 min.)</h6> 
           <ul>
             <li>Stand-alone price $59</li>
             <li>Add-on price with Signature HydraFacial: $40</li>
           </ul>
 
-          <h6>Arms (no extractions, no Beta-HD) (15 min.)</h6>
+          <h6>Arms (No Extractions, No Beta-HD) (15 min.)</h6>
           <ul>
             <li>Stand-alone price $199</li>
             <li>Add-on price with Signature HydraFacial $125</li>
@@ -52,7 +52,7 @@ const PageHydrafacialTakeHome = (props) => {
             <li>Add-on price with Signature HydraFacial $75</li>
           </ul>
 
-          <h6>Arm</h6>
+          <h6>Arms</h6>
           <ul>
             <li>Stand-alone price $65</li>
             <li>Add-on price with Signature HydraFacial $40</li>
@@ -64,7 +64,7 @@ const PageHydrafacialTakeHome = (props) => {
             <li>Add-on price with Signature HydraFacial $50</li>
           </ul>
 
-          <h6>Leg</h6>
+          <h6>Legs</h6>
           <ul>
             <li>Stand-alone price $65</li>
             <li>Add-on price with Signature HydraFacial $40</li>

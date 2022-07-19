@@ -8,13 +8,13 @@ const PageMorpheus = () => {
         <div className="fl-rich-text">
           <h6>Morpheus8</h6>
           <p>Remodel collagen on the face and body with Morpheus 8, a fractional tissue treatment which stimulates the production of collagen and the underlying layers of the dermis. It effectively remodels skins and tissue with minimal risk of post-inflammatory hyperpigmentation and is safe for all skin types.</p>
-
+          <h6>Pricing</h6>
           <table className="table table-bordered">
             <tbody>
               <tr>
                 <td><b>Face Or Neck</b></td>
                 <td><b>Single</b></td>
-                <td><b>Pkg Of 3x</b></td>
+                <td><b>Pkg x 3</b></td>
               </tr>
               <tr>
                 <td>Morpheus 8,<br />
@@ -28,7 +28,7 @@ const PageMorpheus = () => {
               <tr>
                 <td><b>Face & Neck</b></td>
                 <td><b>Single</b></td>
-                <td><b>Pkg Of 3x</b></td>
+                <td><b>Pkg x 3</b></td>
               </tr>
               <tr>
                 <td>Morpheus 8,<br />

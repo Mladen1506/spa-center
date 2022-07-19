@@ -17,19 +17,19 @@ const PageIPL = () => {
           <p>Beneficial for:</p>
           <p><strong>Pigmented lesions</strong> such as hyperpigmentation, freckles, malesma, and sun/age spots.</p>
           <p><strong>Vascular lesions</strong> such as rosacea, spider veins, port wine stains, hemangiomas, angiomas, and venous malformations.</p>
-
           <p className="pricing-text">Single Session: $650</p>
           <p>&nbsp;</p>
+          <h6>Pricing</h6>
           <table className="table table-bordered">
             <tbody>
               <tr>
                 <td>IPL</td>
                 <td>Single<br />
                   $550</td>
-                <td>Pkg Of 4x<br />
+                <td>Pkg x 4<br />
                   $1800
                 </td>
-                <td>Pkg Of 6x<br />
+                <td>Pkg x 6<br />
                   $2400
                 </td>
               </tr>

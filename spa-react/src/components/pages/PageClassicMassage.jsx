@@ -23,7 +23,7 @@ const PageClassicMassage = () => {
               <tr>
                 <td>Minutes</td>
                 <td>Price</td>
-                <td>Pkg of 6x</td>
+                <td>Pkg x 6</td>
               </tr>
               <tr>
                 <td>30 Min</td>
