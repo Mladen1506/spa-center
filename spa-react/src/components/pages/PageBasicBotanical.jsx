@@ -15,7 +15,7 @@ const PageBasicBotanical = (props) => {
             <li>Reduced sun damage, discoloration, acne, and blemishes</li>
             <li>Cell turnover and promotion of collagen and elastin growth</li>
           </ul>
-          <p>Botanical Facial Pricing:</p>
+          <h6>Pricing:</h6>
           <table className="table table-bordered">
             <tbody>
               <tr>
@@ -26,10 +26,12 @@ const PageBasicBotanical = (props) => {
               <tr>
                 <td>30 Min</td>
                 <td>$95</td>
+                <td></td>
               </tr>
               <tr>
                 <td>45 Min</td>
                 <td>$120</td>
+                <td></td>
               </tr>
               <tr>
                 <td>60 Min</td>
@@ -39,6 +41,7 @@ const PageBasicBotanical = (props) => {
               <tr>
                 <td>75 Min</td>
                 <td>$160</td>
+                <td></td>
               </tr>
             </tbody>
           </table>

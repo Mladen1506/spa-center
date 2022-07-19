@@ -6,7 +6,6 @@ const PageWaxingAndThreading = () => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          {/* <h6>Waxing and Threading Pricing</h6> */}
 
           <h6>Threading Pricing</h6>
           <table className="table table-bordered">
@@ -28,8 +27,10 @@ const PageWaxingAndThreading = () => {
                 <td>$75</td>
               </tr>
             </tbody>
-            <br />
-            <h6>Waxing Pricing</h6>
+          </table>
+          <br />
+          <h6>Waxing Pricing</h6>
+          <table>
             <tbody>
               <tr>
                 <td>Lip</td>

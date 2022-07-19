@@ -16,7 +16,7 @@ const PageDreamSkin = (props) => {
           <p>A delightful portion of brightening bearberry, lightening licorice, and soothing stonecrop fades hyper-pigmentation, while infusing the skin with anti-oxidants for a flawless face. Enjoy the benefits of gigawhite and a natural hydroquinone alternative which are plant-derived ingredients celebrated for their ability to lighten, brighten and reduce the look of age spots.</p>
           <h6>Soothing Field of Arnica</h6>
           <p>Arnica, a botanical belonging to the sunflower, is touted for its anti-inflammatory properties and is often used to reduce swelling, redness and bruising. Arnica is the ingredient that gives this facial its calming effect.</p>
-          <p>Pricing</p>
+          <h6>Pricing</h6>
           <table className="table table-bordered">
             <tbody>
               <tr>

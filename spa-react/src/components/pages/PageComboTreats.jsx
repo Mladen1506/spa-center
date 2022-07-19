@@ -26,7 +26,7 @@ const PageComboTreats = () => {
           <div className="fl-module fl-module-rich-text fl-node-5e1b6da0e39ff SPContent" data-node="5e1b6da0e39ff">
             <div className="fl-module-content fl-node-content">
               <div className="fl-rich-text">
-                <p><img loading="lazy" className="size-full wp-image-72 alignleft" src="/wp-content/uploads/react-static/img/pages/blue-getaway.jpeg" alt="" width="215" height="161" /></p>
+                <p><img loading="lazy" className="size-full wp-image-72 alignleft fix-special-blue-gateway" src="/wp-content/uploads/react-static/img/pages/blue-getaway.jpeg" alt="" width="215" height="161" /></p>
                 <p>Escape to azure waters and cerulean skies. When you book a 60-minute lifting facial with blueberry peel, along with a 60-minute Deep Tissue massage, receive a complimentary organic eye treatment.</p>
               </div>
             </div>

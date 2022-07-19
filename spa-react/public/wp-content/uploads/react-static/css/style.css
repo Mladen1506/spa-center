@@ -12,6 +12,11 @@ template: bb-theme
 
 /* ---------FIX */
 
+.fix-special-blue-gateway {
+  height: 166px !important;
+  object-fit: cover;
+}
+
 .fl-row-content-wrap {
   padding: 20px;
   padding: 0px;
@@ -1573,6 +1578,7 @@ a.btn:hover {
   padding-bottom: 0.2rem;
   width: 300px;
   height: 40px;
+  border: 0px solid transparent !important;
 }
 
 .page-content table tr th {
