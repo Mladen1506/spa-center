@@ -52,9 +52,9 @@ const PageServicesPermanentMakeup = (props) => {
           <PageLipLiner />
         </WidgetExpandable>
 
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MAKEUP_TOUCH_UPS'} expandableLevel={2}>
+        {/* <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MAKEUP_TOUCH_UPS'} expandableLevel={2}>
           <PageMakeupTouchUps />
-        </WidgetExpandable>
+        </WidgetExpandable> */}
 
 
       </PageContent>

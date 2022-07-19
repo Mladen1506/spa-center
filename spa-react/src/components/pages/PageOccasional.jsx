@@ -5,14 +5,36 @@ const PageOccasional = () => {
   return (
     <Page>
       <PageContent>
-        <h6>AZURE IS WHERE YOU COME WHEN YOU NEED TO GET AWAY, DE-STRESS, FIND BALANCE AND FEEL REFRESHED.</h6>
+        <p>Azure is where you come when you need to get away, de-stress, find balance and feel refreshed.</p>
 
-        <p>Escape into a great moment designed just for you. Select from a wide array of full or partial-day Spa experiences that responds to your request for luxury, efficacy, and well-being.</p>
+        <p>Escape into a great moment designed just for you. Select from a wide array of full or partial-day Spa experiences that respond to your request for luxury, efficacy, and well-being.</p>
 
         <p><b>Ideal to use for the following occasions:</b></p>
-        <p>Birthday, Bachelorette, Bridal shower, Girl’s night, Sweet sixteen, Couple’s date out</p>
+        <p>Birthday, Bachelorette, Bridal shower, Girl date, Couple’s date out</p>
+        <p><b>2 Hrs & 30 Min - $345</b></p>
+        <ul>
+          <li>Body Scrub</li>
+          <li>Stress Relief Massage</li>
+          <li>Foot Reflexology</li>
+          <li>Aromatherapy Scalp Massage</li>
+        </ul>
+        <p><b>3 Hrs & 30 Min - $475</b></p>
+        <ul>
+          <li>Magic Fix Facial</li>
+          <li>Stress Relief Massage</li>
+          <li>Aromatherapy Scalp Massage</li>
+          <li>Foot Reflexology</li>
+          <li>Deluxe Pedicure</li>
+        </ul>
+        <p><b>4 Hrs - $595</b></p>
+        <ul>
+          <li>Azure Dream Deluxe Facial</li>
+          <li>Premium Massage</li>
+          <li>Aromatherapy Scalp Massage</li>
+          <li>Deluxe Mani & Pedi</li>
+        </ul>
         
-        <p><b>Cloud Nine 2H 30 Minute ($400)</b></p>
+        {/* <p><b>Cloud Nine 2H 30 Minute ($400)</b></p>
         <ul>
           <li>Minute Body Scrub</li>
           <li>Minute Stress Relief Massage</li>
@@ -62,7 +84,7 @@ const PageOccasional = () => {
           <li>Minute Foot Reflexology</li>
           <li>Minute Stress Melter Massage</li>
           <li>Minute Magic Fix Facial</li>
-        </ul>
+        </ul> */}
       </PageContent>
     </Page>
   );

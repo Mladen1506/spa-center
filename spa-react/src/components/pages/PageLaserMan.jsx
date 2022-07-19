@@ -12,18 +12,19 @@ const PageLaserMan = () => {
           <h6>The Process Of Laser Hair Removal</h6>
           <p>A focused beam of light emitted by laser is absorbed only through pigments located in the hair follicle. The light is pulsed for a fraction of a second – long enough to disable the hair follicle, but no so long that excess heat is transferred to the skin surrounding the hair.</p>
         </div>
+        <h6>LASER PRICING FOR MEN</h6>
         <div className="fl-rich-text">
           <p>&nbsp;</p>
           <table className="table table-bordered">
             <tbody>
-              <tr>
+              {/* <tr>
                 <td colspan="4">
-                  <p>LASER PRICING FOR MEN</p>
+                  <h6>LASER PRICING FOR MEN</h6>
                 </td>
-              </tr>
+              </tr> */}
               <tr>
                 <td>Area</td>
-                <td>&nbsp;Pkg 5x</td>
+                <td>&nbsp;Pkg x 5</td>
                 <td>&nbsp;Single Touch Up With Us After Using Package</td>
                 <td>&nbsp;Single Treatment</td>
               </tr>

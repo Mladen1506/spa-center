@@ -20,9 +20,9 @@ const PageCelluliteBody = () => {
             </div>
           </div>
           <br />
-          <p>Single treatment:$130</p>
+          <p>Single treatment: $130</p>
 
-          <p>Package of 6x: $720</p>
+          <p>Package x 6: $720</p>
 
         </div>
       </PageContent>

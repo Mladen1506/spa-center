@@ -7,7 +7,7 @@ const PageCo2 = () => {
           <tr>
             <td><b>Face Or Neck</b></td>
             <td><b>Single</b></td>
-            <td><b>Pkg Of 3x</b></td>
+            <td><b>Pkg x 3</b></td>
           </tr>
           <tr>
             <td>Morpheus 8,<br />
@@ -21,7 +21,7 @@ const PageCo2 = () => {
           <tr>
             <td><b>Face & Neck</b></td>
             <td><b>Single</b></td>
-            <td><b>Pkg Of 3x</b></td>
+            <td><b>Pkg x 3</b></td>
           </tr>
           <tr>
             <td>Morpheus 8,<br />
