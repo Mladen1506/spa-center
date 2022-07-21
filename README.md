@@ -13,3 +13,7 @@ Here are pictures of old website:
 New Look Images:
 
 <img width="1433" alt="Screen Shot 2022-07-21 at 3 07 53 PM" src="https://user-images.githubusercontent.com/89114955/180299207-1bc95671-e6e0-428a-9f14-2e2afaa27f7a.png">
+
+## Contributor
+
+Mladen Makivic
