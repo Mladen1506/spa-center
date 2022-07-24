@@ -51,7 +51,7 @@ const PageServices = (props) => {
                 <PageServicesHairRemoval />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PERMANENT_MAKEUP'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PERMANENT_MAKEUP'} htmlId="permanent-makeup">
                 <PageServicesPermanentMakeup />
               </WidgetExpandable>
 
@@ -59,28 +59,28 @@ const PageServices = (props) => {
                 <PageServicesMassage />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BODY'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BODY'} htmlId="body" >
                 <PageServicesBody />
               </WidgetExpandable>
 
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LASH_BAR'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'BROW_LASH_BAR'} htmlId="brow-and-lash-bar" >
                 <PageServicesBrowAndLash />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'NAILS'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'NAILS'} htmlId="nail-bar" >
                 <PageNails />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR'} htmlId="hair-bar" >
                 <PageHairBar />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PACKAGES'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'PACKAGES'} htmlId="combo-treats" >
                 <PageComboTreats />
               </WidgetExpandable>
 
-              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'OCCASIONAL'} >
+              <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'OCCASIONAL'} htmlId="occasional-offers" >
                 <PageOccasional />
               </WidgetExpandable>
 

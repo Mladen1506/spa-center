@@ -7,6 +7,10 @@ const PageComboTreats = () => {
   return (
     <Page>
       <PageContent>
+
+        <h3 className="sitemap-heading"><a href="/services#combo-treats">Services</a> &gt; Combo Treats</h3>
+
+
         <div className="fl-col-content fl-node-content">
           <div className="fl-module fl-module-rich-text fl-node-5e1b6baadafcf" data-node="5e1b6baadafcf">
             <div className="fl-module-content fl-node-content">

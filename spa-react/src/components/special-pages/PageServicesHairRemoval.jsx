@@ -16,6 +16,7 @@ const PageServicesHairRemoval = (props) => {
       <PageContent>
 
         {/* <h3>Massage</h3> */}
+        <h3 className="sitemap-heading"><a href="/services#hair-removal">Services</a> &gt; Hair Removal</h3>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASER'} expandableLevel={2} >
           <PageServicesLaser />

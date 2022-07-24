@@ -25,6 +25,8 @@ const PageServicesPermanentMakeup = (props) => {
 
         {/* <h3>Massage</h3> */}
 
+        <h3 className="sitemap-heading"><a href="/services#permanent-makeup">Services</a> &gt; Permanent Makeup</h3>
+
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MICROBLADING'} expandableLevel={2} >
           <PageMicroblading />
         </WidgetExpandable>

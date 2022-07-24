@@ -17,6 +17,8 @@ const PageServicesMassage = (props) => {
 
         {/* <h3>Massage</h3> */}
 
+        <h3 className="sitemap-heading"><a href="/services#massage">Services</a> &gt; Massage</h3>
+
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'CLASSIC_MASSAGE_EXP'} expandableLevel={2} >
           <PageClassicMassage />
         </WidgetExpandable>
