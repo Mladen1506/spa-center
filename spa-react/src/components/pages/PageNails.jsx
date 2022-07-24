@@ -5,6 +5,9 @@ const PageNails = () => {
   return (
     <Page>
       <PageContent>
+
+        <h3 className="sitemap-heading"><a href="/services#nail-bar">Services</a> &gt; Nail Bar</h3>
+
         <div class="fl-rich-text">
           <h6>Azure Nail Bar</h6>
           <p class="p1">Azure strives for best in class nail services, innovative wellness standards, and endless creative touches for both men & women.</p>

@@ -15,6 +15,8 @@ const PageServicesBrowAndLash = (props) => {
     <Page>
       <PageContent>
 
+        <h3 className="sitemap-heading"><a href="/services#brow-and-lash-bar">Services</a> &gt; Brow & Lash Bar</h3>
+
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'LASH_LIFT'} expandableLevel={2} >
           <PageLashLift />
         </WidgetExpandable>

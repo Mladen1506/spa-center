@@ -14,6 +14,15 @@ import PageSitemap from "./special-pages/PageSitemap";
 import PageSitemapWrapper from "./PageSitemapWrapper";
 import PageServicesFacials from "./special-pages/PageServicesFacials";
 import PageServicesMediSpaTreatment from "./special-pages/PageServicesMediSpaTreatment";
+import PageServicesHairRemoval from "./special-pages/PageServicesHairRemoval";
+import PageServicesPermanentMakeup from "./special-pages/PageServicesPermanentMakeup";
+import PageServicesMassage from "./special-pages/PageServicesMassage";
+import PageServicesMassageBody from "./special-pages/PageServicesMassageBody";
+import PageServicesBrowAndLash from "./special-pages/PageServicesBrowAndLash";
+import PageNails from "./pages/PageNails";
+import PageHairBar from "./pages/PageHairBar";
+import PageComboTreats from "./pages/PageComboTreats";
+import PageOccasional from "./pages/PageOccasional";
 
 /*
 import PageAquaGold from "./pages/PageAquaGold";
@@ -90,7 +99,7 @@ const PageRouter = (props) => {
       <PagePrivacyPolicy />
     );
 
-    // SERVICES
+    // ROUTES FOR SERVICES AND SITEMAP
 
   } else if (route === 'FACIALS') {
     jsx = (
@@ -104,44 +113,63 @@ const PageRouter = (props) => {
         <PageServicesMediSpaTreatment />
       </PageSitemapWrapper>
     );
+  } else if (route === 'HAIR_REMOVAL') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesHairRemoval />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'PERMANENT_MAKEUP') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesPermanentMakeup />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'MASSAGE') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesMassage />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'BODY') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesMassageBody />
+      </PageSitemapWrapper>
+    );
+
+  } else if (route === 'BROW_LASH_BAR') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesBrowAndLash />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'NAILS') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageNails />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'HAIR') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageHairBar />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'PACKAGES') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageComboTreats />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'OCCASIONAL') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageOccasional />
+      </PageSitemapWrapper>
+    );
 
     /*
-    } else if (route === 'SPA_SKIN_CARE') {
-      jsx = (
-        <PageSpaSkinCare />
-      );
-    } else if (route === 'BASIC_BOTANICAL') {
-      jsx = (
-        <PageBasicBotanical />
-      );
-    */
-    /*
-    } else if (route === 'MEDI_SKIN_CARE') {
-      jsx = (
-        <PageSpaSkinCare/>
-      );
-      */
-    /*
-   } else if (route === 'AQUA_GOLD') {
-     jsx = (
-       <PageAquaGold />
-     );
-   } else if (route === 'MASSAGE_BODY') {
-     jsx = (
-       <PageMassageBody />
-     );
-   } else if (route === 'MORPHEUS8') {
-     jsx = (
-       <PageMorpheus />
-     );
-   } else if (route === 'HAIR_REMOVAL') {
-     jsx = (
-       <PageServicesLaser />
-     );
-   } else if (route === 'MAGIC_FIX') {
-     jsx = (
-       <PageMagicFix />
-     );
      */
   } else {
 

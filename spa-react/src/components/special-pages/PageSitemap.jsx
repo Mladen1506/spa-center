@@ -44,6 +44,24 @@ const PageSitemap = (props) => {
 
                 <p><a href="/services/medi-spa" onClick={(e) => { e.preventDefault(); _click('MEDI_SPA') }}>Medi-Spa</a></p>
 
+                <p><a href="/services/hair-removal" onClick={(e) => { e.preventDefault(); _click('HAIR_REMOVAL') }}>Hair Removal</a></p>
+
+                <p><a href="/services/permanent-makeup" onClick={(e) => { e.preventDefault(); _click('PERMANENT_MAKEUP') }}>Permanent Makeup</a></p>
+
+                <p><a href="/services/massage" onClick={(e) => { e.preventDefault(); _click('MASSAGE') }}>Massage</a></p>
+
+                <p><a href="/services/body" onClick={(e) => { e.preventDefault(); _click('BODY') }}>Body</a></p>
+
+                <p><a href="/services/brow-and-lash-bar" onClick={(e) => { e.preventDefault(); _click('BROW_LASH_BAR') }}>Brow & Lash Bar</a></p>
+
+                <p><a href="/services/nail-bar" onClick={(e) => { e.preventDefault(); _click('NAILS') }}>Nail Bar</a></p>
+
+                <p><a href="/services/hair-bar" onClick={(e) => { e.preventDefault(); _click('HAIR') }}>Hair Bar</a></p>
+
+                <p><a href="/services/combo-treats" onClick={(e) => { e.preventDefault(); _click('PACKAGES') }}>Combo Treats</a></p>
+
+                <p><a href="/services/occasional-offers" onClick={(e) => { e.preventDefault(); _click('OCCASIONAL') }}>Occasional Offers</a></p>
+
               </div>
               <p><a href="/artists">Our Team</a></p>
               <p><a href="/products">Products</a></p>

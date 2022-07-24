@@ -8,12 +8,14 @@ import PageOrganicBodySpa from "../pages/PageOrganicBodySpa";
 import WidgetExpandable from "../WidgetExpandable";
 
 
-const PageServicesBody = (props) => {
+const PageServicesMassageBody = (props) => {
   const {expandedId, _expandSingle} = useExpandSingle();
 
   return (
     <Page>
       <PageContent>
+
+        <h3 className="sitemap-heading"><a href="/services#body">Services</a> &gt; Body</h3>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'ORGANIC_BODY_SPA'} expandableLevel={2} >
           <PageOrganicBodySpa />
@@ -33,4 +35,4 @@ const PageServicesBody = (props) => {
   );
 };
 
-export default PageServicesBody;
+export default PageServicesMassageBody;

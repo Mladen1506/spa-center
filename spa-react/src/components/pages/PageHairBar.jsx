@@ -5,6 +5,10 @@ const PageHairBar = () => {
   return (
     <Page>
       <PageContent>
+
+        <h3 className="sitemap-heading"><a href="/services#hair-bar">Services</a> &gt; Hair Bar</h3>
+
+
         <h6>Pricing List For Azure Dream Day Spa Salon</h6>
 
         <table className="table table-hair">

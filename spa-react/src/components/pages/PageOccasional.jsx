@@ -5,6 +5,10 @@ const PageOccasional = () => {
   return (
     <Page>
       <PageContent>
+
+        <h3 className="sitemap-heading"><a href="/services#occasional-offers">Services</a> &gt; Occasional Offers</h3>
+
+
         <p>Azure is where you come when you need to get away, de-stress, find balance and feel refreshed.</p>
 
         <p>Escape into a great moment designed just for you. Select from a wide array of full or partial-day Spa experiences that respond to your request for luxury, efficacy, and well-being.</p>
