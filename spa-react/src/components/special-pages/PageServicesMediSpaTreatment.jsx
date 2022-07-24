@@ -28,6 +28,7 @@ const PageServicesMediSpaTreatment = (props) => {
       <PageContent>
 
         {/* <h3>facials</h3> */}
+        <h3 className="sitemap-heading"><a href="/services#medi-spa">Services</a> &gt; Medi-Spa</h3>
 
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'AQUA_GOLD'} expandableLevel={2} >
           <PageAquaGold />

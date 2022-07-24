@@ -1,6 +1,15 @@
 const routes = [
 
   {
+    route: 'SITEMAP',
+    breadcrumbs: [],
+    level: null,
+    title: 'Sitemap',
+    hasChildren: false,
+    slug: '/sitemap',
+  },
+
+  {
     route: 'HOME',
     breadcrumbs: [],
     level: 1,
@@ -97,6 +106,7 @@ const routes = [
     level: 2,
     title: 'Facials',
     hasChildren: false,
+    slug: '/services/facials',
   },
   {
     route: 'BASIC_BOTANICAL',
@@ -454,7 +464,7 @@ const routes = [
     title: 'Laser',
     hasChildren: false,
   },
-  { 
+  {
     route: 'WOMEN',
     breadcrumbs: ['HOME', 'SERVICES', 'HAIR_REMOVAL', 'LASER'],
     level: 3,

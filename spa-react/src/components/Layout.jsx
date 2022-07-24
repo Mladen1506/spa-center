@@ -104,7 +104,7 @@ const Layout = (props) => {
           </div>
           <div className="spacer"></div>
           <div className="copyright">Copyright © 2020 All Rights Reserved.</div>
-          <div className="copyright"><a href="/privacy-policy" onClick={(e) => { e.preventDefault(); _handleClickRoute('PRIVACY') }}>Privacy Statement</a> | <a href="/terms-of-use" onClick={(e) => { e.preventDefault(); _handleClickRoute('TERMS') }}>Terms of Use</a></div>
+          <div className="copyright"><a href="/privacy-policy" onClick={(e) => { e.preventDefault(); _handleClickRoute('PRIVACY') }}>Privacy Statement</a> | <a href="/terms-of-use" onClick={(e) => { e.preventDefault(); _handleClickRoute('TERMS') }}>Terms of Use</a> | <a href="/sitemap" onClick={(e) => { e.preventDefault(); _handleClickRoute('SITEMAP') }}>Sitemap</a></div>
         </div>
       </footer>
 

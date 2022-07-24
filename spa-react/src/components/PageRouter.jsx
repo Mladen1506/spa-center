@@ -10,6 +10,10 @@ import PageContact from "./special-pages/PageContact";
 import PageAbout from "./special-pages/PageAbout";
 import PageTerms from "./special-pages/PageTerms";
 import PagePrivacyPolicy from "./special-pages/PagePrivacyPolicy";
+import PageSitemap from "./special-pages/PageSitemap";
+import PageSitemapWrapper from "./PageSitemapWrapper";
+import PageServicesFacials from "./special-pages/PageServicesFacials";
+import PageServicesMediSpaTreatment from "./special-pages/PageServicesMediSpaTreatment";
 
 /*
 import PageAquaGold from "./pages/PageAquaGold";
@@ -44,6 +48,10 @@ const PageRouter = (props) => {
   if (route === 'HOME') {
     jsx = (
       <PageHome />
+    );
+  } else if (route === 'SITEMAP') {
+    jsx = (
+      <PageSitemap />
     );
   } else if (route === 'SERVICES') {
     jsx = (
@@ -82,15 +90,25 @@ const PageRouter = (props) => {
       <PagePrivacyPolicy />
     );
 
-    
+    // SERVICES
+
+  } else if (route === 'FACIALS') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesFacials />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'MEDI_SPA') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesMediSpaTreatment />
+      </PageSitemapWrapper>
+    );
+
     /*
     } else if (route === 'SPA_SKIN_CARE') {
       jsx = (
         <PageSpaSkinCare />
-      );
-    } else if (route === 'FACIALS') {
-      jsx = (
-        <PageFacials />
       );
     } else if (route === 'BASIC_BOTANICAL') {
       jsx = (
