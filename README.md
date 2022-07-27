@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my first project as Full Stack Web Developer. Completely redesigned existing website using react and then transfered files to customer Word Press Theme.
+This is my first project as Full Stack Web Developer. Completely redesigned existing website using react and then transfered files to customer Word Press Theme. Working on this project with my menthor.
 Link To Redesigned Website is https://azuredreamspa.com/
 
 Here are pictures of old website: 
