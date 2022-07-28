@@ -13,7 +13,7 @@ import PageServicesFacials from "./PageServicesFacials";
 import PageServicesHairRemoval from "./PageServicesHairRemoval";
 import PageServicesMassage from "./PageServicesMassage";
 import PageServicesBody from "./PageServicesMassageBody";
-import PageServicesMediSpaTreatment from "./PageServicesMediSpaTreatment";
+import PageServicesMediSpa from "./PageServicesMediSpa";
 import PageServicesPermanentMakeup from "./PageServicesPermanentMakeup";
 
 
@@ -42,7 +42,14 @@ const PageSitemap = (props) => {
 
                 <p><a href="/services/facials" onClick={(e) => { e.preventDefault(); _click('FACIALS') }}>Facials</a></p>
 
-                <p><a href="/services/medi-spa" onClick={(e) => { e.preventDefault(); _click('MEDI_SPA') }}>Medi-Spa</a></p>
+                <p><a href="#" onClick={(e) => { e.preventDefault(); _click('MEDI_SPA') }}>Medi-Spa</a></p>
+                <div className="sitemap-group">
+
+                  <p><a href="/services/medi-spa/face" onClick={(e) => { e.preventDefault(); _click('MEDI_SPA_FACE') }}>Face</a></p>
+                  <p><a href="/services/medi-spa/body" onClick={(e) => { e.preventDefault(); _click('MEDI_SPA_BODY') }}>Body</a></p>
+                  <p><a href="/services/medi-spa/wellness-and-health" onClick={(e) => { e.preventDefault(); _click('MEDI_SPA_WELLNESS') }}>Wellness & Health</a></p>
+
+                </div>
 
                 <p><a href="/services/hair-removal" onClick={(e) => { e.preventDefault(); _click('HAIR_REMOVAL') }}>Hair Removal</a></p>
 

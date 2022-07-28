@@ -13,7 +13,7 @@ import PagePrivacyPolicy from "./special-pages/PagePrivacyPolicy";
 import PageSitemap from "./special-pages/PageSitemap";
 import PageSitemapWrapper from "./PageSitemapWrapper";
 import PageServicesFacials from "./special-pages/PageServicesFacials";
-import PageServicesMediSpaTreatment from "./special-pages/PageServicesMediSpaTreatment";
+import PageServicesMediSpa from "./special-pages/PageServicesMediSpa";
 import PageServicesHairRemoval from "./special-pages/PageServicesHairRemoval";
 import PageServicesPermanentMakeup from "./special-pages/PageServicesPermanentMakeup";
 import PageServicesMassage from "./special-pages/PageServicesMassage";
@@ -23,6 +23,9 @@ import PageNails from "./pages/PageNails";
 import PageHairBar from "./pages/PageHairBar";
 import PageComboTreats from "./pages/PageComboTreats";
 import PageOccasional from "./pages/PageOccasional";
+import PageServicesMediSpaFace from "./special-pages/PageServicesMediSpaFace";
+import PageServicesMediSpaBody from "./special-pages/PageServicesMediSpaBody";
+import PageServicesMediSpaWellness from "./special-pages/PageServicesMediSpaWellness";
 
 /*
 import PageAquaGold from "./pages/PageAquaGold";
@@ -110,9 +113,28 @@ const PageRouter = (props) => {
   } else if (route === 'MEDI_SPA') {
     jsx = (
       <PageSitemapWrapper>
-        <PageServicesMediSpaTreatment />
+        <PageServicesMediSpa />
       </PageSitemapWrapper>
     );
+  } else if (route === 'MEDI_SPA_FACE') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesMediSpaFace />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'MEDI_SPA_BODY') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesMediSpaBody />
+      </PageSitemapWrapper>
+    );
+  } else if (route === 'MEDI_SPA_WELLNESS') {
+    jsx = (
+      <PageSitemapWrapper>
+        <PageServicesMediSpaWellness />
+      </PageSitemapWrapper>
+    );
+
   } else if (route === 'HAIR_REMOVAL') {
     jsx = (
       <PageSitemapWrapper>

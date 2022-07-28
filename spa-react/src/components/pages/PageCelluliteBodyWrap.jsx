@@ -1,7 +1,7 @@
 import Page from "../Page";
 import PageContent from "../PageContent";
 
-const PageCelluliteBody = () => {
+const PageCelluliteBodyWrap = () => {
   return (
     <Page>
       <PageContent>
@@ -20,13 +20,22 @@ const PageCelluliteBody = () => {
             </div>
           </div>
           <br />
-          <p>Single treatment: $130</p>
-
-          <p>Package x 6: $720</p>
-
+          <h6>Pricing</h6>
+          <table>
+            <tbody>
+              <tr>
+                <td>Single Session</td>
+                <td>Pkg x 6</td>
+              </tr>
+              <tr>
+                <td>$130</td>
+                <td>$720</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </PageContent>
     </Page>
   );
 };
-export default PageCelluliteBody;
+export default PageCelluliteBodyWrap;

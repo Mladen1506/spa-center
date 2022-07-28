@@ -8,7 +8,7 @@ import PageVenusViva from "../pages/PageVenusViva";
 import WidgetExpandable from "../WidgetExpandable";
 
 
-const PageServicesMediSpaTreatmentVenusConcept = (props) => {
+const PageServicesMediSpaVenusConcept = (props) => {
   const { expandedId, _expandSingle } = useExpandSingle();
 
   return (
@@ -30,4 +30,4 @@ const PageServicesMediSpaTreatmentVenusConcept = (props) => {
   );
 };
 
-export default PageServicesMediSpaTreatmentVenusConcept;
+export default PageServicesMediSpaVenusConcept;

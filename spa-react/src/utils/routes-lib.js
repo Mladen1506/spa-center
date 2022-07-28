@@ -324,6 +324,27 @@ const routes = [
     title: 'Medi-Spa',
     hasChildren: false,
   },
+  {
+    route: 'MEDI_SPA_FACE',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 2,
+    title: 'Face',
+    hasChildren: false,
+  },
+  {
+    route: 'MEDI_SPA_BODY',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 2,
+    title: 'Body',
+    hasChildren: false,
+  },
+  {
+    route: 'MEDI_SPA_WELLNESS',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 2,
+    title: 'Wellness & Health',
+    hasChildren: false,
+  },
   //podopcije
   {
     route: 'AQUA_GOLD',
@@ -410,6 +431,13 @@ const routes = [
     hasChildren: false,
   },
   {
+    route: 'MORPHEUS_8_BODY',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Morpheus 8 Body',
+    hasChildren: false,
+  },
+  {
     route: 'VASCULAR',
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
     level: 3,
@@ -421,6 +449,13 @@ const routes = [
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
     level: 3,
     title: 'Vaginal Rejuvenation',
+    hasChildren: false,
+  },
+  {
+    route: 'CELLULITE_TREATMENT',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Cellulite Treatment',
     hasChildren: false,
   },
   {
@@ -442,6 +477,34 @@ const routes = [
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
     level: 3,
     title: 'High Frequency Facial',
+    hasChildren: false,
+  },
+  {
+    route: 'INJECTABLES',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Injectables',
+    hasChildren: false,
+  },
+  {
+    route: 'IV_TREATMANT',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'IV Treatmant',
+    hasChildren: false,
+  },
+  {
+    route: 'VITAMIN_INJECTIONS',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Vitamin Injections',
+    hasChildren: false,
+  },
+  {
+    route: 'PRP_HEAD',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'PRP Head',
     hasChildren: false,
   },
 
