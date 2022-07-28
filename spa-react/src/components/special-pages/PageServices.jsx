@@ -15,7 +15,7 @@ import PageServicesFacials from "./PageServicesFacials";
 import PageServicesHairRemoval from "./PageServicesHairRemoval";
 import PageServicesMassage from "./PageServicesMassage";
 import PageServicesBody from "./PageServicesMassageBody";
-import PageServicesMediSpaTreatment from "./PageServicesMediSpaTreatment";
+import PageServicesMediSpa from "./PageServicesMediSpa";
 import PageServicesPermanentMakeup from "./PageServicesPermanentMakeup";
 
 // const parallaxImage2 = imagesFolderUrl("massage9.png");
@@ -44,7 +44,7 @@ const PageServices = (props) => {
               </WidgetExpandable>
 
               <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'MEDI_SPA'} htmlId="medi-spa" >
-                <PageServicesMediSpaTreatment />
+                <PageServicesMediSpa />
               </WidgetExpandable>
 
               <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'HAIR_REMOVAL'} htmlId="hair-removal" >

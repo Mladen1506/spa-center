@@ -14,15 +14,15 @@ const PageOccasional = () => {
         <p>Escape into a great moment designed just for you. Select from a wide array of full or partial-day Spa experiences that respond to your request for luxury, efficacy, and well-being.</p>
 
         <p><b>Ideal to use for the following occasions:</b></p>
-        <p>Birthday, Bachelorette, Bridal shower, Girl date, Couple’s date out</p>
-        <p><b>2 Hrs & 30 Min - $345</b></p>
+        <p>Birthday, Bachelorette, Bridal shower, Girl date,<br/> Couple’s date out</p>
+        <p><b>Whispering Willow:</b> 2 Hrs & 30 Min - $345 </p>
         <ul>
           <li>Body Scrub</li>
           <li>Stress Relief Massage</li>
           <li>Foot Reflexology</li>
           <li>Aromatherapy Scalp Massage</li>
         </ul>
-        <p><b>3 Hrs & 30 Min - $475</b></p>
+        <p><b>Floating Lanthern:</b>3 Hrs & 30 Min - $475</p>
         <ul>
           <li>Magic Fix Facial</li>
           <li>Stress Relief Massage</li>
@@ -30,7 +30,7 @@ const PageOccasional = () => {
           <li>Foot Reflexology</li>
           <li>Deluxe Pedicure</li>
         </ul>
-        <p><b>4 Hrs - $595</b></p>
+        <p><b>Valley Of Peace:</b>4 Hrs - $595</p>
         <ul>
           <li>Azure Dream Deluxe Facial</li>
           <li>Premium Massage</li>
