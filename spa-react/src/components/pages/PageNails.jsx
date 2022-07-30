@@ -50,7 +50,7 @@ const PageNails = () => {
             <li class="p1">Extra length or Extra shape $10+</li>
             <li class="p1">Nail Repair $10</li>
             <li class="p1">Collagen Treatment $10</li>
-            <li class="p1">Callus Removal $10</li>
+            <li class="p1">Callus Removal $20</li>
             <li class="p1">French Tips $20+</li>
             <li class="p1">Deep Clean $20+</li>
             <li class="p1">French Tips $20</li>

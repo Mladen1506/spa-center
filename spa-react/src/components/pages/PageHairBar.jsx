@@ -74,12 +74,12 @@ const PageHairBar = () => {
               <td>$55 Up</td>
             </tr>
             <tr>
-              <td>Brazilian Keratin Smoothing Treatment</td>
+              <td>Keratin Smoothing Treatment</td>
               <td></td>
               <td>$450+</td>
             </tr>
             <tr>
-              <td>Express Keratin Blowout</td>
+              <td>Express Keratin Blowout Treatment</td>
               <td></td>
               <td>$250+</td>
             </tr>

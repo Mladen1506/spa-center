@@ -15,14 +15,14 @@ const PageOccasional = () => {
 
         <p><b>Ideal to use for the following occasions:</b></p>
         <p>Birthday, Bachelorette, Bridal shower, Girl date,<br/> Couple’s date out</p>
-        <p><b>Whispering Willow:</b> 2 Hrs & 30 Min - $345 </p>
+        <p><b>Whispering Willow :</b> 2 Hrs & 30 Min - $345 </p>
         <ul>
           <li>Body Scrub</li>
           <li>Stress Relief Massage</li>
           <li>Foot Reflexology</li>
           <li>Aromatherapy Scalp Massage</li>
         </ul>
-        <p><b>Floating Lanthern:</b>3 Hrs & 30 Min - $475</p>
+        <p><b>Floating Lanthern :</b> 3 Hrs & 30 Min - $475</p>
         <ul>
           <li>Magic Fix Facial</li>
           <li>Stress Relief Massage</li>
@@ -30,7 +30,7 @@ const PageOccasional = () => {
           <li>Foot Reflexology</li>
           <li>Deluxe Pedicure</li>
         </ul>
-        <p><b>Valley Of Peace:</b>4 Hrs - $595</p>
+        <p><b>Valley Of Peace :</b> 4 Hrs - $595</p>
         <ul>
           <li>Azure Dream Deluxe Facial</li>
           <li>Premium Massage</li>
