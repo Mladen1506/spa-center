@@ -71,7 +71,7 @@ const PageHairBar = () => {
             <tr>
               <td>Glaze Or Gloss</td>
               <td></td>
-              <td>$55 Up</td>
+              <td>$55 +</td>
             </tr>
             <tr>
               <td>Keratin Smoothing Treatment</td>
@@ -83,23 +83,28 @@ const PageHairBar = () => {
               <td></td>
               <td>$250+</td>
             </tr>
-            <tr>
+            {/* <tr>
               <td>Perm</td>
               <td></td>
               <td>$200+</td>
-            </tr>
+            </tr> */}
             <tr>
               <td>Bridal Hair Trial</td>
               <td></td>
               <td>$100</td>
             </tr>
             <tr>
-              <td>Deep Conditioner Hair Treatment Repair</td>
+              <td>Deep Conditioning Treatment</td>
               <td></td>
-              <td>$65</td>
+              <td>$30</td>
             </tr>
             <tr>
-              <td>Corective Color</td>
+              <td>Deep Conditioning System</td>
+              <td></td>
+              <td>$50</td>
+            </tr>
+            <tr>
+              <td>Corrective Color</td>
               <td></td>
               <td>By Consultation</td>
             </tr>

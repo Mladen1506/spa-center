@@ -12,15 +12,15 @@ const PageTinting = () => {
           <table className="table table-bordered">
             <tbody>
               <tr>
-                <td>Lashes</td>
-                <td>$40</td>
-              </tr>
-              <tr>
                 <td>Brow</td>
                 <td>$35</td>
               </tr>
               <tr>
-                <td>Lash &amp; Brow</td>
+                <td>Lashes</td>
+                <td>$40</td>
+              </tr>
+              <tr>
+                <td>Brow &amp; Lash</td>
                 <td>$70</td>
               </tr>
             </tbody>
