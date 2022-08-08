@@ -13,15 +13,15 @@ const PageForma = () => {
           </tr>
           <tr>
             <td>Face Or Neck</td>
-            <td>$650</td>
-            <td></td>
-            <td>$3300</td>
+            <td>$550</td>
+            <td>$1500</td>
+            <td>$2400</td>
           </tr>
           <tr>
-            <td>Face And Neck</td>
-            <td>$1200</td>
-            <td>$4400</td>
-            <td>$6000</td>
+            <td>Face & Neck</td>
+            <td>$950</td>
+            <td>$2550</td>
+            <td>$4500</td>
           </tr>
           
         </tbody>

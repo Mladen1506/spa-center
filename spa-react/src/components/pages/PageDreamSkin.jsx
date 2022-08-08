@@ -6,9 +6,9 @@ const PageDreamSkin = (props) => {
     <Page>
       <PageContent>
         <div className="fl-rich-text">
-          <h6>Aroma Touch (Aromatherapy) Facial</h6>
+          <h6>Aroma Touch (Aromatherapy)</h6>
           <p>Relax and let yourself drift away as you are enveloped in the healing aromas of botanical essential oils. To begin your treatment, our skilled aestheticians will analyze your skin to determine the correct essential oils for your facial. In addition to cleansing, exfoliation, and extraction, we will also pamper you with a face massage to reduce stress and improve the look and feel of your skin. The gentle and calming aroma of essential oils makes this one of our most relaxing facials.</p>
-          <h6>Citrus Vitamin C Infusion Facial</h6>
+          <h6>Citrus Vitamin C Infusion</h6>
           <p>Unlock the power of super foods to feed your skin! A delicious botanical blend of organic citrus fruits and leafy greens, delivers an abundance of nourishing nutrients to rescue your skin. These bioflavonoid-rich ingredients create unmatched antioxidant protection. Vitamin E supports Vitamin C by offering additional antioxidant properties, as well as healing and repairing abilities that will result in an even skin tone, prevent damage from free radicals, reducing inflammation and boost your collagen production, resulting in brighter and younger-looking skin.</p>
           <h6>Crystal Clear</h6>
           <p>The key ingredient in our Crystal Clear Facial is alpha hydroxy acid, an active fruit acid complex that is derived from a variety of natural sources. Alpha hydroxy acid is an excellent treatment for stimulating cellular renewal of the skin, clearing up breakouts and brightening the complexion. This skin treatment is great for all skin types, but is particularly beneficial for skin prone to acne.</p>
