@@ -14,54 +14,44 @@ const PageHairBar = () => {
         <table className="table table-hair">
           <tbody>
             <tr>
-              <td>Women Hair Cut Style</td>
+              <td>Women Hair Cut & Style</td>
               <td></td>
-              <td>$95+</td>
+              <td>$65</td>
             </tr>
             <tr>
               <td>Men Haircut</td>
               <td></td>
-              <td>$55+</td>
+              <td>$45</td>
             </tr>
             <tr>
               <td>Blow Dry</td>
               <td></td>
-              <td>$55+</td>
-            </tr>
-            <tr>
-              <td>Blow Dry + Flat Iron</td>
-              <td></td>
-              <td>$75+</td>
-            </tr>
-            <tr>
-              <td>Up Do Style</td>
-              <td></td>
-              <td>$125</td>
+              <td>$45+</td>
             </tr>
             <tr>
               <td>Color Root Touch Up</td>
               <td></td>
-              <td>$95+</td>
+              <td>$80+</td>
             </tr>
             <tr>
               <td>Full Color All Over</td>
               <td></td>
-              <td>$125+</td>
+              <td>$110+</td>
             </tr>
             <tr>
-              <td>Partial HighLight</td>
+              <td>Partial Highlight</td>
               <td></td>
-              <td>$165+</td>
+              <td>$120+</td>
             </tr>
             <tr>
-              <td>Full HighLight</td>
+              <td>Full Highlight</td>
               <td></td>
-              <td>$250+</td>
+              <td>$190+</td>
             </tr>
             <tr>
               <td>Partial Balayage</td>
               <td></td>
-              <td>$200+</td>
+              <td>$190+</td>
             </tr>
             <tr>
               <td>Full Balayage</td>
@@ -71,23 +61,23 @@ const PageHairBar = () => {
             <tr>
               <td>Glaze Or Gloss</td>
               <td></td>
-              <td>$55 +</td>
+              <td>$55+</td>
             </tr>
             <tr>
-              <td>Keratin Smoothing Treatment</td>
+              <td>Brazilian Blowout</td>
               <td></td>
-              <td>$450+</td>
+              <td>$400+</td>
             </tr>
             <tr>
-              <td>Express Keratin Blowout Treatment</td>
+              <td>Express Blowout</td>
               <td></td>
               <td>$250+</td>
             </tr>
-            {/* <tr>
-              <td>Perm</td>
+            <tr>
+              <td>Up Do Style</td>
               <td></td>
-              <td>$200+</td>
-            </tr> */}
+              <td>$95</td>
+            </tr>
             <tr>
               <td>Bridal Hair Trial</td>
               <td></td>
@@ -101,7 +91,7 @@ const PageHairBar = () => {
             <tr>
               <td>Deep Conditioning System</td>
               <td></td>
-              <td>$50</td>
+              <td>$40</td>
             </tr>
             <tr>
               <td>Corrective Color</td>
