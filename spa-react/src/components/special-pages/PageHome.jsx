@@ -192,7 +192,7 @@ const PageHome = (props) => {
                 <div className="col-12 col-md-4">
                   <div className="card">
                     <div className="card-header">
-                      <a href="#" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
+                      <a href="https://t.e2ma.net/webview/qaegw0/59ce1104deb2485baa59bdc2b031f761" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
                     </div>
                     <div className="card-body">
                       <Image left small src={imagesFolderUrl('special.png')} />
