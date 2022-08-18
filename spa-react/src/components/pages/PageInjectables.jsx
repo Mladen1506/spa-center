@@ -7,8 +7,8 @@ const PageInjectables = (props) => {
   return (
     <Page>
       <PageContent>
-
-        Coming soon
+        <p>Botox | Restalyne | Juvederm</p>
+        <p>By Consultation</p>
 
       </PageContent>
     </Page>

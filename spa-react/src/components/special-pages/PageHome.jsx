@@ -32,6 +32,9 @@ const PageHome = (props) => {
   return (
     <>
       <div className="page-home">
+        {/*<section className="grand-opening-image-home">
+          <img src="https://azuredreamspa.com/wp-content/uploads/2022/08/pop-up-grand-opening.png" />
+        </section>*/}
         <section className="image-large">
           <ImageCover2 src={parallaxImage1} />
           <div className="logo-big">
@@ -192,7 +195,7 @@ const PageHome = (props) => {
                 <div className="col-12 col-md-4">
                   <div className="card">
                     <div className="card-header">
-                      <a href="https://t.e2ma.net/webview/qaegw0/59ce1104deb2485baa59bdc2b031f761" target="_blank" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
+                      <a href="#" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
                     </div>
                     <div className="card-body">
                       <Image left small src={imagesFolderUrl('special.png')} />

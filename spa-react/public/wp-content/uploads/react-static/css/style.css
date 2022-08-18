@@ -551,6 +551,21 @@ footer a:visited {
   margin-bottom: 2.5rem;
 }
 
+.page-home section.grand-opening-image-home,
+.page-body section.grand-opening-image-home {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.page-body section.grand-opening-image-home > img {
+  display: inline;
+  width: 100%;
+  max-width: 1024px;
+  object-fit: contain;
+}
+
 .page-body section.image-large .logo-big {
   display: none;
 }

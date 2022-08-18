@@ -43,9 +43,9 @@ const PageServicesMediSpaBody = (props) => {
           <PageVaginal />
         </WidgetExpandable>
 
-        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'CELLULITE_TREATMENT'} expandableLevel={3}>
+        {/* <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'CELLULITE_TREATMENT'} expandableLevel={3}>
           <PageCelluliteTreatment />
-        </WidgetExpandable>
+        </WidgetExpandable> */}
 
 
       </PageContent>

@@ -451,13 +451,13 @@ const routes = [
     title: 'Vaginal Rejuvenation',
     hasChildren: false,
   },
-  {
-    route: 'CELLULITE_TREATMENT',
-    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
-    level: 3,
-    title: 'Cellulite Treatment',
-    hasChildren: false,
-  },
+  // {
+  //   route: 'CELLULITE_TREATMENT',
+  //   breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+  //   level: 3,
+  //   title: 'Cellulite Treatment',
+  //   hasChildren: false,
+  // },
   {
     route: 'FORMA',
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
@@ -490,7 +490,7 @@ const routes = [
     route: 'IV_TREATMANT',
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
     level: 3,
-    title: 'IV Treatmant',
+    title: 'IV Therapy',
     hasChildren: false,
   },
   {
