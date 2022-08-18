@@ -7,9 +7,8 @@ const PagePRPHead = (props) => {
   return (
     <Page>
       <PageContent>
-
-        Coming soon
-
+        <h6>PRP Head</h6>
+        <p>PRP injections effectively regrow hair and prevent hair loss.</p>
       </PageContent>
     </Page>
   );
