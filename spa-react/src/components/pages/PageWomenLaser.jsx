@@ -56,7 +56,7 @@ const PageWomenLaser = () => {
                   Back of Neck</td>
                 <td>&nbsp;$395</td>
                 <td>&nbsp;$125</td>
-                <td>&nbsp;$145</td>
+                <td>&nbsp;$165</td>
               </tr>
               <tr>
                 <td>AC</td>

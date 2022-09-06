@@ -59,7 +59,12 @@ const PageOurTeam = () => {
                 <h6>JENNA</h6>
                 <p><b>Licensed Massage Therapist</b></p>
                 <Image left small150 src={imagesFolderUrl('team-jenna.jpeg')} />
-                <p>Jenna's passion for the healing arts and alternative medicine led her to become a certified licensed massage therapist in 2010. Jenna loves to tailor each session to meet her client's needs and improve their quality of life.</p>
+                <p>Jenna’s passion for the healing arts and alternative medicine led her to become a certified licensed massage therapist in 2010. She specializes in Deep Tissue, Cupping, and Prenatal Massage. Jenna loves to tailor each session to meet her client’s needs and improve their quality of life. </p>
+                <br />
+                <h6>KATHERINE</h6>
+                <p><b>Licensed Cosmetologist & Licensed Cosmetic Tattoo Artist</b></p>
+                <Image left small150 src={'https://azuredreamspa.com/wp-content/uploads/2022/09/kats-image-scaled.jpeg'} />
+                <p>Since 2014, Katherine has built up background in the hair industry in order to perfectly tailor services for each client. Clients enjoy her precision cutting, balayage techniques, and scalp massages. She enjoys educating herself in a variety of technical classes and new trends. Expanding toward esthetics, she learned cosmetic tattooing and electrolysis. Always striving for perfection, she continues to specialize skills in beauty industry.</p>
               </PageContent>
             </div>
             <div className="right-flex"></div>
