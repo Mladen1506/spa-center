@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useExpandSingle } from "../../hooks/use-expand-single";
 import Page from "../Page";
 import PageContent from "../PageContent";
+import PageAcupuncture from "../pages/PageAcupuncture";
 import PageIVTreatmant from "../pages/PageIVTreatmant";
 import PagePRPHead from "../pages/PagePRPHead";
 import PageVitaminInjections from "../pages/PageVitaminInjections";
@@ -18,6 +19,10 @@ const PageServicesMediSpaWellness = (props) => {
         {/* <h3>facials</h3> */}
         <h3 className="sitemap-heading"><a href="/services#medi-spa">Services</a> &gt; Medi-Spa &gt; Wellness & Health</h3>
 
+        <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'ACUPUNCTURE'} expandableLevel={3} >
+          <PageAcupuncture />
+        </WidgetExpandable>
+        
         <WidgetExpandable expandedId={expandedId} _expandSingle={_expandSingle} id={'IV_TREATMANT'} expandableLevel={3} >
           <PageIVTreatmant />
         </WidgetExpandable>

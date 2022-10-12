@@ -14,7 +14,7 @@ const PageHome = (props) => {
     "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
 
   // const parallaxImage1 = imagesFolderUrl('spa-wallpapers-contact.jpg');
-  const parallaxImage1 = imagesFolderUrl('pink-orchid1.jpg');
+  const parallaxImage1 = 'https://azuredreamspa.com/wp-content/uploads/2022/10/pink-orchid1.jpg';
   // const parallaxImage2 = imagesFolderUrl("spa-wallpapers-contact.jpg");
   const parallaxImage2 = imagesFolderUrl("bg_pic.jpeg");
   // const parallaxImage3 = imagesFolderUrl("spa-test1.jpeg");
@@ -70,7 +70,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Magic Fix</h4>
-                      <Image left src={imagesFolderUrl('magic-fix.jpeg')} />
+                      <Image left src={imagesFolderUrl('magic-fix.jpeg')} alt="magic fix" />
                       A treatment designed for serious skin conditions, Magic Fix™ includes microdermabrasion and a selection of an Eminence organic peel based on your needs.
                     </div>
                     <Btn href="/services#magic-fix" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MAGIC_FIX') }}>MORE...</Btn>
@@ -80,7 +80,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Relaxing Escape</h4>
-                      <Image left small src={imagesFolderUrl('hair-removal-small.jpg')} />
+                      <Image left small src={'https://azuredreamspa.com/wp-content/uploads/2022/10/hair-removal-small.jpg'} alt="relaxing escape" />
                       Enjoy the feeling of serenity as the stress dissipates from your body and mind. Massages, body wraps, and our decadent spa packages will leave you relaxed and rejuvenated.
                     </div>
                     <Btn href="/services#massage" handleClick={(e) => { e.preventDefault(); _handleClickRoute('MASSAGE_BODY') }}>MORE...</Btn>
@@ -90,7 +90,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Hair Removal</h4>
-                      <Image left small src={imagesFolderUrl('laser1.jpeg')} />
+                      <Image left small src={imagesFolderUrl('laser1.jpeg')} alt="hair removal laser" />
                       The newest technology has made electrolysis and laser hair removal extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
                     </div>
                     <Btn href="/services#hair-removal" handleClick={(e) => { e.preventDefault(); _handleClickRoute('HAIR_REMOVAL') }}>MORE...</Btn>
@@ -101,7 +101,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Morpheus 8</h4>
-                      <Image left small src={imagesFolderUrl('morpheus8.png')} />
+                      <Image left small src={'https://azuredreamspa.com/wp-content/uploads/2022/10/morpheus8.jpg'} alt="morpheus8" />
                       <b>Morpheus 8 face</b>
                       <p>Deep fractional, radiofrequency treatment for skin, tissue and collagen remodeling.</p>
                       <b>Morpheus 8 body</b>
@@ -195,7 +195,7 @@ const PageHome = (props) => {
                 <div className="col-12 col-md-4">
                   <div className="card">
                     <div className="card-header">
-                      <a href="#" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
+                      <a href="https://t.e2ma.net/webview/aa7p10/d962b5992de193a9fb009c3565025443" className="fl-icon-text-link fl-icon-text-wrap" rel="noopener nofollow" id="yui_3_18_1_1_1650133856537_23213"><p>Our New Special</p></a>
                     </div>
                     <div className="card-body">
                       <Image left small src={imagesFolderUrl('special.png')} />
@@ -228,7 +228,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Relaxing Escape</h4>
-                      <Image left small src={imagesFolderUrl('hair-removal-small.jpg')} />
+                      <Image left small src={'https://azuredreamspa.com/wp-content/uploads/2022/10/hair-removal-small.jpg'} />
                       Enjoy the feeling of serenity as the stress dissipates from your body and mind. <a href="/massage-2/">Massages</a>, <a href="/cellulite-body-wrap/">body wraps</a>, and our decadent <a href="/spa-combo-packages/">spa packages</a> will leave you relaxed and rejuvenated.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
@@ -238,7 +238,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Hair Removal</h4>
-                      <Image left small src={imagesFolderUrl('hair-removal-legs.jpeg')} />
+                      <Image left small src={'https://azuredreamspa.com/wp-content/uploads/2022/10/hair-removal-legs.jpeg'} />
                       The newest technology has made <a href="/electrolysis/">electrolysis </a>and <a href="/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
@@ -249,7 +249,7 @@ const PageHome = (props) => {
                   <div className="teaser">
                     <div className="teaser-body">
                       <h4>Hair Removal</h4>
-                      <Image left small src={imagesFolderUrl('hair-removal-legs.jpeg')} />
+                      <Image left small src={'https://azuredreamspa.com/wp-content/uploads/2022/10/hair-removal-legs.jpeg'} />
                       The newest technology has made <a href="/electrolysis/">electrolysis </a>and <a href="/laser/">laser hair removal</a> extremely effective for all skin tones. Our certified consultants will tailor your perfect treatment plan. Enjoy the pleasure and convenience of soft, smooth skin.
                     </div>
                     <Btn href="/services" handleClick={(e) => { e.preventDefault(); _handleClickRoute('SERVICES') }}>MORE...</Btn>
