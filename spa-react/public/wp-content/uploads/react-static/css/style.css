@@ -958,7 +958,7 @@ a.btn:hover {
 }
 
 .services-bg {
-  background-image: url(/wp-content/uploads/react-static/img/spa-wallpapers6.jpg);
+  background-image: url(https://azuredreamspa.com/wp-content/uploads/2022/10/spa-wallpapers6.jpg);
   background-position: center top;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -979,7 +979,7 @@ a.btn:hover {
 }
 
 .services-bg.artists-bg {
-  background-image: url(/wp-content/uploads/react-static/img/spa-wallpapers-our-team.jpg);
+  background-image: url(https://azuredreamspa.com/wp-content/uploads/2022/10/spa-wallpapers-our-team.jpg);
 }
 
 .services-bg.about-bg {
@@ -1462,6 +1462,7 @@ a.btn:hover {
 .page-content h6 {
   margin-top: 1em;
   margin-bottom: 0.5em;
+  margin-left: 1em;
   font-size: 1em;
   font-weight: 400;
   color: forestgreen;

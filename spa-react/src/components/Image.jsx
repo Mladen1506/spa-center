@@ -12,7 +12,7 @@ const Image = (props) => {
   if (props.wide === true) {
     cl = "image-wide";
   }
-  
+
   if (props.small === true) {
     // ako stavimo atribut small dobijam osliku siroku 200px
     cl += " small200";
@@ -35,9 +35,14 @@ const Image = (props) => {
     );
   }
 
+  let alt = '';
+  if (typeof props.alt === 'string') {
+    alt = props.alt;
+  }
+
   return (
     <figure className={cl}>
-      <img src={props.src} alt={props.alt} />
+      <img src={props.src} alt={alt} />
       {jsxCaption}
     </figure>
   );

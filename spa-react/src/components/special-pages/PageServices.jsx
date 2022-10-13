@@ -20,7 +20,7 @@ import PageServicesPermanentMakeup from "./PageServicesPermanentMakeup";
 
 // const parallaxImage2 = imagesFolderUrl("massage9.png");
 // const parallaxImage2 = imagesFolderUrl("pink-orchid-bg.jpg");
-const parallaxImage2 = imagesFolderUrl("spa-wallpapers6.jpg");
+const parallaxImage2 = "https://azuredreamspa.com/wp-content/uploads/2022/10/spa-wallpapers6.jpg";
 const PageServices = (props) => {
   const { expandedId, _expandSingle } = useExpandSingle();
 

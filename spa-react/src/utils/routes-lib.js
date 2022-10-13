@@ -487,6 +487,13 @@ const routes = [
     hasChildren: false,
   },
   {
+    route: 'ACUPUNCTURE',
+    breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
+    level: 3,
+    title: 'Acupuncture',
+    hasChildren: false,
+  },
+  {
     route: 'IV_TREATMANT',
     breadcrumbs: ['HOME', 'SERVICES', 'MEDI_SPA'],
     level: 3,

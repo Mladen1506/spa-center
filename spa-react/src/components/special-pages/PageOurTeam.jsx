@@ -5,7 +5,7 @@ import Page from "../Page";
 import PageContent from "../PageContent";
 
 const PageOurTeam = () => {
-  const parallaxImage2 = imagesFolderUrl("spa-wallpapers-our-team.jpg");
+  const parallaxImage2 = imagesFolderUrl("https://azuredreamspa.com/wp-content/uploads/2022/10/spa-wallpapers-our-team.jpg");
 
   return (
     <>
